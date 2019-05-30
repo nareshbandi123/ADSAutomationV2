@@ -1,0 +1,128 @@
+﻿<repository
+id="0e8df8a5-6909-4fa1-b25c-0b9eca761b01"
+name="TC10573Repo"
+rxversion="8.2">
+	<codegen
+	classname="TC10573Repo"
+	namespace="ADSAutomationPhaseIII.TC_10573">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="9a93b08d-33d3-4a42-9f3c-d94cf12500c7"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		capname="form"
+		id="074e9ce7-9035-4f66-9c1e-6128b4f5101b"
+		isrooted="True"
+		name="ServersList"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="treeitem"
+			id="0f6e214a-25ee-4eaa-81ac-a97c7eb5ef44"
+			name="LocalDBServersTreeItem"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='schemaTree']/?/?/treeitem[@text='Local Database Servers']
+			</item>
+			<item
+			capname="treeitem"
+			id="769b3f88-1245-4b5e-8f23-fe0e56a76ed6"
+			name="MongoDB"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text~'^MongoDB\ 172\.24\.1\.155\ v3\.4']
+			</item>
+			<item
+			capname="unknown"
+			id="953a742b-3728-4080-b6f9-3b7ff87b5364"
+			name="QueryBox"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='QueryPanel']/container[@name='panel']/?/?/container[@name='splitPane']//container[@type='EditorImpl$MyScrollPane']/container[6]/element[@type='EditorComponentImpl']
+			</item>
+			<item
+			capname="unknown"
+			id="b5661195-dcf4-401d-b540-1b42fd865bc6"
+			name="FluidShellWindow"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='TerminalMongoPanelView']//element[@name='screen']
+			</item>
+			<basepath>
+				/form[@title~'^Aqua Data Studio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="9c477525-7dd9-45a1-95e8-4a1c88d023f3"
+		isrooted="True"
+		name="DataStudio"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="menuitem"
+			id="fd4999c7-a39e-4448-9fb0-dfbc5f50b040"
+			name="MongoJS"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Query Analyzer (MongoJS)']
+			</item>
+			<item
+			capname="menuitem"
+			id="6ef4b840-adf8-4e7c-9655-0b68b76fc3f6"
+			name="MongoShell"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='MongoShell']
+			</item>
+			<basepath>
+				/form[@processname='datastudio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="e023f516-9d72-4d93-987f-b52734da129a"
+		isrooted="True"
+		name="FileModified"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="2f6a6708-f14b-4f61-b831-60b96d7c607d"
+			name="DiscardButton"
+			searchtimeout="30000ms">
+				/form[@title='File Modified']//container[@name='OptionPane.buttonArea']/button[@text='Discard']
+			</item>
+			<basepath>
+				/form[@title='File Modified']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="1c014b3c-4015-4732-8361-e38970e9ec66"
+		isrooted="True"
+		name="QueryWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="0ad584d7-99ac-4d77-aac7-08c83be02ed5"
+			name="New"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='QueryPanel']//container[@name='editorToolBar']/button[1]
+			</item>
+			<item
+			capname="unknown"
+			id="68718b9d-f07f-4b4f-814c-a093104b90b8"
+			name="QueryBox"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='QueryPanel']/container[@name='panel']/?/?/container[@name='splitPane']//container[@type='LoadingDecorator$MyLayeredPane']/container[@type='JPanel']/container[@type='JPanel']/container[@type='EditorImpl$MyScrollPane']/container[6]/element[@type='EditorComponentImpl']
+			</item>
+			<basepath>
+				/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']
+			</basepath>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

@@ -1,0 +1,88 @@
+﻿<repository
+id="b5a13472-d9ca-433c-b247-0e2ea87fff96"
+name="ADSAutomationPhaseIIRepository"
+rxversion="8.2">
+	<codegen
+	classname="ADSAutomationPhaseIIRepository"
+	namespace="ADSAutomationPhaseII">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="8909ef0f-20d8-4dc4-9244-61c3b1217d2d"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="cba1ae00-c8c2-4f11-ae70-ce407ea89a34"
+		isrooted="True"
+		name="VisualAnalyticsTestFilterVizxAst"
+		refpath="/form[@title='Visual Analytics - [test-filter.vizx]*']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="container,javaelement"
+			capname="container"
+			id="aab215c0-32c2-483a-a227-585102b11960"
+			name="BIChartOverlayPanel"
+			refimgid="67a94c37-b7b7-4d05-bb74-83fd59652b14"
+			refpath="/form[@title~'^Visual\ Analytics\ -\ \[test-']/container[@name='_mainPanel']/container/container/container[@name='_sheetsPane']/container[@name='Worksheet 4']/container/container/container/container/container[@name='main']/container[@name='_cardPanel']/container[@name='_chartPanel']/container/container[89]"
+			searchtimeout="30000ms">
+				/form[@title~'^Visual\ Analytics\ -\ \[test-']/container[@name='_mainPanel']//container[@name='_sheetsPane']/container[@name='Worksheet 4']//container[@name='main']/container[@name='_cardPanel']/container[@name='_chartPanel']/container/container[89]
+			</item>
+			<basepath>
+				/form[@title~'^Visual\ Analytics\ -\ \[test-']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACYSURBVDhPYyAVfPr04T8yhgrjB+ia/m43AWMM
+A9AVQoXB4sia8BrQsq8FjIk2AEQgY2QDcGEMA5AF0DV/27n2/8ruPWAMYiPLgTCGATCMrvHNttVY
+DcLwAiEbQWJr+rfB5eEGENKI6bU1YLUM+DQiB2jlqZ9gjCwPwgy4NMJobAYgi+ONRmQ2XgOQYwFZ
+ITHsQWIA+fjDfwCHiQywSZu/VAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="eef83530-0e85-4758-ae9a-2a6e4dcb37ce"
+		isrooted="True"
+		name="Datastudio"
+		refpath="/form[@processname='datastudio' and @class='SunAwtWindow']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="a2b9d850-e585-4d35-9d78-1e1403219e6c"
+			name="Exclude"
+			refimgid="4e740cfc-85d0-4326-9f02-eb51bc0b8933"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu/container/container[2]/button[@text='Exclude']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']/contextmenu[@type='TooltipContainer']//button[@text='Exclude']
+			</item>
+			<basepath>
+				/form[@class='SunAwtWindow']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIYSURBVDhPlZFJa5NRFIbvD3DnzrX0D7hxk4U7
+d+7EYqMIolkUqUULbW2poRojthSM7SI0VcEBLU2ERiWlCKXYRrIRkpCYoUmauZkgE5l4zXskwYAF
+u3j47hmec4dPrdmdOot937Vm38dJ+OM4dcr8adfl+RVGtVpFvV7/J5VKZSBmLx26ann9G/L5PNrt
+NjqdzgDMUS75d9FsNgfydOiqpXcO5HI5tFqtASiUy2Xkt54ht3hedv27ToeuMr6yI5PJoNFoDFAq
+lZD9asTRoyEUi0Uc/XTIkF6dDl2lN1uRSqVQq9X6cOf0tgmZ2TNSS2/qkZ0fknyvh3m6atr0HvF4
+XIo9uHtm6nT/21uTXg8duurewmtEo9F+A+H9Mk/PST59/5TE5PDwEMlkEoVCQWp01ajBjHA4LK/K
+e4VCIYG5uP4sIrY5WVOeWHoDo2UDsVgMwWAQdNXNOZME2WxWpg9PmaCdWYHu8SquTr+QmGvzuqNf
+f2Kxwufzga7STi7C7/fLo3AX8mXnBz7vOAXb9vcue/AFQiJdn13pnsIKj8cDuuryuAFer1cehUQi
+EdyeN+PK5HMMd+GXMfPXZpZhWN2QtdvtBl11afQhAoGAnODg4ECuwxMdRyKRkF46dNXFWw9ETKfT
++Li1B8PLTdxZeHssfCv+ETp01YUbE9EPNrsM4OT/gUPo0FUa7ZhOM3LXpRkZx8noOtox3W+2QEFu
+Et1VDAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

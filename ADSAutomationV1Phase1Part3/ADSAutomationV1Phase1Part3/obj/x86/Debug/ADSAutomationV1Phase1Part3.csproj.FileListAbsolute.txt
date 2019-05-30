@@ -1,0 +1,16 @@
+C:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\ADSAutomationV1Phase1Part3\ADSAutomationV1Phase1Part3\obj\x86\Debug\ADSAutomationV1Phase1Part3.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\ADSAutomationV1Phase1Part3\ADSAutomationV1Phase1Part3\bin\Debug\ADSAutomationV1Phase1Part3.rxtmg
+C:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\ADSAutomationV1Phase1Part3\ADSAutomationV1Phase1Part3\bin\Debug\RepositoryImages\TC10557Repo8c6fc3c0.rximgres
+C:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\ADSAutomationV1Phase1Part3\ADSAutomationV1Phase1Part3\bin\Debug\RepositoryImages\TC10558Repoe90394fe.rximgres
+C:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\ADSAutomationV1Phase1Part3\ADSAutomationV1Phase1Part3\bin\Debug\RepositoryImages\TC10559Repo3cf20804.rximgres
+C:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\ADSAutomationV1Phase1Part3\ADSAutomationV1Phase1Part3\bin\Debug\RepositoryImages\TC10560Repo45fa9af7.rximgres
+C:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\ADSAutomationV1Phase1Part3\ADSAutomationV1Phase1Part3\bin\Debug\RepositoryImages\TC10562Repo89e4790e.rximgres
+C:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\ADSAutomationV1Phase1Part3\ADSAutomationV1Phase1Part3\bin\Debug\RepositoryImages\TC10563Repoc9c03efc.rximgres
+C:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\ADSAutomationV1Phase1Part3\ADSAutomationV1Phase1Part3\bin\Debug\ADSAutomationV1Phase1Part3.exe
+C:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\ADSAutomationV1Phase1Part3\ADSAutomationV1Phase1Part3\bin\Debug\ADSAutomationV1Phase1Part3.pdb
+C:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\ADSAutomationV1Phase1Part3\ADSAutomationV1Phase1Part3\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\ADSAutomationV1Phase1Part3\ADSAutomationV1Phase1Part3\obj\x86\Debug\ADSAutomationV1Phase1Part3.exe
+C:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\ADSAutomationV1Phase1Part3\ADSAutomationV1Phase1Part3\obj\x86\Debug\ADSAutomationV1Phase1Part3.pdb
+C:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\ADSAutomationV1Phase1Part3\ADSAutomationV1Phase1Part3\bin\Debug\ADSAutomationV1Phase1Part3.exe.config
+C:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\ADSAutomationV1Phase1Part3\ADSAutomationV1Phase1Part3\bin\Debug\ADSAutomationV1Phase1_Part3.rxtst
+C:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\ADSAutomationV1Phase1Part3\ADSAutomationV1Phase1Part3\bin\Debug\TestSequence.rxsqc

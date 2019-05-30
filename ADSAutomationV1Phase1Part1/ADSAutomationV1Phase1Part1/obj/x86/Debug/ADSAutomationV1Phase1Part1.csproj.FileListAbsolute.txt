@@ -1,0 +1,10 @@
+C:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\ADSAutomationV1Phase1Part1\ADSAutomationV1Phase1Part1\obj\x86\Debug\ADSAutomationV1Phase1Part1.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\ADSAutomationV1Phase1Part1\ADSAutomationV1Phase1Part1\bin\Debug\ADSAutomationV1Phase1Part1.rxtmg
+C:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\ADSAutomationV1Phase1Part1\ADSAutomationV1Phase1Part1\bin\Debug\ADSAutomationV1Phase1Part1.exe.config
+C:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\ADSAutomationV1Phase1Part1\ADSAutomationV1Phase1Part1\bin\Debug\ADSAutomationV1Phase1Part1.exe
+C:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\ADSAutomationV1Phase1Part1\ADSAutomationV1Phase1Part1\bin\Debug\ADSAutomationV1Phase1Part1.pdb
+C:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\ADSAutomationV1Phase1Part1\ADSAutomationV1Phase1Part1\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\ADSAutomationV1Phase1Part1\ADSAutomationV1Phase1Part1\obj\x86\Debug\ADSAutomationV1Phase1Part1.exe
+C:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\ADSAutomationV1Phase1Part1\ADSAutomationV1Phase1Part1\obj\x86\Debug\ADSAutomationV1Phase1Part1.pdb
+C:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\ADSAutomationV1Phase1Part1\ADSAutomationV1Phase1Part1\bin\Debug\TestSequence.rxsqc
+C:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\ADSAutomationV1Phase1Part1\ADSAutomationV1Phase1Part1\bin\Debug\ADSAutomationV1Phase1_Part1.rxtst

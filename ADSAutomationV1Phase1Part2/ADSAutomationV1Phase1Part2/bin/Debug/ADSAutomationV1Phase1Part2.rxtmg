@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="8.2">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="ADSAutomationV1Phase1Part2"
+      id="af37a107-04c0-4628-ab92-6eab0f556544"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="ADSAutomationV1Phase1Part2"
+      id="af37a107-04c0-4628-ab92-6eab0f556544"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

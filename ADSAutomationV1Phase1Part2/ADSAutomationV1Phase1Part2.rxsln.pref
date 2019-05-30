@@ -1,0 +1,16 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{73135E2B-8830-436C-BA95-972BA4CDE030}</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>27e042d3-d968-4541-828c-6b6ded4c7c4a</string>
+      <string>7bb96cdf-9c68-4410-87a4-a4c842edaf9b</string>
+      <string>7a2bcf08-945c-42cd-906b-4456d2a65d73</string>
+      <string>0ec2453f-7e88-415f-b44f-50c31956ed1c</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution ADSAutomationV1Phase1Part2[ADSAutomationV1Phase1Part2[]]]&#xD;&#xA;Solution ADSAutomationV1Phase1Part2\ADSAutomationV1Phase1Part2\ADSAutomationV1Phase1_Part2.rxtst&#xD;&#xA;Solution ADSAutomationV1Phase1Part2" />
+  <StartupProject value="{73135E2B-8830-436C-BA95-972BA4CDE030}" />
+</Properties>

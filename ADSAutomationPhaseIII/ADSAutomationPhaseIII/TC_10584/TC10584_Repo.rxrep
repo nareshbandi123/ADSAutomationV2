@@ -1,0 +1,816 @@
+﻿<repository
+id="ada5e1b7-e527-4e86-8ab4-76246b27414f"
+name="TC10584_Repo"
+rxversion="8.2">
+	<codegen
+	classname="TC10584_Repo"
+	namespace="ADSAutomationPhaseIII.TC_10584">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="c3a23cb1-831a-4265-85df-32442ba172ce"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="1d9ce719-d3f2-4d68-8dcf-5e4ca8931bc8"
+		isrooted="True"
+		name="AquaDataStudio"
+		refpath="/form[@title='Aqua Data Studio']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			addcaps="container,javaelement"
+			capname="container"
+			id="e32f5bc5-0b1d-4cf6-90c3-afc02651f9d2"
+			isrooted="True"
+			name="LocalServersList"
+			refpath="/form[@title='Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="782079e6-42c4-403b-a27e-3f6c1fabde7f"
+				name="ErrorHiveCloudServer"
+				refimgid="98c68757-b2b0-4e87-b214-f8afec762918"
+				refpath="/form[@title='Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container[@type='JPanel']/container[@type='NonOpaquePanel']/container[@type='JPanel']/container[@type='ContentManagerImpl$MyNonOpaquePanel']/container[@type='ContentManagerImpl$MyContentComponent']/container[@type='JPanel']/container[@type='JScrollPane']/container[@name='viewport']/tree[@name='schemaTree']/treeitem[@text='Root']/treeitem[@text='Local Database Servers']/treeitem[@text='Hive - Cloudera HiveServer2 10.90.1.163 5.13']/treeitem[@text='Error in getting Hiv...']"
+				searchtimeout="30000ms">
+					/form[@title='Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='schemaTree']/?/?/treeitem[@text='Local Database Servers']/treeitem[24]/treeitem[@text='Error in getting Hiv...']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="becf7b93-f6a0-4e02-b31c-915be6c8b048"
+				name="AmazonRedshift"
+				refimgid="d24088d2-f19f-4c71-a9ba-992bc48cb381"
+				refpath="/form[@title='Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container[@type='JPanel']/container[@type='NonOpaquePanel']/container[@type='JPanel']/container[@type='ContentManagerImpl$MyNonOpaquePanel']/container[@type='ContentManagerImpl$MyContentComponent']/container[@type='JPanel']/container[@type='JScrollPane']/container[@name='viewport']/tree[@name='schemaTree']/treeitem[@text='Root']/treeitem[@text='Local Database Servers']/treeitem[@text='Amazon Redshift']"
+				searchtimeout="30000ms">
+					/form[@title='Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text='Amazon Redshift']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="f07621d4-5f3c-495f-83cd-995e8e0d9611"
+				name="HiveClouderaHiveServer"
+				refimgid="8ac08371-9d80-4179-96e5-57c84bac45c2"
+				refpath="/form[@title='Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container[@type='JPanel']/container[@type='NonOpaquePanel']/container[@type='JPanel']/container[@type='ContentManagerImpl$MyNonOpaquePanel']/container[@type='ContentManagerImpl$MyContentComponent']/container[@type='JPanel']/container[@type='JScrollPane']/container[@name='viewport']/tree[@name='schemaTree']/treeitem[@text='Root']/treeitem[@text='Local Database Servers']/treeitem[@text='Hive - Cloudera HiveServer2 10.90.1.163 5.13']"
+				searchtimeout="30000ms">
+					/form[@title='Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']/?/?/treeitem[@text='Local Database Servers']/treeitem[24]
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="a2794b68-9fe4-4015-9936-3c9b6d55ee23"
+				name="Cassandra17224112222"
+				refimgid="6a0d358b-2728-40b9-8272-4d62dc31e45f"
+				refpath="/form[@title='Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container[@type='JPanel']/container[@type='NonOpaquePanel']/container[@type='JPanel']/container[@type='ContentManagerImpl$MyNonOpaquePanel']/container[@type='ContentManagerImpl$MyContentComponent']/container[@type='JPanel']/container[@type='JScrollPane']/container[@name='viewport']/tree[@name='schemaTree']/treeitem[@text='Root']/treeitem[@text='Local Database Servers']/treeitem[@text='Cassandra 172.24.1.122 2.2']"
+				searchtimeout="30000ms">
+					/form[@title='Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text~'^Cassandra\ 172\.24\.1\.122\ 2\.']
+				</item>
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="8d1931ec-46be-4044-8b80-040074a14427"
+				name="SchemaBrowserTitlePanelBar"
+				refimgid="6aec94b5-5279-4c84-bfe2-eeca2c633c30"
+				refpath="/form[@title='Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container[@type='JPanel']/container[@name='myHeader']/container[@type='ToolWindowHeader$1']"
+				searchtimeout="30000ms">
+					/form[@title='Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='ToolWindowHeader$1']
+				</item>
+				<basepath>
+					/form[@title='Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']
+				</basepath>
+			</folder>
+			<item
+			capname="checkbox"
+			id="6aaab4ad-9454-4b82-a624-e17551230872"
+			name="F1Servers"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio']//container[@name='myLeftStripe']/checkbox[@text='F1: Servers']
+			</item>
+			<basepath>
+				/form[@title='Aqua Data Studio']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAK7SURBVDhPhZNbSFNxHMf3FD320HOv9dBDD71F
+DHsIgiAi66mCIEN8KDBSulFD1wxHEOhMtznXMnVWlu7mZe7mtmZzbuou7Tg1184U3drmzu7w7X+O
+DKysfvDhHM4538/5HX6/w5OpVEf7B4bEesO40zht3rJYbbDaZjBjd8DucLKUzRZLUKszfFQoldfU
+avUB3t4yjE/Gkskk0uk0MpkMstksGIZBLpfjyOfzKBQKHOOeCC68MOlOt9vu85+YDnICrU6PWCzG
+BYvFIkqlEiqVCke5XOaCrHzSu4amdxSk/h00GDZx5qV7ihOMabQIhUKgaRqJRAKpVIqD7Soej4Oi
+KHg8HtTLnRDqomjxM2h2pnBJGiry203HeU1dk+iYpvBlJYaNzU0kSLAqYKWs3Opy46ZiFrcVYdz5
+RKNxhEbD62CZL3Yf5t0SG1EjieKyLon6OQaPQgwEy3k89GfR6PqB6/otnFNt4JSYwhWJF/cGI7g7
+EK7UiB1t3CdUBbXaJG64GNQvFdAQLKLOk8NVUxoXR7ZxtpcmgjWceBBEc+f7Pr7QdIwLs7WfoHF+
+G8N6IzfKfyFXKNv3FbROebC+vv5fzBYreG1SDc5LKNRqEr8IJjzL6DH/hmUZUksEMivBFoFx2gRu
+jP5AEI5AFJpwEuqVLFRmN/ew0pfFm0UGPfM03gYYDIZykJLzYSoPkTOxKxhSD8e8Ph+3TNU9cH52
+ode+wgXZQKuRLJCXhozQSkb+ilwT2GO7gm6l8oiqf0BMdn11huz+wuISJqaMUM2uYjRaxNj3EqQ+
+Gh1UAc+CeXSSsChcwOP51K5gbykUikMypfKkXNHX1z+3Brkvjm7yVgHpQEKOLALSQZc3DpE7/qeg
+WmQ8Twe939CylOZom4tDGMhAGMzguWcDoq87ECwk/y4gv20de/N/fBgZjf0E9QDs1GDdW0gAAAAA
+SUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="dda1b4d2-276e-499e-bafa-5bf51d3e6cb1"
+		isrooted="True"
+		name="Datastudio"
+		refpath="/form[@processname='datastudio' and @class='SunAwtWindow']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="225bd644-73e2-4d7f-b0b7-b88053d03ec4"
+			name="Connect"
+			refimgid="dbc4cee1-c639-4812-a3cc-4f52bb167b96"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu[@type='CPopupMenu']/menuitem[@text='Connect']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']/?/?/menuitem[@text='Connect']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="7cda73fe-40ed-413b-a31a-7b28cc8f4038"
+			name="PinnedMode"
+			refimgid="a5548319-50da-4ec1-89e5-8c136226759c"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu[@type='ActionPopupMenuImpl$MyMenu']/menuitem[@text='Pinned Mode']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']/?/?/menuitem[@text='Pinned Mode']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="b896041b-847b-45da-bc04-01121fb28fff"
+			name="DockedMode"
+			refimgid="9c176640-f618-46a0-a912-697fba04388b"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu[@type='ActionPopupMenuImpl$MyMenu']/menuitem[@text='Docked Mode']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']/?/?/menuitem[@text='Docked Mode']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="f1bdfe6e-f358-4451-a043-eb742cc36b5a"
+			name="FloatingMode"
+			refimgid="53eae6c4-4798-4ecb-aa2a-0265c6331f1b"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu[@type='ActionPopupMenuImpl$MyMenu']/menuitem[@text='Floating Mode']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']/?/?/menuitem[@text='Floating Mode']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="08c68a73-afd1-4176-83f8-571bfe99030f"
+			name="SplitMode"
+			refimgid="447d8a2b-7a36-4c0f-ae53-2858d38d1890"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu[@type='ActionPopupMenuImpl$MyMenu']/menuitem[@text='Split Mode']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']/?/?/menuitem[@text='Split Mode']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="7ade1947-d25c-4c35-a8c2-6b78dc8d8824"
+			name="MoveTo"
+			refimgid="9c61e530-cdec-48e7-a8c2-6a8ad16588d3"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='0']/contextmenu[@type='ActionPopupMenuImpl$MyMenu']/menuitem[@text='Move to']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']/?/?/menuitem[@text='Move to']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="682db769-5cf2-47d4-a0c7-68b71026469c"
+			name="MaximizePanel"
+			refimgid="26aa1a27-9cd3-4f88-8ec6-5b770384ff95"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu[@type='ActionPopupMenuImpl$MyMenu']/menuitem[@text='Maximize Panel']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']/?/?/menuitem[@text='Maximize Panel']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="b2a50d93-7376-4ded-bc1d-3ef03e8853c3"
+			name="Hide"
+			refimgid="b0165938-f8ad-43aa-80c4-cdc0a443a5e5"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu[@type='ActionPopupMenuImpl$MyMenu']/menuitem[@text='Hide']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']/?/?/menuitem[@text='Hide']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="86445881-72d0-4e8a-93d7-34d4554e0c42"
+			name="NewServerGroup"
+			refimgid="ff0af1a0-4b5c-4a07-b9b5-004290e2975c"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu[@type='CPopupMenu']/menuitem[@text='New Server Group']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']/?/?/menuitem[@text='New Server Group']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="d18f798b-5090-4a02-ba64-6f229bd1d88c"
+			name="RestorePanelSize"
+			refimgid="7145f3da-b3fe-452a-822a-e1e7ab2f3699"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu[@type='ActionPopupMenuImpl$MyMenu']/menuitem[@text='Restore Panel Size']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']/?/?/menuitem[@text='Restore Panel Size']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="ebca8345-2d8f-41a0-82be-33685cf38f41"
+			name="AmazonServerQueryAnalyzer"
+			refimgid="cfc862d0-e6b1-41c2-9ece-3a9bcc5e75a6"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu[@type='CPopupMenu']/menuitem[@text='Query Analyzer']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']/?/?/menuitem[@text='Query Analyzer']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="04658d9d-ee29-47fa-89fd-3ee44179d263"
+			name="Top"
+			refimgid="6c5a537a-89d8-4c0c-ac17-4da44da4e274"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='1']/contextmenu[@type='JBPopupMenu']/menuitem[@text='Top']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']/?/?/menuitem[@text='Top']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="d8c79fbd-74d0-42ea-ac7c-bb8f14cae87c"
+			name="Bottom"
+			refimgid="dc00ac6b-7629-4923-b6d4-1a4f01f6ceaa"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='1']/contextmenu[@type='JBPopupMenu']/menuitem[@text='Bottom']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']/?/?/menuitem[@text='Bottom']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="1c19b792-833a-4a02-90a4-bda0f0c2ca21"
+			name="Right"
+			refimgid="a622df2d-da3d-4cc0-bb12-2b0bcf83f421"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='1']/contextmenu[@type='JBPopupMenu']/menuitem[@text='Right']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']/?/?/menuitem[@text='Right']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="2071a286-8ee9-4d8a-94ae-526d483e76e2"
+			name="Left"
+			refimgid="ffd69c1b-2faf-474b-95bc-d45f783cbdcc"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='0']/contextmenu[@type='JBPopupMenu']/menuitem[@text='Left']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']/?/?/menuitem[@text='Left']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="df93fa9c-04a6-4107-9485-3affe37b5b0d"
+			name="DeleteServerGroup"
+			refimgid="807a6243-96c5-463e-8936-6e848e2c7f89"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu[@type='CPopupMenu']/menuitem[@text='Delete Server Group']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']/?/?/menuitem[@text='Delete Server Group']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="70dcd17a-6588-4ec4-bd56-87bd19d50d83"
+			name="Close"
+			refimgid="1f4eab60-c492-41c2-8a2a-f5c34a3ddd86"
+			refpath="/form/contextmenu/menuitem[1]"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']/?/?/menuitem[1]
+			</item>
+			<basepath>
+				/form[@class='SunAwtWindow']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIYSURBVDhPlZFJa5NRFIbvD3DnzrX0D7hxk4U7
+d+7EYqMIolkUqUULbW2poRojthSM7SI0VcEBLU2ERiWlCKXYRrIRkpCYoUmauZkgE5l4zXskwYAF
+u3j47hmec4dPrdmdOot937Vm38dJ+OM4dcr8adfl+RVGtVpFvV7/J5VKZSBmLx26ann9G/L5PNrt
+NjqdzgDMUS75d9FsNgfydOiqpXcO5HI5tFqtASiUy2Xkt54ht3hedv27ToeuMr6yI5PJoNFoDFAq
+lZD9asTRoyEUi0Uc/XTIkF6dDl2lN1uRSqVQq9X6cOf0tgmZ2TNSS2/qkZ0fknyvh3m6atr0HvF4
+XIo9uHtm6nT/21uTXg8duurewmtEo9F+A+H9Mk/PST59/5TE5PDwEMlkEoVCQWp01ajBjHA4LK/K
+e4VCIYG5uP4sIrY5WVOeWHoDo2UDsVgMwWAQdNXNOZME2WxWpg9PmaCdWYHu8SquTr+QmGvzuqNf
+f2Kxwufzga7STi7C7/fLo3AX8mXnBz7vOAXb9vcue/AFQiJdn13pnsIKj8cDuuryuAFer1cehUQi
+EdyeN+PK5HMMd+GXMfPXZpZhWN2QtdvtBl11afQhAoGAnODg4ECuwxMdRyKRkF46dNXFWw9ETKfT
++Li1B8PLTdxZeHssfCv+ETp01YUbE9EPNrsM4OT/gUPo0FUa7ZhOM3LXpRkZx8noOtox3W+2QEFu
+Et1VDAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="fb645b49-efc0-46ff-b6b0-77d39f98b517"
+		isrooted="True"
+		name="AquaDataStudio_Additional"
+		refpath="/form[@title='Aqua Data Studio [Untitled]']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="checkbox,javaelement"
+			capname="checkbox"
+			id="e83fab6b-41d6-4c7e-8495-e33df87e60bf"
+			name="F1Servers"
+			refimgid="ec447758-f5e5-4cd9-afcb-e97f2566aaab"
+			refpath="/form[@title='Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLeftStripe']/checkbox[@text='F1: Servers']"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/?/?/container[@name='myLeftStripe']/checkbox[@text='F1: Servers']
+			</item>
+			<folder
+			addcaps="container,javaelement"
+			capname="container"
+			id="8bd1529f-0c09-4043-bcb1-a7f7ddd12acf"
+			isrooted="True"
+			name="MyLayeredPane"
+			refpath="/form[@title='Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="683c7885-f545-4e64-9091-0777e3c1bd42"
+				name="AnalyzerWindow"
+				refimgid="ffb2ea3e-0c5b-4420-a3c7-7e350301be40"
+				refpath="/form[@title='Aqua Data Studio [Untitled]']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']/container[@name='ToolWindowFrame.MainComponent']/container[@accessiblename='root@Amazon Redshift [Untitled]']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']//container[@type='PlatDockingContentPanel']/?/?/container[@accessiblename='root@Amazon Redshift [Untitled]']
+				</item>
+				<item
+				addcaps="scrollbar,javaelement"
+				capname="scrollbar"
+				id="cfdcd46e-4257-428b-8102-7004647e3926"
+				name="HorizontalScrollBar"
+				refimgid="aed3b73c-632f-451a-aab5-7a9a3e4c6ea6"
+				refpath="/form[@title='Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container[@type='JPanel']/container[@type='NonOpaquePanel']/container[@type='JPanel']/container[@type='ContentManagerImpl$MyNonOpaquePanel']/container[@type='ContentManagerImpl$MyContentComponent']/container[@type='JPanel']/container[@type='JScrollPane']/scrollbar[@name='horizontalScrollBar']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//scrollbar[@name='horizontalScrollBar']
+				</item>
+				<item
+				addcaps="scrollbar,javaelement"
+				capname="scrollbar"
+				id="d9d024c3-bff2-4f5f-867b-0540e0352005"
+				name="VerticalScrollBar"
+				refimgid="61afd43a-a1f5-4341-9836-f87417a36ba3"
+				refpath="/form[@title='Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container[@type='JPanel']/container[@type='NonOpaquePanel']/container[@type='JPanel']/container[@type='ContentManagerImpl$MyNonOpaquePanel']/container[@type='ContentManagerImpl$MyContentComponent']/container[@type='JPanel']/container[@type='JScrollPane']/scrollbar[@name='verticalScrollBar']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//scrollbar[@name='verticalScrollBar']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="fcd15d6d-c66e-47ef-933d-be172ce7b687"
+				name="LocalDatabaseServers"
+				refimgid="9d36b69b-a0f8-4e6f-bf02-11ac4f949275"
+				refpath="/form[@title='Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container[@type='JPanel']/container[@type='NonOpaquePanel']/container[@type='JPanel']/container[@type='ContentManagerImpl$MyNonOpaquePanel']/container[@type='ContentManagerImpl$MyContentComponent']/container[@type='JPanel']/container[@type='JScrollPane']/container[@name='viewport']/tree[@name='schemaTree']/treeitem[@text='Root']/treeitem[@text='Local Database Servers']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='schemaTree']/?/?/treeitem[@text='Local Database Servers']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="2b72dd0b-4c05-4982-a842-e76bf9ac13d5"
+				name="HiveHortonworksPhoenix25109011"
+				refimgid="8e4bd79a-2ca9-4c03-87cc-cd93e06e5a18"
+				refpath="/form[@title='Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container[@type='JPanel']/container[@type='NonOpaquePanel']/container[@type='JPanel']/container[@type='ContentManagerImpl$MyNonOpaquePanel']/container[@type='ContentManagerImpl$MyContentComponent']/container[@type='JPanel']/container[@type='JScrollPane']/container[@name='viewport']/tree[@name='schemaTree']/treeitem[@text='Root']/treeitem[@text='Local Database Servers']/treeitem[@text='Hive - Hortonworks Phoenix 2.5 10.90.1.191 Generic']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']/?/?/treeitem[@text='Local Database Servers']/treeitem[30]
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="3f9c9f29-3f51-4465-8abf-ab941bf879a1"
+				name="Informix172241140V1170"
+				refimgid="98cb31c2-de2d-4bf1-85e0-7ba10084f0ae"
+				refpath="/form[@title='Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container[@type='JPanel']/container[@type='NonOpaquePanel']/container[@type='JPanel']/container[@type='ContentManagerImpl$MyNonOpaquePanel']/container[@type='ContentManagerImpl$MyContentComponent']/container[@type='JPanel']/container[@type='JScrollPane']/container[@name='viewport']/tree[@name='schemaTree']/treeitem[@text='Root']/treeitem[@text='Local Database Servers']/treeitem[@text='Informix 172.24.1.140 v11.70']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text~'^Informix\ 172\.24\.1\.140\ v11']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="53bcd258-8837-4853-8c69-fdcd3df2143c"
+				name="HiveMapr521Hiveserver21090120"
+				refimgid="ad4bf6e7-f9c0-4d77-af57-934216ed1550"
+				refpath="/form[@title='Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container[@type='JPanel']/container[@type='NonOpaquePanel']/container[@type='JPanel']/container[@type='ContentManagerImpl$MyNonOpaquePanel']/container[@type='ContentManagerImpl$MyContentComponent']/container[@type='JPanel']/container[@type='JScrollPane']/container[@name='viewport']/tree[@name='schemaTree']/treeitem[@text='Root']/treeitem[@text='Local Database Servers']/treeitem[@text='Hive - Mapr 5.2.1 Hiveserver2 10.90.1.203']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text~'^Hive\ -\ Mapr\ 5\.2\.1\ Hiveser']
+				</item>
+				<item
+				addcaps="tree,javaelement"
+				capname="tree"
+				id="a1e7b15a-56e0-4ad7-9f22-059f09e40412"
+				name="SchemaTree"
+				refimgid="6b8b4666-a259-4783-8b3f-7e19f490da58"
+				refpath="/form[@title='Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container[@type='JPanel']/container[@type='NonOpaquePanel']/container[@type='JPanel']/container[@type='ContentManagerImpl$MyNonOpaquePanel']/container[@type='ContentManagerImpl$MyContentComponent']/container[@type='JPanel']/container[@type='JScrollPane']/container[@name='viewport']/tree[@name='schemaTree']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='schemaTree']
+				</item>
+				<item
+				addcaps="button,javaelement"
+				capname="button"
+				id="7a7e4bc3-203f-4870-88f2-9357139fb6ac"
+				name="AutoCompleteButton"
+				refimgid="6239c032-f9fd-40cc-b2ca-dfd81a77b32d"
+				refpath="/form[@title='Aqua Data Studio [Untitled 2]']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']/container[@name='ToolWindowFrame.MainComponent']/container[@accessiblename='root@Amazon Redshift [Untitled 2]']/container[@type='QueryPanel']/container[@name='panel']/container[@name='editorPanel']/container[@name='panelBar']/container[@name='toolBar']/button[@name='autoCompleteButton']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='QueryPanel']//container[@name='toolBar']/button[@name='autoCompleteButton']
+				</item>
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="20f882ef-e6cd-48e6-a397-dd2b61818d0a"
+				name="SchemaBrowserTitlePanelQueryanalyser"
+				refimgid="cc50572c-c34a-48b6-8b19-191a912574b9"
+				refpath="/form[@title='Aqua Data Studio [Untitled 2]']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container[@type='JPanel']/container[@name='myHeader']/container[@type='ToolWindowHeader$1']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myFirstComponent']//container[@type='ToolWindowHeader$1']
+				</item>
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="dfb0ff3b-f61d-4f01-99fd-804c1e89d557"
+				name="RootAtAmazonRedshiftPanel"
+				refimgid="64fac818-1381-466d-8784-aa94c5cd651d"
+				refpath="/form[@title='Aqua Data Studio [Untitled 3]']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']/container[@name='ToolWindowFrame.MainComponent']/container[@accessiblename='root@Amazon Redshift [Untitled 3]']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']/?/?/container[@accessiblename='root@Amazon Redshift [Untitled 3]']
+				</item>
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="a461d20c-166f-4876-909d-08d226b45327"
+				name="QueryAnalyserName"
+				refimgid="24257f4e-ae8f-4de0-9ee9-eb17aea37b2c"
+				refpath="/form[@title='Aqua Data Studio [Untitled 3]']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']/container[@name='ToolWindowFrame.MainComponent']/container[@accessiblename='root@Amazon Redshift [Untitled 3]']/tabpage[@title='root@Amazon Redshift [Untitled 3]']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//tabpage[@title~'^root@Amazon\ Redshift\ \[Unt']
+				</item>
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="44824e29-b379-4dba-98b5-a0d04ddccd84"
+				name="SchemaBrowserDockedMode"
+				refimgid="4549db1e-9ebc-4b82-bb47-c9dbbf205618"
+				refpath="/form[@title='Aqua Data Studio [Untitled 3]']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@type='InternalDecorator']/container[@type='JPanel']/container[@name='myHeader']/container[@type='ToolWindowHeader$1']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']//container[@type='ToolWindowHeader$1']
+				</item>
+				<item
+				addcaps="button,javaelement"
+				capname="button"
+				id="457ac683-4b5c-403e-aa4e-99d5e01a7dc4"
+				name="VerticalScrollDown"
+				refimgid="64d3665a-7ad5-4bbf-ace3-f26e389cd904"
+				refpath="/form[@title='Aqua Data Studio [Untitled 2]']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container[@type='JPanel']/container[@type='NonOpaquePanel']/container[@type='JPanel']/container[@type='ContentManagerImpl$MyNonOpaquePanel']/container[@type='ContentManagerImpl$MyContentComponent']/container[@type='JPanel']/container[@type='JScrollPane']/scrollbar[@name='verticalScrollBar']/button[1]"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//scrollbar[@name='verticalScrollBar']/button[1]
+				</item>
+				<item
+				addcaps="button,javaelement"
+				capname="button"
+				id="50db9da9-e254-4db9-b31b-fe0c025cc25a"
+				name="HorizontalScrollDown"
+				refimgid="6097e14c-027b-400b-8383-dcab02f51d30"
+				refpath="/form[@title='Aqua Data Studio [Untitled 2]']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container[@type='JPanel']/container[@type='NonOpaquePanel']/container[@type='JPanel']/container[@type='ContentManagerImpl$MyNonOpaquePanel']/container[@type='ContentManagerImpl$MyContentComponent']/container[@type='JPanel']/container[@type='JScrollPane']/scrollbar[@name='horizontalScrollBar']/button[1]"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//scrollbar[@name='horizontalScrollBar']/button[1]
+				</item>
+				<basepath>
+					/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']
+				</basepath>
+			</folder>
+			<item
+			addcaps="checkbox,javaelement"
+			capname="checkbox"
+			id="d231a69c-7b27-4bba-a478-336cff371f38"
+			name="F5Detail"
+			refimgid="da1873a4-89de-4500-9139-1eee488568b6"
+			refpath="/form[@title='Aqua Data Studio [Untitled 2]']/container[@type='ToolWindowsPane']/container[@name='myBottomStripe']/checkbox[@text='F5: Detail']"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/?/?/container[@name='myBottomStripe']/checkbox[@text='F5: Detail']
+			</item>
+			<folder
+			addcaps="container,javaelement"
+			capname="container"
+			id="1b54592c-77ff-491b-8d2d-a832e5c65bf1"
+			isrooted="True"
+			name="MyFirstComponent"
+			refpath="/form[@title='Aqua Data Studio [Untitled 2]']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="tree,javaelement"
+				capname="tree"
+				id="b26f176a-2d50-439b-884e-d6224affa850"
+				name="SchemaTree"
+				refimgid="96ca93ff-ecad-47e0-8484-0631b626a052"
+				refpath="/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container/container[@type='NonOpaquePanel']/container/container/container[@type='ContentManagerImpl$MyContentComponent']/container/container/container/tree[@name='schemaTree']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='schemaTree']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="dc22dbcc-8c14-4aeb-98d6-910721ae2ef2"
+				name="NewGroup"
+				refimgid="4cc47287-35f8-4cf0-bcbf-e0975b4ef15d"
+				refpath="/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container/container[@type='NonOpaquePanel']/container/container/container[@type='ContentManagerImpl$MyContentComponent']/container/container/container/tree/treeitem/treeitem/treeitem[@text='NewGroup']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text='NewGroup']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="a5d61755-3fc3-4d30-a6de-0e10f9e2d919"
+				name="HiveClouderaImpala10901163513"
+				refimgid="946d3d52-5b48-41c6-b6bf-d10459cf876e"
+				refpath="/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container/container[@type='NonOpaquePanel']/container/container/container[@type='ContentManagerImpl$MyContentComponent']/container/container/container/tree/treeitem/treeitem/treeitem[@text~'^Hive\ -\ Cloudera\ Impala\ 10']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text~'^Hive\ -\ Cloudera\ Impala\ 10']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="0c08b4d7-f784-4b6e-8a85-4858ffd1a31e"
+				name="DB2ZOS1928633139V12"
+				refimgid="8465584e-2021-450f-8578-9eea3e43c7a4"
+				refpath="/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container/container[@type='NonOpaquePanel']/container/container/container[@type='ContentManagerImpl$MyContentComponent']/container/container/container/tree/treeitem/treeitem/treeitem[@text='NewGroup']/treeitem[@text='DB2 ZOS 192.86.33.139 V12']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text='NewGroup']/treeitem[@text='DB2 ZOS 192.86.33.139 V12']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="c81a8542-5e9b-4935-9574-145b9e77432c"
+				name="LocalDatabaseServers"
+				refimgid="e02166b4-4b60-4441-b09e-56dbff4924c3"
+				refpath="/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container/container[@type='NonOpaquePanel']/container/container/container[@type='ContentManagerImpl$MyContentComponent']/container/container/container/tree/treeitem/treeitem[@text='Local Database Servers']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='schemaTree']/?/?/treeitem[@text='Local Database Servers']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="328c050c-94bd-487c-9565-e31aaa6f3266"
+				name="InformixServer12_5"
+				refimgid="409de879-ff4a-4b18-ac46-c41133bf2520"
+				refpath="/form[@title='Aqua Data Studio [Untitled 2]']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container[@type='JPanel']/container[@type='NonOpaquePanel']/container[@type='JPanel']/container[@type='ContentManagerImpl$MyNonOpaquePanel']/container[@type='ContentManagerImpl$MyContentComponent']/container[@type='JPanel']/container[@type='JScrollPane']/container[@name='viewport']/tree[@name='schemaTree']/treeitem[@text='Root']/treeitem[@text='Local Database Servers']/treeitem[@text='Informix 172.24.1.145 v12.10']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text~'^Informix\ 172\.24\.1\.145\ v12']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="6d49a7e9-bd8f-4b8f-81f8-3b2fb484d3c6"
+				name="Informix_Databases"
+				refimgid="5e15bf71-46af-468e-b408-58e5ecdcf173"
+				refpath="/form[@title='Aqua Data Studio [Untitled 2]']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container[@type='JPanel']/container[@type='NonOpaquePanel']/container[@type='JPanel']/container[@type='ContentManagerImpl$MyNonOpaquePanel']/container[@type='ContentManagerImpl$MyContentComponent']/container[@type='JPanel']/container[@type='JScrollPane']/container[@name='viewport']/tree[@name='schemaTree']/treeitem[@text='Root']/treeitem[@text='Local Database Servers']/treeitem[@text='Informix 172.24.1.145 v12.10']/treeitem[@text='Databases']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text~'^Informix\ 172\.24\.1\.145\ v12']/treeitem[@text='Databases']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="e08950b5-e409-40ff-8cbb-5dfac0d39645"
+				name="Informix_Storage"
+				refimgid="0972a0e9-0fbb-459e-b1e0-e913d7f99ea9"
+				refpath="/form[@title='Aqua Data Studio [Untitled 2]']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container[@type='JPanel']/container[@type='NonOpaquePanel']/container[@type='JPanel']/container[@type='ContentManagerImpl$MyNonOpaquePanel']/container[@type='ContentManagerImpl$MyContentComponent']/container[@type='JPanel']/container[@type='JScrollPane']/container[@name='viewport']/tree[@name='schemaTree']/treeitem[@text='Root']/treeitem[@text='Local Database Servers']/treeitem[@text='Informix 172.24.1.145 v12.10']/treeitem[@text='Storage']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text~'^Informix\ 172\.24\.1\.145\ v12']/treeitem[@text='Storage']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="673a956c-b57f-43f7-92bd-8cb03e62e827"
+				name="Informix_Management"
+				refimgid="a2f5ed4c-6edd-4232-b0f1-e24a7f66ab7d"
+				refpath="/form[@title='Aqua Data Studio [Untitled 2]']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container[@type='JPanel']/container[@type='NonOpaquePanel']/container[@type='JPanel']/container[@type='ContentManagerImpl$MyNonOpaquePanel']/container[@type='ContentManagerImpl$MyContentComponent']/container[@type='JPanel']/container[@type='JScrollPane']/container[@name='viewport']/tree[@name='schemaTree']/treeitem[@text='Root']/treeitem[@text='Local Database Servers']/treeitem[@text='Informix 172.24.1.145 v12.10']/treeitem[@text='Management']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text~'^Informix\ 172\.24\.1\.145\ v12']/treeitem[@text='Management']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="3f69010e-94f0-4592-ab55-7048eaa5582d"
+				name="OracleServer199"
+				refimgid="3e502f5f-f6c3-46da-a83d-4a2f7451c608"
+				refpath="/form[@title='Aqua Data Studio [Untitled 2]']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container[@type='JPanel']/container[@type='NonOpaquePanel']/container[@type='JPanel']/container[@type='ContentManagerImpl$MyNonOpaquePanel']/container[@type='ContentManagerImpl$MyContentComponent']/container[@type='JPanel']/container[@type='JScrollPane']/container[@name='viewport']/tree[@name='schemaTree']/treeitem[@text='Root']/treeitem[@text='Local Database Servers']/treeitem[@text='Oracle 172.24.1.199 v12.1.0.2.0']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text~'^Oracle\ 172\.24\.1\.199\ v12\.1']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="69402a40-8727-44b9-b170-e1aaff8b0031"
+				name="MySchema"
+				refimgid="5971abf0-7362-459c-9732-292b0707210d"
+				refpath="/form[@title='Aqua Data Studio [Untitled 2]']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container[@type='JPanel']/container[@type='NonOpaquePanel']/container[@type='JPanel']/container[@type='ContentManagerImpl$MyNonOpaquePanel']/container[@type='ContentManagerImpl$MyContentComponent']/container[@type='JPanel']/container[@type='JScrollPane']/container[@name='viewport']/tree[@name='schemaTree']/treeitem[@text='Root']/treeitem[@text='Local Database Servers']/treeitem[@text='Oracle 172.24.1.199 v12.1.0.2.0']/treeitem[@text='My Schema']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text~'^Oracle\ 172\.24\.1\.199\ v12\.1']/treeitem[@text='My Schema']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="1a856a20-74bd-42e4-9e8d-eddbae096e57"
+				name="Storage"
+				refimgid="9b014baf-2aea-4319-b7fc-dd8ceee3abe1"
+				refpath="/form[@title='Aqua Data Studio [Untitled 2]']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container[@type='JPanel']/container[@type='NonOpaquePanel']/container[@type='JPanel']/container[@type='ContentManagerImpl$MyNonOpaquePanel']/container[@type='ContentManagerImpl$MyContentComponent']/container[@type='JPanel']/container[@type='JScrollPane']/container[@name='viewport']/tree[@name='schemaTree']/treeitem[@text='Root']/treeitem[@text='Local Database Servers']/treeitem[@text='Oracle 172.24.1.199 v12.1.0.2.0']/treeitem[@text='Storage']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text~'^Oracle\ 172\.24\.1\.199\ v12\.1']/treeitem[@text='Storage']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="e6e511a5-0a7b-4b4e-a2d9-07576819ffb9"
+				name="Management"
+				refimgid="75b0e0f3-fd5c-4eb3-b110-988fbf08786e"
+				refpath="/form[@title='Aqua Data Studio [Untitled 2]']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container[@type='JPanel']/container[@type='NonOpaquePanel']/container[@type='JPanel']/container[@type='ContentManagerImpl$MyNonOpaquePanel']/container[@type='ContentManagerImpl$MyContentComponent']/container[@type='JPanel']/container[@type='JScrollPane']/container[@name='viewport']/tree[@name='schemaTree']/treeitem[@text='Root']/treeitem[@text='Local Database Servers']/treeitem[@text='Oracle 172.24.1.199 v12.1.0.2.0']/treeitem[@text='Management']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text~'^Oracle\ 172\.24\.1\.199\ v12\.1']/treeitem[@text='Management']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="5a5162e3-402d-4ace-9b86-4855454b9fc1"
+				name="SQLServer1722411542017"
+				refimgid="8e0e8f7d-41e6-4fd1-9092-ad9e3856a20b"
+				refpath="/form[@title='Aqua Data Studio [Untitled 2]']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container[@type='JPanel']/container[@type='NonOpaquePanel']/container[@type='JPanel']/container[@type='ContentManagerImpl$MyNonOpaquePanel']/container[@type='ContentManagerImpl$MyContentComponent']/container[@type='JPanel']/container[@type='JScrollPane']/container[@name='viewport']/tree[@name='schemaTree']/treeitem[@text='Root']/treeitem[@text='Local Database Servers']/treeitem[@text='SQL Server 172.24.1.154 2017']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text~'^SQL\ Server\ 172\.24\.1\.154\ 2']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="9d404c67-ebeb-4d00-9427-0c86139381f7"
+				name="SQLServerManagement"
+				refimgid="d3570f65-f1d0-4ebd-9532-1509038227d0"
+				refpath="/form[@title='Aqua Data Studio [Untitled 2]']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container[@type='JPanel']/container[@type='NonOpaquePanel']/container[@type='JPanel']/container[@type='ContentManagerImpl$MyNonOpaquePanel']/container[@type='ContentManagerImpl$MyContentComponent']/container[@type='JPanel']/container[@type='JScrollPane']/container[@name='viewport']/tree[@name='schemaTree']/treeitem[@text='Root']/treeitem[@text='Local Database Servers']/treeitem[@text='SQL Server 172.24.1.154 2017']/treeitem[@text='Management']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text~'^SQL\ Server\ 172\.24\.1\.154\ 2']/treeitem[@text='Management']
+				</item>
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="5fc4aadb-cf8c-4b4f-a0f0-f8fba81c5ef7"
+				name="ToolWindowHeaderDollar1"
+				refimgid="7b2fe9cb-d200-4a68-be5f-4ba764986d6e"
+				refpath="/form[@title='Aqua Data Studio [Untitled]']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container[@type='JPanel']/container[@name='myHeader']/container[@type='ToolWindowHeader$1']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='ToolWindowHeader$1']
+				</item>
+				<basepath>
+					/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAK7SURBVDhPhZNbSFNxHMf3FD320HOv9dBDD71F
+DHsIgiAi66mCIEN8KDBSulFD1wxHEOhMtznXMnVWlu7mZe7mtmZzbuou7Tg1184U3drmzu7w7X+O
+DKysfvDhHM4538/5HX6/w5OpVEf7B4bEesO40zht3rJYbbDaZjBjd8DucLKUzRZLUKszfFQoldfU
+avUB3t4yjE/Gkskk0uk0MpkMstksGIZBLpfjyOfzKBQKHOOeCC68MOlOt9vu85+YDnICrU6PWCzG
+BYvFIkqlEiqVCke5XOaCrHzSu4amdxSk/h00GDZx5qV7ihOMabQIhUKgaRqJRAKpVIqD7Soej4Oi
+KHg8HtTLnRDqomjxM2h2pnBJGiry203HeU1dk+iYpvBlJYaNzU0kSLAqYKWs3Opy46ZiFrcVYdz5
+RKNxhEbD62CZL3Yf5t0SG1EjieKyLon6OQaPQgwEy3k89GfR6PqB6/otnFNt4JSYwhWJF/cGI7g7
+EK7UiB1t3CdUBbXaJG64GNQvFdAQLKLOk8NVUxoXR7ZxtpcmgjWceBBEc+f7Pr7QdIwLs7WfoHF+
+G8N6IzfKfyFXKNv3FbROebC+vv5fzBYreG1SDc5LKNRqEr8IJjzL6DH/hmUZUksEMivBFoFx2gRu
+jP5AEI5AFJpwEuqVLFRmN/ew0pfFm0UGPfM03gYYDIZykJLzYSoPkTOxKxhSD8e8Ph+3TNU9cH52
+ode+wgXZQKuRLJCXhozQSkb+ilwT2GO7gm6l8oiqf0BMdn11huz+wuISJqaMUM2uYjRaxNj3EqQ+
+Gh1UAc+CeXSSsChcwOP51K5gbykUikMypfKkXNHX1z+3Brkvjm7yVgHpQEKOLALSQZc3DpE7/qeg
+WmQ8Twe939CylOZom4tDGMhAGMzguWcDoq87ECwk/y4gv20de/N/fBgZjf0E9QDs1GDdW0gAAAAA
+SUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="1708bbc2-a4fa-4e11-8c4f-9f5990351ff8"
+		isrooted="True"
+		name="NewServerGroup"
+		refpath="/form[@title='New Server Group']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="text,javaelement"
+			capname="text"
+			id="1d351359-168c-4a59-af6e-1c56dc40d3a0"
+			name="OptionPaneTextField"
+			refimgid="c879505a-b35f-4ae0-8fed-c508e5259371"
+			refpath="/form[@title='New Server Group']/container[@type='JOptionPane']/container[1]/container[@name='OptionPane.realBody']/container[@name='OptionPane.body']/text[@name='OptionPane.textField']"
+			searchtimeout="30000ms">
+				/form[@title='New Server Group']//container[@name='OptionPane.realBody']/container[@name='OptionPane.body']/text[@name='OptionPane.textField']
+			</item>
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="5a009c5a-620b-4ad0-8002-248596d390e2"
+			name="ButtonOK"
+			refimgid="78593001-3b0c-41b1-acdd-1bfe460604e7"
+			refpath="/form[@title='New Server Group']/container[@type='JOptionPane']/container[@name='OptionPane.buttonArea']/button[@name='OptionPane.button' and @text='OK']"
+			searchtimeout="30000ms">
+				/form[@title='New Server Group']/?/?/container[@name='OptionPane.buttonArea']/button[@text='OK']
+			</item>
+			<basepath>
+				/form[@title='New Server Group']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAFkSURBVDhPrZNLSwJRGIb9Kf0QI4WIiJCIahNE
+BBluukDQogh3hrgwWkxXE0GSsXG8tookM1SSBPNC2KJBIobKS17GQHmbIxExJo3QCw+c2/fwHThH
+cULTWifDwuX2wu3xweP1w+MLiPjBinOGdYM+ZXBgd2HAEFSJ9Cl+xkE7wXEcSqUSBEFAs9kESavV
+Qq1WA8/z2KTjGDRdYWg7Wuw3hivKrRD1Vf63IJblMGyOgL7hQT0IWLl4hdIULZJu2gIDxUBN5TER
+eMNM+B3ziTp0mQ/o0g3MxaoYOc5CQyWx7s9Dn65jNVTA2H5KvM6lXpZA43jE6E4cC4f3WPY+Y419
+wvheoiIKZmUJJs8KUJvjmNq9xZI9g2lLsqEyXgfbxSRSwcZ5CharTRZHVpu2Q0A2yuWyLMjZXwW5
+XE4WXQW90PEOyGLkpfrNovPu1zGhq4AclENbIP0LPXcgTc8dSPMvHcjHhk/SZ9eXiSm3wgAAAABJ
+RU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="84ea137a-f58e-4bc0-ab31-b6ffd6c0c4e8"
+		isrooted="True"
+		name="Servers"
+		refpath="/form[@title='Servers']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="container,javaelement"
+			capname="container"
+			id="56b442aa-48e0-4f5e-a3bd-531f67baedeb"
+			name="ServersToolbarPanel"
+			refimgid="81d896a1-5b12-4d97-aa4c-60470261fc1e"
+			refpath="/form[@title='Servers']/container[@name='myInternalDecorator']/container[@type='JPanel']/container[@name='myHeader']/container[@type='ToolWindowHeader$1']"
+			searchtimeout="30000ms">
+				/form[@title='Servers']/container[@name='myInternalDecorator']//container[@type='ToolWindowHeader$1']
+			</item>
+			<basepath>
+				/form[@title='Servers']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAFkSURBVDhPrZNLSwJRGIb9Kf0QI4WIiJCIahNE
+BBluukDQogh3hrgwWkxXE0GSsXG8tookM1SSBPNC2KJBIobKS17GQHmbIxExJo3QCw+c2/fwHThH
+cULTWifDwuX2wu3xweP1w+MLiPjBinOGdYM+ZXBgd2HAEFSJ9Cl+xkE7wXEcSqUSBEFAs9kESavV
+Qq1WA8/z2KTjGDRdYWg7Wuw3hivKrRD1Vf63IJblMGyOgL7hQT0IWLl4hdIULZJu2gIDxUBN5TER
+eMNM+B3ziTp0mQ/o0g3MxaoYOc5CQyWx7s9Dn65jNVTA2H5KvM6lXpZA43jE6E4cC4f3WPY+Y419
+wvheoiIKZmUJJs8KUJvjmNq9xZI9g2lLsqEyXgfbxSRSwcZ5CharTRZHVpu2Q0A2yuWyLMjZXwW5
+XE4WXQW90PEOyGLkpfrNovPu1zGhq4AclENbIP0LPXcgTc8dSPMvHcjHhk/SZ9eXiSm3wgAAAABJ
+RU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="67bf9665-9da3-46ea-ae4a-7b2edd43e269"
+		isrooted="True"
+		name="RemoveServerGroup"
+		refpath="/form[@title='Remove Server Group']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="c6c040cc-7193-4966-811a-befd65950eab"
+			name="DeleteworkgroupYesbutton"
+			refimgid="e045ad4b-a04d-41c6-8f3e-61f38d33326e"
+			refpath="/form[@title='Remove Server Group']/container[@type='COptionPane$1']/container[@name='OptionPane.buttonArea']/button[@name='OptionPane.button' and @text='Yes']"
+			searchtimeout="30000ms">
+				/form[@title='Remove Server Group']/?/?/container[@name='OptionPane.buttonArea']/button[@text='Yes']
+			</item>
+			<basepath>
+				/form[@title='Remove Server Group']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAFkSURBVDhPrZNLSwJRGIb9Kf0QI4WIiJCIahNE
+BBluukDQogh3hrgwWkxXE0GSsXG8tookM1SSBPNC2KJBIobKS17GQHmbIxExJo3QCw+c2/fwHThH
+cULTWifDwuX2wu3xweP1w+MLiPjBinOGdYM+ZXBgd2HAEFSJ9Cl+xkE7wXEcSqUSBEFAs9kESavV
+Qq1WA8/z2KTjGDRdYWg7Wuw3hivKrRD1Vf63IJblMGyOgL7hQT0IWLl4hdIULZJu2gIDxUBN5TER
+eMNM+B3ziTp0mQ/o0g3MxaoYOc5CQyWx7s9Dn65jNVTA2H5KvM6lXpZA43jE6E4cC4f3WPY+Y419
+wvheoiIKZmUJJs8KUJvjmNq9xZI9g2lLsqEyXgfbxSRSwcZ5CharTRZHVpu2Q0A2yuWyLMjZXwW5
+XE4WXQW90PEOyGLkpfrNovPu1zGhq4AclENbIP0LPXcgTc8dSPMvHcjHhk/SZ9eXiSm3wgAAAABJ
+RU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

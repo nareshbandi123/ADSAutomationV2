@@ -1,0 +1,637 @@
+﻿<repository
+id="58b88c78-b654-479d-b960-1a522ac3ee04"
+name="TC10587"
+rxversion="8.2">
+	<codegen
+	classname="TC10587"
+	namespace="ADSAutomationPhaseIII.TC_10587">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="af3ddc0c-32bd-4a47-95a1-aa516ac35d09"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		capname="form"
+		id="f94e07c3-b12b-4b44-8211-9b8edcb71531"
+		isrooted="True"
+		name="Application"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="checkbox"
+			id="2069a025-e089-48fc-bfc4-2dfeb95ae8de"
+			name="FilesTab"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio']//container[@name='myLeftStripe']/checkbox[@text='F2: Files']
+			</item>
+			<item
+			capname="treeitem"
+			id="2d2b8687-a283-471a-8f24-1809711c2ee4"
+			name="FileSystem"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='scriptTree']/treeitem[@text='Filesystem']
+			</item>
+			<item
+			capname="treeitem"
+			id="e4885c38-51ee-44af-a26e-a0ff216fabfb"
+			name="Files"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='scriptTree']/treeitem[@text='Filesystem']
+			</item>
+			<item
+			capname="treeitem"
+			id="6d9220b2-f319-4217-8061-a38853bca290"
+			name="RepositoryPath2"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='scriptTree']/treeitem/treeitem[2]
+			</item>
+			<item
+			capname="treeitem"
+			id="8c80f26c-c7f8-410d-9d0a-2d122d339df0"
+			name="TestFile"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='scriptTree']//treeitem[@text='Test5.sql']
+			</item>
+			<item
+			capname="treeitem"
+			id="fa49097f-8349-45a9-915f-98080d127301"
+			name="RepositoryPath1"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='scriptTree']/treeitem/treeitem[@text='C:\Users\Admin\Documents\Aqua Data Studio Repository']
+			</item>
+			<item
+			capname="checkbox"
+			id="c11cd4eb-1ce3-442f-991e-b433640b1fdc"
+			name="ServersTab"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio']//container[@name='myLeftStripe']/checkbox[@text='F1: Servers']
+			</item>
+			<item
+			capname="unknown"
+			id="224e5ca9-f5fa-4886-873f-6efd9a20386c"
+			name="NewItem"
+			searchtimeout="30000ms">
+				/form[@title='Aqua Data Studio']/element
+			</item>
+			<basepath>
+				/form[@title='Aqua Data Studio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="a69bb51a-6550-46d8-927c-ef4a7502a18f"
+		isrooted="True"
+		name="Datastudio"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="menuitem"
+			id="6edec237-24c7-4356-8bce-007ba4f92591"
+			name="VersionControl"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Version Control']
+			</item>
+			<item
+			capname="menuitem"
+			id="cb4e3a99-66fa-4ade-b9aa-40aafcae5c90"
+			name="Perforce"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Perforce']
+			</item>
+			<item
+			capname="menuitem"
+			id="19764f1c-156b-4475-ad7a-930c374f6de8"
+			name="Checkout"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Checkout']
+			</item>
+			<item
+			capname="menuitem"
+			id="ed81c5f6-b62a-4677-8b9d-ba0c785234e0"
+			name="New"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='New']
+			</item>
+			<item
+			capname="menuitem"
+			id="e7813c21-5811-4c49-9606-d6fb97eb3b36"
+			name="MarkForAdd"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Mark for Add']
+			</item>
+			<item
+			capname="menuitem"
+			id="45476586-10b2-4273-9ea0-2d250174e896"
+			name="UnMount"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Unmount Directory']
+			</item>
+			<basepath>
+				/form[@processname='datastudio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="948b5838-3038-4af9-9c07-fa32bc325efe"
+		isrooted="True"
+		name="Configuration"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="text"
+			id="aaaa094e-25f5-43e6-8aad-b1f60133efca"
+			name="Url"
+			searchtimeout="30000ms">
+				/form[@title='Configure Version Control']//container[@type='JPanel']/container[@accessiblename='General   ']/container[@type='JPanel']/?/?/container[@name='configPanel']//text[@name='serverUrlField']
+			</item>
+			<item
+			capname="text"
+			id="fb34da4f-6346-423d-81f2-c05c23a3cf91"
+			name="Username"
+			searchtimeout="30000ms">
+				/form[@title='Configure Version Control']//container[@type='JPanel']/container[@accessiblename='General   ']/container[@type='JPanel']/?/?/container[@name='configPanel']//text[@name='usernameField']
+			</item>
+			<item
+			capname="text"
+			id="d49ca6cf-a5cb-4519-b75a-daec2ea6b9ae"
+			name="Password"
+			searchtimeout="30000ms">
+				/form[@title='Configure Version Control']//container[@type='JPanel']/container[@accessiblename='General   ']/container[@type='JPanel']/?/?/container[@name='configPanel']//text[@name='passwordField']
+			</item>
+			<item
+			capname="text"
+			id="6274c073-eaae-415f-b623-3cae1f5c55b0"
+			name="Workspace"
+			searchtimeout="30000ms">
+				/form[@title='Configure Version Control']//container[@type='JPanel']/container[@accessiblename='General   ']/container[@type='JPanel']/?/?/container[@name='configPanel']/?/?/container[@type='CPanel']/container[@type='JPanel']/text[12]
+			</item>
+			<item
+			capname="text"
+			id="0c2fe8c3-210b-486b-a20e-902f53d061b9"
+			name="Folder"
+			searchtimeout="30000ms">
+				/form[@title='Configure Version Control']//container[@type='JPanel']/container[@accessiblename='General   ']/container[@type='JPanel']/?/?/container[@name='configPanel']/?/?/container[@type='CPanel']/container[@type='JPanel']/text[14]
+			</item>
+			<item
+			capname="button"
+			id="583d9975-ea4b-4379-ab53-cc5f18a7ff1e"
+			name="OkButton"
+			searchtimeout="30000ms">
+				/form[@title='Configure Version Control']//container[@type='JPanel']/?/?/button[@text='OK']
+			</item>
+			<item
+			capname="radiobutton"
+			id="6f9dc662-5aa9-4046-a0a9-f847a709cdae"
+			name="CreateNewPerforce"
+			searchtimeout="30000ms">
+				/form[@title='Configure Version Control']//container[@type='JPanel']/container[@accessiblename='General   ']/container[@type='JPanel']/?/?/container[@name='configPanel']//radiobutton[@name='configNewButton']
+			</item>
+			<item
+			capname="radiobutton"
+			id="b0b4914e-c3fd-43bb-a4d7-770e8470a19f"
+			name="SelectExisting"
+			searchtimeout="30000ms">
+				/form[@title='Configure Version Control']//container[@type='JPanel']/container[@accessiblename='General   ']/container[@type='JPanel']/?/?/container[@name='configPanel']//radiobutton[@name='configExistingButton']
+			</item>
+			<basepath>
+				/form[@title='Configure Version Control']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="2346cbb4-f5a8-4588-a0e3-3cd8aa94af36"
+		isrooted="True"
+		name="Checkout"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="acd3a936-2a72-4738-b938-f670777fa1fb"
+			name="OkButton"
+			searchtimeout="30000ms">
+				/form[@title='Checkout']//container[@name='panel']//button[@text='OK']
+			</item>
+			<basepath>
+				/form[@title='Checkout']
+			</basepath>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="67991ba3-0bd7-470d-aa69-4b379c6acb01"
+		isrooted="True"
+		name="Datastudio1"
+		refpath="/form[@processname='datastudio' and @class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='1']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="8a24b10a-6f1e-47e5-9859-c96720ed2b7a"
+			name="Perforce"
+			refimgid="b6bfe30c-c342-46cd-babc-f0966662dad1"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='1']/contextmenu/menuitem[@text='Perforce']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='1']/?/?/menuitem[@text='Perforce']
+			</item>
+			<item
+			capname="menuitem"
+			id="d1b14fd4-8c87-4a63-ab9a-f86b63007011"
+			name="BrowseDepots"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='1']//menuitem[@text='Browse Depot']
+			</item>
+			<item
+			capname="menuitem"
+			id="1a61ef73-a5da-4f73-939c-eadf977e75e1"
+			name="EditWorkspaceClient"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='1']//menuitem[@text='Edit Workspace Client']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="e69bcd77-9612-4e18-899e-fafb116a9160"
+			name="ShowHistory"
+			refimgid="3b353f88-3a3f-4a9e-9448-ee79c004311f"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='1']//menuitem[@text='Show History']
+			</item>
+			<basepath>
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='1']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIYSURBVDhPlZFJa5NRFIbvD3DnzrX0D7hxk4U7
+d+7EYqMIolkUqUULbW2poRojthSM7SI0VcEBLU2ERiWlCKXYRrIRkpCYoUmauZkgE5l4zXskwYAF
+u3j47hmec4dPrdmdOot937Vm38dJ+OM4dcr8adfl+RVGtVpFvV7/J5VKZSBmLx26ann9G/L5PNrt
+NjqdzgDMUS75d9FsNgfydOiqpXcO5HI5tFqtASiUy2Xkt54ht3hedv27ToeuMr6yI5PJoNFoDFAq
+lZD9asTRoyEUi0Uc/XTIkF6dDl2lN1uRSqVQq9X6cOf0tgmZ2TNSS2/qkZ0fknyvh3m6atr0HvF4
+XIo9uHtm6nT/21uTXg8duurewmtEo9F+A+H9Mk/PST59/5TE5PDwEMlkEoVCQWp01ajBjHA4LK/K
+e4VCIYG5uP4sIrY5WVOeWHoDo2UDsVgMwWAQdNXNOZME2WxWpg9PmaCdWYHu8SquTr+QmGvzuqNf
+f2Kxwufzga7STi7C7/fLo3AX8mXnBz7vOAXb9vcue/AFQiJdn13pnsIKj8cDuuryuAFer1cehUQi
+EdyeN+PK5HMMd+GXMfPXZpZhWN2QtdvtBl11afQhAoGAnODg4ECuwxMdRyKRkF46dNXFWw9ETKfT
++Li1B8PLTdxZeHssfCv+ETp01YUbE9EPNrsM4OT/gUPo0FUa7ZhOM3LXpRkZx8noOtox3W+2QEFu
+Et1VDAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="4f47d9c0-8f14-46a3-9b4c-5884ff95a3bc"
+		isrooted="True"
+		name="Datastudio2"
+		refpath="/form[@processname='datastudio' and @class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='2']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="140537b2-f980-4dc5-b978-df259b1707b2"
+			name="Checkout"
+			refimgid="a0db9d9e-b196-4a7d-937f-fb28faa3a4be"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='2']/contextmenu/menuitem[@text='Checkout']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='2']/?/?/menuitem[@text='Checkout']
+			</item>
+			<basepath>
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='2']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIYSURBVDhPlZFJa5NRFIbvD3DnzrX0D7hxk4U7
+d+7EYqMIolkUqUULbW2poRojthSM7SI0VcEBLU2ERiWlCKXYRrIRkpCYoUmauZkgE5l4zXskwYAF
+u3j47hmec4dPrdmdOot937Vm38dJ+OM4dcr8adfl+RVGtVpFvV7/J5VKZSBmLx26ann9G/L5PNrt
+NjqdzgDMUS75d9FsNgfydOiqpXcO5HI5tFqtASiUy2Xkt54ht3hedv27ToeuMr6yI5PJoNFoDFAq
+lZD9asTRoyEUi0Uc/XTIkF6dDl2lN1uRSqVQq9X6cOf0tgmZ2TNSS2/qkZ0fknyvh3m6atr0HvF4
+XIo9uHtm6nT/21uTXg8duurewmtEo9F+A+H9Mk/PST59/5TE5PDwEMlkEoVCQWp01ajBjHA4LK/K
+e4VCIYG5uP4sIrY5WVOeWHoDo2UDsVgMwWAQdNXNOZME2WxWpg9PmaCdWYHu8SquTr+QmGvzuqNf
+f2Kxwufzga7STi7C7/fLo3AX8mXnBz7vOAXb9vcue/AFQiJdn13pnsIKj8cDuuryuAFer1cehUQi
+EdyeN+PK5HMMd+GXMfPXZpZhWN2QtdvtBl11afQhAoGAnODg4ECuwxMdRyKRkF46dNXFWw9ETKfT
++Li1B8PLTdxZeHssfCv+ETp01YUbE9EPNrsM4OT/gUPo0FUa7ZhOM3LXpRkZx8noOtox3W+2QEFu
+Et1VDAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="645d3097-2280-49a1-9b20-3b9039febc18"
+		isrooted="True"
+		name="CreateFile"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="text"
+			id="6fece5b5-3d98-4110-b521-f305b176e3d0"
+			name="Name"
+			searchtimeout="30000ms">
+				/form[@title='Create New File']//text[@name='nameField']
+			</item>
+			<item
+			capname="button"
+			id="c7e8a7b1-a393-4d8c-9125-f8691b8da73c"
+			name="OkButton"
+			searchtimeout="30000ms">
+				/form[@title='Create New File']//button[@text='OK']
+			</item>
+			<basepath>
+				/form[@title='Create New File']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="12df0a1a-8bee-422b-9301-3e4a057bd407"
+		isrooted="True"
+		name="MarkForAdd"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="9ca0a3b7-fc45-4b88-9e75-224902606907"
+			name="OkButton"
+			searchtimeout="30000ms">
+				/form[@title~'^Mark\ for\ Add\ -\ C:\\Users\\A']//container[@name='panel']//button[@text='OK']
+			</item>
+			<basepath>
+				/form[@title~'^Mark\ for\ Add\ -\ C:\\Users\\A']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="83b767b9-ab3e-4693-932a-3ac8ed432cdd"
+		isrooted="True"
+		name="SunAwtWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="menuitem"
+			id="5548eb17-e33f-4665-b3fc-76032a7edbfb"
+			name="Commit"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='Commit...']
+			</item>
+			<item
+			capname="menuitem"
+			id="832ffe28-1678-4eae-918e-1bf39b20c01c"
+			name="UpdateSync"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='Update (Sync)']
+			</item>
+			<item
+			capname="menuitem"
+			id="aec8197e-46ef-4814-bf75-36a15076e15b"
+			name="Open"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='Open']
+			</item>
+			<item
+			capname="menuitem"
+			id="5551c6b6-da05-4176-b327-750a7534b72a"
+			name="ShowChanges"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='Show Changes']
+			</item>
+			<basepath>
+				/form[@class='SunAwtWindow']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="adab8236-d5b8-41bd-b168-291958b006a8"
+		isrooted="True"
+		name="Commit"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="aabe01c0-ed3e-49a3-9fe4-ba115e23b715"
+			name="CommitButton"
+			searchtimeout="30000ms">
+				/form[@title~'^Commit\ -\ C:\\Users\\Admin\\D']//container[@type='JPanel']//button[@text='Commit']
+			</item>
+			<basepath>
+				/form[@title~'^Commit\ -\ C:\\Users\\Admin\\D']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="f1871d75-58cf-4b3f-a272-a21c7521ca80"
+		isrooted="True"
+		name="Update"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="b886d5e7-f3c4-44f7-ad48-1b665eb22ccb"
+			name="OkButton"
+			searchtimeout="30000ms">
+				/form[@title~'^Update\ -\ C:\\Users\\Admin\\D']//container[@name='panel']//button[@text='OK']
+			</item>
+			<basepath>
+				/form[@title~'^Update\ -\ C:\\Users\\Admin\\D']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="b80144d5-58ae-4324-8ae5-56b3c4f78b7f"
+		isrooted="True"
+		name="TextEditor"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="8f562d60-9cfc-49fc-a749-ebbc2e5a34af"
+			name="OpenTextEditor"
+			searchtimeout="30000ms">
+				/form[@title='Choose Server or Database']//button[@text='Open in Text Editor']
+			</item>
+			<basepath>
+				/form[@title='Choose Server or Database']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="29c74b0e-aa80-4b4a-94d8-78fafba1c005"
+		isrooted="True"
+		name="UnMount"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="304e7f48-96ce-42a1-aaa8-f75bb5baf6e1"
+			name="Yes"
+			searchtimeout="30000ms">
+				/form[@title='Unmount']//container[@name='OptionPane.buttonArea']/button[@text='Yes']
+			</item>
+			<basepath>
+				/form[@title='Unmount']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="229a8614-b5ff-4306-a25c-53fe35c18ccc"
+		isrooted="True"
+		name="AquaDataStudio"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="unknown"
+			id="f58da005-b9c6-4c01-b1b0-9a45aaec1664"
+			name="EditorWindow"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio\ \[T']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='EditorPanel']//container[@type='EditorImpl$MyScrollPane']/container[6]/element[@type='EditorComponentImpl']
+			</item>
+			<item
+			capname="button"
+			id="2c8a7ae0-0971-49d6-9958-d960b9c4d38e"
+			name="Save"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio\ \[T']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CToolBar']/button[3]
+			</item>
+			<basepath>
+				/form[@title~'^Aqua\ Data\ Studio\ \[T']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="e7aad77b-a1a4-4eb2-b8f2-3d7c2d4a137f"
+		isrooted="True"
+		name="PerforceServer"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="cell"
+			id="6a9cbd04-e820-48cf-8b51-04a8a3266ff0"
+			name="Depot"
+			searchtimeout="30000ms">
+				/form[@title~'^Perforce\ Server\ p4jrpc://']//container[@name='PerforceDepotBrowser']/?/?/container[@type='CScrollPane']/container[1]/table[@name='tree']/?/?/cell[@text~'^com\.aquafold\.datastudio\.v']
+			</item>
+			<item
+			capname="button"
+			id="dd317822-acb9-4220-810b-933956b70e1a"
+			name="Close"
+			searchtimeout="30000ms">
+				/form[@title~'^Perforce\ Server\ p4jrpc://']//button[@accessiblename='Close']
+			</item>
+			<basepath>
+				/form[@title~'^Perforce\ Server\ p4jrpc://']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="2ff260e7-e139-4f49-bf16-e2c6a7a834ef"
+		isrooted="True"
+		name="Edit"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="tabpage"
+			id="254ba454-80ca-4c7b-b18e-8c837fe3d438"
+			name="ViewTab"
+			searchtimeout="30000ms">
+				/form[@title~'^ADS\ \(WIN-UVJIOABRMC7:1666']//container[@name='tabbedPane']/tabpage[@title='View   ']
+			</item>
+			<item
+			capname="cell"
+			id="753d610f-c894-4251-a709-ae663846a1d3"
+			name="Depot"
+			searchtimeout="30000ms">
+				/form[@title~'^ADS\ \(WIN-UVJIOABRMC7:1666']//container[@name='tabbedPane']/container[3]//table[@name='tree']/row[@index='0']/cell[@columnindex='0']
+			</item>
+			<item
+			capname="cell"
+			id="a8cc6141-3d68-49ef-ac02-94762ee18aae"
+			name="F1"
+			searchtimeout="30000ms">
+				/form[@title~'^ADS\ \(WIN-UVJIOABRMC7:1666']//container[@name='tabbedPane']/container[3]//table[@name='tree']/row[@index='1']/cell[@columnindex='0']
+			</item>
+			<item
+			capname="button"
+			id="3445f948-6369-41fd-b6a4-5bf0598b6b14"
+			name="Close"
+			searchtimeout="30000ms">
+				/form[@title~'^ADS\ \(WIN-UVJIOABRMC7:1666']//button[@accessiblename='Close']
+			</item>
+			<basepath>
+				/form[@title~'^ADS\ \(WIN-UVJIOABRMC7:1666']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="b5e38b6a-8e40-4757-ad89-a988e664fba0"
+		isrooted="True"
+		name="History"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="cell"
+			id="13b4b601-d318-45ef-8d58-1ca12659a34a"
+			name="RevisionHistory"
+			searchtimeout="30000ms">
+				/form[@title~'^History\ -\ C:\\Users\\Admin\\']//container[@name='historyPanel']/?/?/container[@accessiblename=' History ']/container[@name='scroll']/container[6]/?/?/cell[@text='Revision (Changelist)']
+			</item>
+			<item
+			capname="cell"
+			id="b028cb83-6a11-4c5a-aeb4-c72b05332526"
+			name="DateSubmitted"
+			searchtimeout="30000ms">
+				/form[@title~'^History\ -\ C:\\Users\\Admin\\']//container[@name='historyPanel']/?/?/container[@accessiblename=' History ']/container[@name='scroll']/container[6]/?/?/cell[@text='Date Submitted']
+			</item>
+			<item
+			capname="cell"
+			id="1e2442d6-3756-470d-8d98-5f119b79499e"
+			name="Description"
+			searchtimeout="30000ms">
+				/form[@title~'^History\ -\ C:\\Users\\Admin\\']//container[@name='historyPanel']/?/?/container[@accessiblename=' History ']/container[@name='scroll']/container[6]/?/?/cell[@text='Description']
+			</item>
+			<item
+			capname="cell"
+			id="e84d511d-2076-49da-9dfb-100872a5f898"
+			name="SubmittedBy"
+			searchtimeout="30000ms">
+				/form[@title~'^History\ -\ C:\\Users\\Admin\\']//container[@name='historyPanel']/?/?/container[@accessiblename=' History ']/container[@name='scroll']/container[6]/?/?/cell[@text='Submitted By']
+			</item>
+			<item
+			capname="cell"
+			id="2142c705-5922-48be-85e6-8e01ed563b21"
+			name="RevisionCell"
+			searchtimeout="30000ms">
+				/form[@title~'^History\ -\ C:\\Users\\Admin\\']//container[@name='historyPanel']//table[@name='table']/row[@index='0']/cell[1]
+			</item>
+			<item
+			capname="button"
+			id="7120092e-3671-4b84-b9ff-aea91b167ed1"
+			name="Close"
+			searchtimeout="30000ms">
+				/form[@title~'^History\ -\ C:\\Users\\Admin\\']//button[@text='Close' and @accessibledescription='Closes the window']
+			</item>
+			<basepath>
+				/form[@title~'^History\ -\ C:\\Users\\Admin\\']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="a96f8cbc-49dd-46ca-87a6-c034c208a89f"
+		isrooted="True"
+		name="CompareWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="8dc0a159-34ad-4629-9faa-5caf0beadd4f"
+			name="Close"
+			searchtimeout="30000ms">
+				/form[@title~'^Compare\ -\ C:\\Users\\Admin\\']//button[@accessiblename='Close']
+			</item>
+			<basepath>
+				/form[@title~'^Compare\ -\ C:\\Users\\Admin\\']
+			</basepath>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

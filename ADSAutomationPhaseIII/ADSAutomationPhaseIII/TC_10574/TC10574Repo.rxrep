@@ -1,0 +1,338 @@
+﻿<repository
+id="14fcb520-f107-4527-ab0b-c46c2730a874"
+name="TC10574Repo"
+rxversion="8.2">
+	<codegen
+	classname="TC10574Repo"
+	namespace="ADSAutomationPhaseIII.TC_10574">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="11c4f6c8-1d4e-4217-b2eb-1926bb15b259"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="c3edb99e-6572-42f7-8b35-012be61bdeb6"
+		isrooted="True"
+		name="SunAwtWindow"
+		refpath="/form[@processname='datastudio' and @class='SunAwtWindow']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			capname="menuitem"
+			id="2e871dfd-2a9b-4c98-bd0f-13bc0757e6f4"
+			name="Options"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='Options']
+			</item>
+			<item
+			capname="listitem"
+			id="3d46484a-8935-4732-b22a-f4cf7bfb0a9c"
+			name="Enter"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='Enter']
+			</item>
+			<item
+			capname="listitem"
+			id="68b780c1-1cd4-4672-ad7a-445b4ba71837"
+			name="Tab"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='Tab']
+			</item>
+			<item
+			capname="listitem"
+			id="b7798b1a-b16b-451a-8e2b-16c48c177d48"
+			name="Space"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//container/list[@name='ComboBox.list']/listitem[@text='Space']
+			</item>
+			<item
+			capname="menuitem"
+			id="eb500414-461b-4b47-ab8a-2c04c611db2b"
+			name="CloseTab"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@name='TabDocumentPane.close']
+			</item>
+			<item
+			capname="menuitem"
+			id="5b0bad73-9b95-4fbe-8c2b-3e3f8776a9ef"
+			name="CloseAllTabs"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@name='TabDocumentPane.closeAll']
+			</item>
+			<basepath>
+				/form[@class='SunAwtWindow']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIYSURBVDhPlZFJa5NRFIbvD3DnzrX0D7hxk4U7
+d+7EYqMIolkUqUULbW2poRojthSM7SI0VcEBLU2ERiWlCKXYRrIRkpCYoUmauZkgE5l4zXskwYAF
+u3j47hmec4dPrdmdOot937Vm38dJ+OM4dcr8adfl+RVGtVpFvV7/J5VKZSBmLx26ann9G/L5PNrt
+NjqdzgDMUS75d9FsNgfydOiqpXcO5HI5tFqtASiUy2Xkt54ht3hedv27ToeuMr6yI5PJoNFoDFAq
+lZD9asTRoyEUi0Uc/XTIkF6dDl2lN1uRSqVQq9X6cOf0tgmZ2TNSS2/qkZ0fknyvh3m6atr0HvF4
+XIo9uHtm6nT/21uTXg8duurewmtEo9F+A+H9Mk/PST59/5TE5PDwEMlkEoVCQWp01ajBjHA4LK/K
+e4VCIYG5uP4sIrY5WVOeWHoDo2UDsVgMwWAQdNXNOZME2WxWpg9PmaCdWYHu8SquTr+QmGvzuqNf
+f2Kxwufzga7STi7C7/fLo3AX8mXnBz7vOAXb9vcue/AFQiJdn13pnsIKj8cDuuryuAFer1cehUQi
+EdyeN+PK5HMMd+GXMfPXZpZhWN2QtdvtBl11afQhAoGAnODg4ECuwxMdRyKRkF46dNXFWw9ETKfT
++Li1B8PLTdxZeHssfCv+ETp01YUbE9EPNrsM4OT/gUPo0FUa7ZhOM3LXpRkZx8noOtox3W+2QEFu
+Et1VDAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="c87b273f-3cd9-499b-b213-fbdb10d37fe4"
+		isrooted="True"
+		name="OptionsWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="treeitem"
+			id="d721a24d-7320-436b-aee8-9b796160f606"
+			name="SQLEditor"
+			searchtimeout="30000ms">
+				/form[@title='Options']//container[1]/?/?/container[@name='mySplitter']//container[@type='SettingsTreeView$2']/tree[@name='myTree']/treeitem/treeitem[4]
+			</item>
+			<item
+			capname="treeitem"
+			id="0678f6f6-3615-4d38-b77f-f16dc7f7c16b"
+			name="Abbrevation"
+			searchtimeout="30000ms">
+				/form[@title='Options']//container[1]/?/?/container[@name='mySplitter']//container[@type='SettingsTreeView$2']/tree[@name='myTree']/treeitem/treeitem[4]/treeitem[3]
+			</item>
+			<item
+			capname="unknown"
+			id="4ce5c901-cdba-4298-8a38-25d9df420f17"
+			name="ExpandSymbol"
+			searchtimeout="30000ms">
+				/form[@title='Options']//container[1]/?/?/container[@name='mySplitter']/container[3]/?/?/container[@name='myContent']//container[@type='CSplitPane']/container[1]/container[@name='abbreviationTablePanel']/?/?/container[@type='CommonActionsPanel']/container/element[1]
+			</item>
+			<item
+			capname="unknown"
+			id="d2a6fb72-f663-4b87-8c58-f074328006ef"
+			name="ExpandedTextBox"
+			searchtimeout="30000ms">
+				/form[@title='Options']//container[1]/?/?/container[@name='mySplitter']/container[3]/?/?/container[@name='myContent']//container[@type='CSplitPane']/container[3]/?/?/container[@accessiblename='Expanded Text']/?/?/container[@type='PsiAwareTextEditorImpl$PsiAwareTextEditorComponent']/container/container[@type='JPanel']/?/?/container[@type='EditorImpl$MyScrollPane']/container[6]/element[@type='EditorComponentImpl']
+			</item>
+			<item
+			capname="button"
+			id="418efa6a-1c46-4bc9-b0ba-0d3cb0fb10a5"
+			name="TriangleIcon"
+			searchtimeout="30000ms">
+				/form[@title='Options']//container[1]/?/?/container[@name='mySplitter']/container[3]/?/?/container[@name='myContent']//container[@type='CSplitPane']/container[3]/?/?/combobox[@name='expandOnCombo']/button[@text='']
+			</item>
+			<item
+			capname="button"
+			id="1245c0e1-8ac3-46c3-b0da-fef9497c0b67"
+			name="Okay"
+			searchtimeout="30000ms">
+				/form[@title='Options']//container[2]/container[@type='JPanel']//button[@text='OK']
+			</item>
+			<item
+			capname="cell"
+			id="1cb370c1-8daf-4e88-b087-4ca7d79e1da3"
+			name="Select"
+			searchtimeout="30000ms">
+				/form[@title='Options']//container[1]//container[@name='myContent']//container[@type='CSplitPane']/container[1]/container[@name='abbreviationTablePanel']/?/?/container[@name='scrollPaneTable']/container[1]/table[@name='mainTable']/row/cell[@text='select']
+			</item>
+			<item
+			capname="button"
+			id="63182279-76c7-4d04-ab91-a9aec1415c7a"
+			name="Close"
+			searchtimeout="30000ms">
+				/form[@title='Options']//button[@accessiblename='Close']
+			</item>
+			<item
+			capname="cell"
+			id="4cdff5bc-4885-43ca-990d-dd49496a3497"
+			name="Insert"
+			searchtimeout="30000ms">
+				/form[@title='Options']//container[1]//container[@name='myContent']//container[@type='CSplitPane']/container[1]/container[@name='abbreviationTablePanel']/?/?/container[@name='scrollPaneTable']/container[1]/table[@name='mainTable']/row/cell[@text='insert']
+			</item>
+			<item
+			capname="cell"
+			id="40b5bf5b-2197-48f4-b614-b2d2e9863f9c"
+			name="Create"
+			searchtimeout="30000ms">
+				/form[@title='Options']//container[1]//container[@name='myContent']//container[@type='CSplitPane']/container[1]/container[@name='abbreviationTablePanel']/?/?/container[@name='scrollPaneTable']/container[1]/table[@name='mainTable']/row/cell[@text='create']
+			</item>
+			<item
+			capname="unknown"
+			id="001a981a-cf4e-4570-86a5-659d4cf5e2cd"
+			name="RemoveSymbol"
+			searchtimeout="30000ms">
+				/form[@title='Options']//container[1]/?/?/container[@name='mySplitter']/container[3]/?/?/container[@name='myContent']//container[@type='CSplitPane']/container[1]/container[@name='abbreviationTablePanel']/?/?/container[@type='CommonActionsPanel']/container/element[2]
+			</item>
+			<item
+			capname="column"
+			id="4501579d-cd60-4189-ac26-af38d327cda4"
+			name="Columns"
+			searchtimeout="30000ms">
+				/form[@title='Options']//container[1]/?/?/container[@name='mySplitter']/container[3]/?/?/container[@name='myContent']//container[@name='abbreviationTablePanel']/?/?/container[@name='scrollPaneTable']/container[1]/table[@name='mainTable']/column[@text='Abbreviation']
+			</item>
+			<item
+			capname="unknown"
+			id="4772c9df-0261-40ca-9c83-f7078dd86d52"
+			name="UPIcon"
+			searchtimeout="30000ms">
+				/form[@title='Options']//container[1]/?/?/container[@name='mySplitter']/container[3]/?/?/container[@name='myContent']//container[@type='CSplitPane']/container[1]/container[@name='abbreviationTablePanel']/?/?/container[@type='CommonActionsPanel']/container/element[3]
+			</item>
+			<item
+			capname="unknown"
+			id="7d6c17d5-412b-4190-96f2-eb6a15d66d29"
+			name="DownIcon"
+			searchtimeout="30000ms">
+				/form[@title='Options']//container[1]/?/?/container[@name='mySplitter']/container[3]/?/?/container[@name='myContent']//container[@type='CSplitPane']/container[1]/container[@name='abbreviationTablePanel']/?/?/container[@type='CommonActionsPanel']/container/element[4]
+			</item>
+			<basepath>
+				/form[@title='Options']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="7fc7df1e-b41e-4f9d-b2de-719c947fa50d"
+		isrooted="True"
+		name="AbbrevationWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="text"
+			id="0f4cc319-3c44-48c6-bc25-172ec0915bda"
+			name="TextBox"
+			searchtimeout="30000ms">
+				/form[@title='New Abbreviation']//container[1]/?/?/text[@type='JBTextField']
+			</item>
+			<item
+			capname="button"
+			id="9258ca9a-468f-44f8-89a9-a566e307b913"
+			name="OkayButton"
+			searchtimeout="30000ms">
+				/form[@title='New Abbreviation']//container[2]/container[@type='JPanel']//button[@text='OK']
+			</item>
+			<basepath>
+				/form[@title='New Abbreviation']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="074e9ce7-9035-4f66-9c1e-6128b4f5101b"
+		isrooted="True"
+		name="ServersList"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="treeitem"
+			id="0f6e214a-25ee-4eaa-81ac-a97c7eb5ef44"
+			name="LocalDBServersTreeItem"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='schemaTree']/?/?/treeitem[@text='Local Database Servers']
+			</item>
+			<item
+			capname="menuitem"
+			id="da992c0f-dfcc-4c8a-a60b-60218253b432"
+			name="FileMenu"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//menuitem[@text='File']
+			</item>
+			<basepath>
+				/form[@title~'^Aqua Data Studio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="21f2cc24-0138-40c1-ad00-85cfc867d70f"
+		isrooted="True"
+		name="QuaryAnalyzerWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="unknown"
+			id="953a742b-3728-4080-b6f9-3b7ff87b5364"
+			name="QueryBox"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='QueryPanel']/container[@name='panel']/?/?/container[@name='splitPane']//container[@type='EditorImpl$MyScrollPane']/container[6]/element[@type='EditorComponentImpl']
+			</item>
+			<basepath>
+				/form[@title~'^Aqua\ Data\ Studio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="f6b88477-0d52-45f6-b295-5d8cf5cea688"
+		isrooted="True"
+		name="QueryAnalyzer"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="text"
+			id="09d3daa1-1798-48ca-99ca-306a7b1572fe"
+			name="QAComboTextbox"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']/?/?/container[1]/container[2]//container[@name='panelBar']//combobox[@name='databaseField']/text[@type='BasicComboBoxEditor$BorderlessTextField']
+			</item>
+			<item
+			capname="text"
+			id="2e185ac3-4ea0-42db-b67b-2eebff89eb85"
+			name="Tab2QAComboTextbox"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']/?/?/container[1]/container[3]//container[@name='panelBar']//combobox[@name='databaseField']/text[@type='BasicComboBoxEditor$BorderlessTextField']
+			</item>
+			<item
+			capname="tabpage"
+			id="e2c06e88-20ad-4410-be03-61eeb00e94dd"
+			name="Tab"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//tabpage
+			</item>
+			<item
+			capname="text"
+			id="92695ac7-b5a3-4868-9f78-b347027a7d80"
+			name="SchemaQAComboTextbox"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='QueryPanel']//container[@name='schemaComboPanel']/combobox[@name='schemaCombo']/text[@type='BasicComboBoxEditor$BorderlessTextField']
+			</item>
+			<item
+			capname="text"
+			id="35c96d7a-7965-4c2a-a10e-ba6ad010759d"
+			name="Tab2SchemaQAComboTextbox"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']/?/?/container[1]/container[3]//container[@name='schemaComboPanel']/combobox[@name='schemaCombo']/text[@type='BasicComboBoxEditor$BorderlessTextField']
+			</item>
+			<item
+			capname="container"
+			id="28f098d2-0f72-48ab-8e8a-dfef47934a3c"
+			name="TabContainer"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio']//container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']
+			</item>
+			<basepath>
+				/form[@title~'^Aqua\ Data\ Studio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="a5a26537-b61a-4329-abdc-90f948d192bf"
+		isrooted="True"
+		name="FileModified"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="243099b6-7ad3-4178-aef8-eb5a701d4d4b"
+			name="Discard"
+			searchtimeout="30000ms">
+				/form[@title='File Modified']//container[@name='OptionPane.buttonArea']/button[@text='Discard']
+			</item>
+			<basepath>
+				/form[@title='File Modified']
+			</basepath>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

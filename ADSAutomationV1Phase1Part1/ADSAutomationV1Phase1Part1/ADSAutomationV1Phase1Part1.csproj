@@ -1,0 +1,901 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{5125197A-A155-4BAF-B361-BF5BD637424A}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ADSAutomationV1Phase1Part1</RootNamespace>
+    <AssemblyName>ADSAutomationV1Phase1Part1</AssemblyName>
+    <RanorexVersion>8.2</RanorexVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RanorexTargetsPath>$(MSBuildProgramFiles32)\MSBuild\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>436930fb-c344-4d38-b51e-3951626eae78</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Application\AppRepo.cs">
+      <DependentUpon>AppRepo.rxrep</DependentUpon>
+      <id>63e3a3f3-6075-495a-ac3d-3fd2502eaf4c</id>
+      <BoundTo>436930fb-c344-4d38-b51e-3951626eae78</BoundTo>
+      <RepositoryCode>true</RepositoryCode>
+    </Compile>
+    <Compile Include="Application\CloseADS.cs">
+      <id>6cae395c-1eb2-4265-9dff-cd24ca8336a7</id>
+    </Compile>
+    <Compile Include="Application\OpenADS.cs">
+      <id>fd13fe3c-9be3-4185-9e99-7fb11c814f26</id>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <id>ec1dfcc9-942f-478d-bb9c-45ed07f9804d</id>
+    </Compile>
+    <Compile Include="Base\BaseClass.cs">
+      <id>222b7905-d1d8-4503-9035-3b5a5b2a32b9</id>
+    </Compile>
+    <Compile Include="Commons\Common.cs">
+      <id>7421a271-24e2-4f22-98c7-a6263e18dfb9</id>
+    </Compile>
+    <Compile Include="Commons\Reports.cs">
+      <id>2f5cedb5-56e0-42ff-aa27-4291d79b9629</id>
+    </Compile>
+    <Compile Include="Commons\ServerListConstants.cs">
+      <id>4453554c-f32c-4249-9b12-b11f3dd088cd</id>
+    </Compile>
+    <Compile Include="Configuration\Config.cs">
+      <id>525a5719-09ff-4648-9cf5-91e56e95c345</id>
+    </Compile>
+    <Compile Include="Extensions\Extension.cs">
+      <id>a540cb33-9911-49d4-a772-dc72bc9e4e50</id>
+    </Compile>
+    <Compile Include="Preconditions\PreconditionRepo.cs">
+      <DependentUpon>PreconditionRepo.rxrep</DependentUpon>
+      <id>ba7929db-6e14-4a5a-9f39-c1dbb3f8c9ab</id>
+      <BoundTo>ec3408df-85f7-407d-af12-a4dc4b19375b</BoundTo>
+      <RepositoryCode>true</RepositoryCode>
+    </Compile>
+    <Compile Include="Preconditions\Steps.cs">
+      <id>e16cb7ea-2995-471b-b3e4-9b82470c491d</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>cae78089-966e-4b1e-97fe-6538063a4804</id>
+    </Compile>
+    <Compile Include="TC_10535\Steps.cs">
+      <id>895279ef-dc89-4fd5-9915-a6733feb47ba</id>
+    </Compile>
+    <Compile Include="TC_10535\TC10535Repo.cs">
+      <id>674c966e-652f-4be1-8251-5f2f5482d2bc</id>
+      <BoundTo>3b95554b-3030-4499-b27a-060b1177c3b4</BoundTo>
+      <DependentUpon>TC10535Repo.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+    </Compile>
+    <Compile Include="TC_10535\TC1\CreateNewprojectTemplate.cs">
+      <id>d0dfe166-01eb-4e85-b0d2-68351f855ab9</id>
+    </Compile>
+    <Compile Include="TC_10535\TC2\Amazon_Redshift.cs">
+      <id>9a237664-3a75-4dd9-8ed0-2a27a53419ec</id>
+    </Compile>
+    <Compile Include="TC_10535\TC2\Cassandra22.cs">
+      <id>b2420c77-828d-4058-ad40-311c6e3911c8</id>
+    </Compile>
+    <Compile Include="TC_10535\TC2\Cassandra37.cs">
+      <id>ee0007ad-5931-4fec-b921-f5712640ccfa</id>
+    </Compile>
+    <Compile Include="TC_10535\TC2\DB2LUW105.cs">
+      <id>2cda4537-ecef-4af9-9d5c-ef7ba69e5d35</id>
+    </Compile>
+    <Compile Include="TC_10535\TC2\DB2LUW111.cs">
+      <id>bcfff97c-27f2-4c35-a899-efe8d47e5b34</id>
+    </Compile>
+    <Compile Include="TC_10535\TC2\Derby1013.cs">
+      <id>37ec471b-9a9c-46fc-9674-d7b27c6f6a03</id>
+    </Compile>
+    <Compile Include="TC_10535\TC2\Derby1014.cs">
+      <id>2676fa88-b0a7-4350-90b2-a69056e0dba2</id>
+    </Compile>
+    <Compile Include="TC_10535\TC2\GreenPlum4312.cs">
+      <id>71fc315b-5a68-415f-a1ae-9c6284a89a21</id>
+    </Compile>
+    <Compile Include="TC_10535\TC2\GreenPlum5.cs">
+      <id>dd0679af-8fcc-4cbb-9f43-af5ae28dab4f</id>
+    </Compile>
+    <Compile Include="TC_10535\TC2\Informix117.cs">
+      <id>c7ecb43c-eb93-4738-a90c-4edebf4c2143</id>
+    </Compile>
+    <Compile Include="TC_10535\TC2\Informix121.cs">
+      <id>27d7065c-9b82-4014-a593-0a1e56860358</id>
+    </Compile>
+    <Compile Include="TC_10535\TC2\MariaDB102.cs">
+      <id>4b2633d7-76e6-41a8-afb1-547ce9a122cd</id>
+    </Compile>
+    <Compile Include="TC_10535\TC2\MongoDB321.cs">
+      <id>af532bae-4949-496e-b244-027d61ca40f3</id>
+    </Compile>
+    <Compile Include="TC_10535\TC2\MongoDB341.cs">
+      <id>21d20c85-5a84-4d57-bb4a-91342aed0d31</id>
+    </Compile>
+    <Compile Include="TC_10535\TC2\MSSQLAzureDB.cs">
+      <id>37b818dc-be84-440a-8ead-21c5ab61ebc7</id>
+    </Compile>
+    <Compile Include="TC_10535\TC2\MSSQLDB2016.cs">
+      <id>e3958d18-c335-4055-9330-221ed3ec072e</id>
+    </Compile>
+    <Compile Include="TC_10535\TC2\MSSQLDB2017.cs">
+      <id>1a514b8d-d2d3-4e07-93eb-ff73e0d1a94c</id>
+    </Compile>
+    <Compile Include="TC_10535\TC2\MYSQLDB57.cs">
+      <id>15c7ad6e-dd52-4163-b752-84016ce91a87</id>
+    </Compile>
+    <Compile Include="TC_10535\TC2\MYSQLDB8.cs">
+      <id>c884439c-243d-49be-9d08-c5eca2d2c76a</id>
+    </Compile>
+    <Compile Include="TC_10535\TC2\Netezza.cs">
+      <id>67d19f37-2c37-45de-aa16-4a140fea057c</id>
+    </Compile>
+    <Compile Include="TC_10535\TC2\Oracle11.cs">
+      <id>7a513541-cfbd-47ac-8b57-57e7738c1892</id>
+    </Compile>
+    <Compile Include="TC_10535\TC2\Oracle12.cs">
+      <id>79f4dec3-2e07-4c5a-8afc-91104de66cdf</id>
+    </Compile>
+    <Compile Include="TC_10535\TC2\PostgreSQL10.cs">
+      <id>9e172b56-2955-45f4-b5f5-2c77424d4663</id>
+    </Compile>
+    <Compile Include="TC_10535\TC2\PostgreSQL96.cs">
+      <id>eaf057cf-67f6-4fa9-b187-4e2162949f65</id>
+    </Compile>
+    <Compile Include="TC_10535\TC2\SAPHana.cs">
+      <id>7b56a53d-2051-4bc4-abb7-b0c6f6d9ecc8</id>
+    </Compile>
+    <Compile Include="TC_10535\TC2\SysbaseAny157.cs">
+      <id>f33fcb59-0715-4e69-927f-af352106fcca</id>
+    </Compile>
+    <Compile Include="TC_10535\TC2\SysbaseAny16.cs">
+      <id>43aebb0f-32f9-4ec0-924b-4c0861018e4c</id>
+    </Compile>
+    <Compile Include="TC_10535\TC2\SysbaseASE157.cs">
+      <id>d1295d07-59c7-46f0-8272-416b77562dfe</id>
+    </Compile>
+    <Compile Include="TC_10535\TC2\SysbaseASE16.cs">
+      <id>677ddc2a-a88c-4d42-8ee4-26498edfc1dc</id>
+    </Compile>
+    <Compile Include="TC_10535\TC2\SysbaseIQ154.cs">
+      <id>a3326e00-3be3-466f-9f29-7ac8478d74bb</id>
+    </Compile>
+    <Compile Include="TC_10535\TC2\SysbaseIQ16.cs">
+      <id>63bf077b-4a14-459e-a3ff-a031c993de75</id>
+    </Compile>
+    <Compile Include="TC_10535\TC2\Teradata1510.cs">
+      <id>d8e93c95-6ddd-42e1-94b0-5f3ec132a282</id>
+    </Compile>
+    <Compile Include="TC_10535\TC2\Teradata1620.cs">
+      <id>3aee245c-214f-4b91-897d-ee80bf220fa7</id>
+    </Compile>
+    <Compile Include="TC_10535\TC2\Vertica8.cs">
+      <id>fb681554-c8dc-438e-92f8-698a2fb71e06</id>
+    </Compile>
+    <Compile Include="TC_10535\TC2\Vertica91.cs">
+      <id>36dfbc9d-eaa9-4637-97b3-18e4630af00a</id>
+    </Compile>
+    <Compile Include="TC_10535\TC3\Amazon_Redshift.cs">
+      <id>57060605-a864-4e73-bfa0-5c324b4c4b2b</id>
+    </Compile>
+    <Compile Include="TC_10535\TC3\Cassandra.cs">
+      <id>43854332-abaf-48b1-aff2-47d26323b3b6</id>
+    </Compile>
+    <Compile Include="TC_10535\TC3\Cleanup.cs">
+      <id>c1652eeb-b82d-4671-918e-9292804fc43d</id>
+    </Compile>
+    <Compile Include="TC_10535\TC3\DB2.cs">
+      <id>7245625b-072b-4a33-b562-cb5593030ae9</id>
+    </Compile>
+    <Compile Include="TC_10535\TC3\Derby.cs">
+      <id>3dc35617-f0b5-448c-a368-7e478cd5a20d</id>
+    </Compile>
+    <Compile Include="TC_10535\TC3\Greenplum.cs">
+      <id>21d9ad00-6776-4eea-9e12-3bca868ae4f3</id>
+    </Compile>
+    <Compile Include="TC_10535\TC3\Informix.cs">
+      <id>6deb324d-3cf6-4d8a-abc9-bcca23893469</id>
+    </Compile>
+    <Compile Include="TC_10535\TC3\MariaDB.cs">
+      <id>61fbca0e-0957-4fa6-add2-556fec15cfe8</id>
+    </Compile>
+    <Compile Include="TC_10535\TC3\MySQL.cs">
+      <id>6c83f8b4-87c1-431b-8965-34e6605ceddd</id>
+    </Compile>
+    <Compile Include="TC_10535\TC3\Netezza.cs">
+      <id>512f5838-343c-4b6a-8a5f-083338a6fa29</id>
+    </Compile>
+    <Compile Include="TC_10535\TC3\Oracle.cs">
+      <id>51dbf331-87eb-4367-b59e-663e4ff12d6f</id>
+    </Compile>
+    <Compile Include="TC_10535\TC3\Postgre.cs">
+      <id>2a34ec6c-4c67-45b2-bc65-6e49b98c3baa</id>
+    </Compile>
+    <Compile Include="TC_10535\TC3\Precondition.cs">
+      <id>9028ac87-09c4-43b3-be06-83b8da2d3217</id>
+    </Compile>
+    <Compile Include="TC_10535\TC3\SQLServer.cs">
+      <id>1faa0bc6-7d8b-4173-a3c9-b384f7377369</id>
+    </Compile>
+    <Compile Include="TC_10535\TC3\SybaseASE.cs">
+      <id>953aad84-0928-45af-90c2-35036d7e1e88</id>
+    </Compile>
+    <Compile Include="TC_10535\TC3\Teradata.cs">
+      <id>c81f3776-1b92-4fd0-bf72-523c1ac427e8</id>
+    </Compile>
+    <Compile Include="TC_10535\TC3\Vertica.cs">
+      <id>022f6814-57d3-4feb-955c-bb0f16837108</id>
+    </Compile>
+    <Compile Include="TC_10536\Steps.cs">
+      <id>405591df-395f-4402-9a8b-0d47dca23523</id>
+    </Compile>
+    <Compile Include="TC_10536\TC10536Repo.cs">
+      <id>30fdcd68-5094-47e4-8c20-d8fd9dbfe0a7</id>
+      <BoundTo>93d0f919-a0aa-43a1-bf88-6e95ab73325c</BoundTo>
+      <DependentUpon>TC10536Repo.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+    </Compile>
+    <Compile Include="TC_10536\TC1\SchemaCompareTemplate.cs">
+      <id>b3c4bcb2-ccdf-4fb9-bddd-3c8660803d63</id>
+    </Compile>
+    <Compile Include="TC_10536\TC2\AmazonRedshift.cs">
+      <id>ee497976-9086-4297-ab83-2555631bf139</id>
+    </Compile>
+    <Compile Include="TC_10536\TC2\Cassandra.cs">
+      <id>8afd8f2b-c13f-4486-b7e3-e4c26c4d33c2</id>
+    </Compile>
+    <Compile Include="TC_10536\TC2\CleanUp.cs">
+      <id>b3dca1c0-ae4e-4248-8f0f-dbd6229f872e</id>
+    </Compile>
+    <Compile Include="TC_10536\TC2\DB2.cs">
+      <id>30b5a4ec-a0e7-4b8e-9c8d-24b1a637b0ee</id>
+    </Compile>
+    <Compile Include="TC_10536\TC2\Derby.cs">
+      <id>42f5ac2b-153e-4b12-bfad-6f8e3bd68aad</id>
+    </Compile>
+    <Compile Include="TC_10536\TC2\GreenPlum.cs">
+      <id>1384bd8c-29b9-4c52-a573-b8f2e23a66e3</id>
+    </Compile>
+    <Compile Include="TC_10536\TC2\Informix.cs">
+      <id>2b68fdbc-c03d-41f5-92a2-af9c57af49b0</id>
+    </Compile>
+    <Compile Include="TC_10536\TC2\MariaDB.cs">
+      <id>ad29863a-2ab4-4153-9e1b-434f51b921dc</id>
+    </Compile>
+    <Compile Include="TC_10536\TC2\MSSQLServer.cs">
+      <id>377bc7d4-617a-40a4-a83c-266074ff6d51</id>
+    </Compile>
+    <Compile Include="TC_10536\TC2\MySQL.cs">
+      <id>cf46f186-e5b0-4a5a-9168-58621c96ab13</id>
+    </Compile>
+    <Compile Include="TC_10536\TC2\Netezza.cs">
+      <id>b89fc5d3-c7ed-4ae2-8ae9-15877b63f01d</id>
+    </Compile>
+    <Compile Include="TC_10536\TC2\Oracle.cs">
+      <id>b6c464ad-2f15-498e-84ee-4164bf62fe07</id>
+    </Compile>
+    <Compile Include="TC_10536\TC2\PostgreSQL.cs">
+      <id>17cf89ae-33d3-4dd5-b1b0-56aa24fe26c1</id>
+    </Compile>
+    <Compile Include="TC_10536\TC2\Precondition.cs">
+      <id>3a01f7ae-45ad-43dd-98ff-4ed1afdeaaf5</id>
+    </Compile>
+    <Compile Include="TC_10536\TC2\SybaseASE.cs">
+      <id>e9956dff-9de2-4e12-95c3-0f8c16a791d6</id>
+    </Compile>
+    <Compile Include="TC_10536\TC2\Teradata.cs">
+      <id>64f3e379-b717-485a-b4b2-2ca583b5d929</id>
+    </Compile>
+    <Compile Include="TC_10536\TC2\Vertica.cs">
+      <id>085c4390-65b1-4f3b-b50e-6319ffc86e72</id>
+    </Compile>
+    <Compile Include="TC_10536\TC3\AmazonRedShift.cs">
+      <id>8134d064-398e-45f1-81ca-12fccf980e14</id>
+    </Compile>
+    <Compile Include="TC_10536\TC3\Cassandra.cs">
+      <id>57beff58-40f1-4425-a835-05192a4c413e</id>
+    </Compile>
+    <Compile Include="TC_10536\TC3\CleanUp.cs">
+      <id>08843c5f-bcdd-400e-8a03-f71cf8f1fd5c</id>
+    </Compile>
+    <Compile Include="TC_10536\TC3\DB2.cs">
+      <id>7fb404c8-81ce-4628-bd6c-35a733a3ed36</id>
+    </Compile>
+    <Compile Include="TC_10536\TC3\Derby.cs">
+      <id>318b9613-6955-4ae7-a917-4a7168272627</id>
+    </Compile>
+    <Compile Include="TC_10536\TC3\GreenPlum.cs">
+      <id>3f59fecc-c62e-45a6-9315-d64806c71f70</id>
+    </Compile>
+    <Compile Include="TC_10536\TC3\Informix.cs">
+      <id>4335617a-2a04-40eb-9137-4c27a3f7c25a</id>
+    </Compile>
+    <Compile Include="TC_10536\TC3\MariaDB.cs">
+      <id>b5eb611d-eb47-476f-ae0f-051d1dbbe73b</id>
+    </Compile>
+    <Compile Include="TC_10536\TC3\MSSQLDB.cs">
+      <id>89dbc6f3-160d-4397-87c7-eedb9540c7df</id>
+    </Compile>
+    <Compile Include="TC_10536\TC3\MYSQLDB.cs">
+      <id>e95d2d01-f322-4619-b8a1-a50d935400f9</id>
+    </Compile>
+    <Compile Include="TC_10536\TC3\Netezza.cs">
+      <id>8d900c15-6dcb-4886-be2f-6da3bb4295a2</id>
+    </Compile>
+    <Compile Include="TC_10536\TC3\Oracle.cs">
+      <id>29089d3d-ebc4-4d65-a7b8-64b60d750166</id>
+    </Compile>
+    <Compile Include="TC_10536\TC3\PostgreSQL.cs">
+      <id>007906e8-9490-4ca1-b42a-ba8a978f0e72</id>
+    </Compile>
+    <Compile Include="TC_10536\TC3\Precondition.cs">
+      <id>2fa647d2-a369-4c3c-bb1f-5708cf848b7b</id>
+    </Compile>
+    <Compile Include="TC_10536\TC3\SysbaseASE.cs">
+      <id>3e781a5f-3ed7-4b55-a355-c8a9be073263</id>
+    </Compile>
+    <Compile Include="TC_10536\TC3\Teradata.cs">
+      <id>1253b8f1-964b-4134-9b9a-033350b2e69a</id>
+    </Compile>
+    <Compile Include="TC_10536\TC3\Vertica.cs">
+      <id>4d0b9a16-4c6c-4d5e-987e-d6a787b0efe8</id>
+    </Compile>
+    <Compile Include="TC_10537\Steps.cs">
+      <id>a270f69b-c26f-42f3-b40e-c4353cc9fde8</id>
+    </Compile>
+    <Compile Include="TC_10537\TC10537Repo.cs">
+      <id>6b886ad7-6c4f-4c29-9b6a-827aa73effdb</id>
+      <BoundTo>428d29da-450b-4620-aedb-9ba84580e797</BoundTo>
+      <DependentUpon>TC10537Repo.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+    </Compile>
+    <Compile Include="TC_10537\TC1\Amazon.cs">
+      <id>f811e028-0ca6-42d6-b858-56697f7a968d</id>
+    </Compile>
+    <Compile Include="TC_10537\TC2\AmazonRedshift.cs">
+      <id>48f50356-c26c-409f-80ee-7859679f9c59</id>
+    </Compile>
+    <Compile Include="TC_10537\TC2\Cassandra.cs">
+      <id>adfe483f-e920-4a75-9027-1d13af366852</id>
+    </Compile>
+    <Compile Include="TC_10537\TC2\Cleanup.cs">
+      <id>89eecdc7-48d2-462b-95b0-cd99f07dd213</id>
+    </Compile>
+    <Compile Include="TC_10537\TC2\DB2.cs">
+      <id>b9614a97-3a21-41b7-9f54-055489a6ca76</id>
+    </Compile>
+    <Compile Include="TC_10537\TC2\Derby.cs">
+      <id>afdbef66-9382-4372-a376-69f0b2c20e55</id>
+    </Compile>
+    <Compile Include="TC_10537\TC2\Greenplum.cs">
+      <id>3971c18d-b856-4c19-9570-bc08cdb5e06a</id>
+    </Compile>
+    <Compile Include="TC_10537\TC2\Informix.cs">
+      <id>a736313d-7416-4d83-b32a-ae0ebc04118b</id>
+    </Compile>
+    <Compile Include="TC_10537\TC2\MariaDB.cs">
+      <id>255dd67f-a9ad-45a5-aded-d977d850a897</id>
+    </Compile>
+    <Compile Include="TC_10537\TC2\MySQL.cs">
+      <id>dd5df147-e097-4ad7-9a9f-fa9d31d77c2a</id>
+    </Compile>
+    <Compile Include="TC_10537\TC2\Netezza.cs">
+      <id>40261a90-15bd-47dc-9dfe-8719d3022089</id>
+    </Compile>
+    <Compile Include="TC_10537\TC2\Oracle.cs">
+      <id>ea7ccb17-f016-4bad-bbbc-2bbe809ff8cd</id>
+    </Compile>
+    <Compile Include="TC_10537\TC2\PostgreSQL.cs">
+      <id>032e7838-6959-450f-a535-76d40c291ca6</id>
+    </Compile>
+    <Compile Include="TC_10537\TC2\Precondition.cs">
+      <id>5b7df59a-0824-4c37-95ea-b7c827d41e3c</id>
+    </Compile>
+    <Compile Include="TC_10537\TC2\SQLServer.cs">
+      <id>614e31ce-7320-4af4-a927-5c6b3783049c</id>
+    </Compile>
+    <Compile Include="TC_10537\TC2\Sybase.cs">
+      <id>b88a1324-e1b0-4876-8464-136d5a4adc15</id>
+    </Compile>
+    <Compile Include="TC_10537\TC2\Teradata.cs">
+      <id>f3e84a6b-3b2f-4d3e-b345-297773a3fe13</id>
+    </Compile>
+    <Compile Include="TC_10537\TC2\Vertica.cs">
+      <id>42daffe1-3f35-4c8b-9f8f-1f0c7c9cc65d</id>
+    </Compile>
+    <Compile Include="TC_10537\TC3\DatabaseStatusVerification.cs">
+      <id>8a0b9438-3c0a-4976-8ae6-83a09ac5135f</id>
+    </Compile>
+    <Compile Include="TC_10537\TC4\RegisterServerTabs.cs">
+      <id>b873dc09-0cdc-4500-976c-9b5d644c8557</id>
+    </Compile>
+    <Compile Include="TC_10537\TC5\RegisterNewServer.cs">
+      <id>5658b06c-8b3d-44ee-9414-a5cd2f1d18fe</id>
+    </Compile>
+    <Compile Include="TC_10538\Steps.cs">
+      <id>180a7984-4b61-4717-bac1-371033bfe3a4</id>
+    </Compile>
+    <Compile Include="TC_10538\TC10538.cs">
+      <id>0167c5a4-54fd-4402-a775-d1f634466caf</id>
+      <BoundTo>cce3c320-7be8-49ba-aed2-0b61cdf25a7a</BoundTo>
+      <DependentUpon>TC10538.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+    </Compile>
+    <Compile Include="TC_10538\TC1\AmazonRedshift.cs">
+      <id>c5be4cef-ed28-4828-bbfd-1eb7797c837d</id>
+    </Compile>
+    <Compile Include="TC_10538\TC1\Cassandra.cs">
+      <id>5f502236-a96c-48d8-8d1a-58fde5d61f25</id>
+    </Compile>
+    <Compile Include="TC_10538\TC1\CleanUp.cs">
+      <id>fa5beb86-c676-472c-8568-d1b43e38658e</id>
+    </Compile>
+    <Compile Include="TC_10538\TC1\DB2.cs">
+      <id>0dc401a6-0c6e-414e-afc3-b2cfe9a734c0</id>
+    </Compile>
+    <Compile Include="TC_10538\TC1\Derby.cs">
+      <id>b67257da-ead3-4627-8832-2bc10c2b8d4b</id>
+    </Compile>
+    <Compile Include="TC_10538\TC1\GreenPlum.cs">
+      <id>cfed4064-4c96-4e13-aee2-6bff9f282763</id>
+    </Compile>
+    <Compile Include="TC_10538\TC1\Informix.cs">
+      <id>de4d7420-f91f-4916-a6fa-cf121271c17e</id>
+    </Compile>
+    <Compile Include="TC_10538\TC1\MariaDB.cs">
+      <id>326da7ff-68bc-46fc-8963-5aacd16f8492</id>
+    </Compile>
+    <Compile Include="TC_10538\TC1\MSSQLServer.cs">
+      <id>a68bd8ff-89cd-4349-99a1-2fea0bb2f734</id>
+    </Compile>
+    <Compile Include="TC_10538\TC1\MySQL.cs">
+      <id>eaa647b6-1030-4777-8d58-becb4fc555c3</id>
+    </Compile>
+    <Compile Include="TC_10538\TC1\Netezza.cs">
+      <id>df9a6f57-eecf-49db-a2bd-b240ea497944</id>
+    </Compile>
+    <Compile Include="TC_10538\TC1\Oracle.cs">
+      <id>94c1dc81-7c76-474a-8780-fd4f27767a1a</id>
+    </Compile>
+    <Compile Include="TC_10538\TC1\PostgreSQL.cs">
+      <id>26d7d6cd-df71-46b1-b11e-0c95e59a8f59</id>
+    </Compile>
+    <Compile Include="TC_10538\TC1\Precondition.cs">
+      <id>2fbc320a-0af3-4bef-a9b2-45c497d94dfb</id>
+    </Compile>
+    <Compile Include="TC_10538\TC1\SybaseASE.cs">
+      <id>43a1b5f9-fb1d-4e9b-b1fb-9a3a55cd70e7</id>
+    </Compile>
+    <Compile Include="TC_10538\TC1\Teradata.cs">
+      <id>87eba328-8c83-4e8f-8b26-839ca8605393</id>
+    </Compile>
+    <Compile Include="TC_10538\TC1\Vertica.cs">
+      <id>9efe0955-a8da-4575-a9fe-80e13f851dcc</id>
+    </Compile>
+    <Compile Include="TC_10538\TC2\AmazonRedshift.cs">
+      <id>5b40277e-f437-461b-9ab5-779ea68b7d19</id>
+    </Compile>
+    <Compile Include="TC_10538\TC2\Cassandra.cs">
+      <id>9b7f2f8a-a8b8-437a-aa26-88fd5489f1ae</id>
+    </Compile>
+    <Compile Include="TC_10538\TC2\CleanUp.cs">
+      <id>80e8d12d-a2a4-4907-829f-048f51f586c0</id>
+    </Compile>
+    <Compile Include="TC_10538\TC2\DB2.cs">
+      <id>b652f7b0-0f6f-4f3d-ab6b-eb83056a158a</id>
+    </Compile>
+    <Compile Include="TC_10538\TC2\Derby.cs">
+      <id>11b3e24a-4aa2-4bbf-b535-cf1caca56194</id>
+    </Compile>
+    <Compile Include="TC_10538\TC2\GreenPlum.cs">
+      <id>1f857f07-d4ce-4aac-ba37-09a99882bfea</id>
+    </Compile>
+    <Compile Include="TC_10538\TC2\Informix.cs">
+      <id>6a510923-2a8e-4e7d-865c-bf725d9aeca3</id>
+    </Compile>
+    <Compile Include="TC_10538\TC2\MariaDB.cs">
+      <id>08d6f5c5-0e1c-4792-9111-604fd0abc66f</id>
+    </Compile>
+    <Compile Include="TC_10538\TC2\MSSQLDB.cs">
+      <id>5c52face-0c6b-43d8-8239-402e55570a0d</id>
+    </Compile>
+    <Compile Include="TC_10538\TC2\MySQLDB.cs">
+      <id>a437b404-a4ac-4fb0-a571-bd137c2ce900</id>
+    </Compile>
+    <Compile Include="TC_10538\TC2\Netezza.cs">
+      <id>aec0c676-abb5-46ce-aba7-1ab3048406f7</id>
+    </Compile>
+    <Compile Include="TC_10538\TC2\Oracle.cs">
+      <id>8a8c347e-aa97-4d19-a368-0d7aa40f28aa</id>
+    </Compile>
+    <Compile Include="TC_10538\TC2\PostGreSQL.cs">
+      <id>57981c36-f241-4bb6-8b51-40034915b10b</id>
+    </Compile>
+    <Compile Include="TC_10538\TC2\Precondition.cs">
+      <id>7d74c668-26e7-4122-8c06-6b05b0ebe036</id>
+    </Compile>
+    <Compile Include="TC_10538\TC2\SysbaseASE.cs">
+      <id>e7a6b9c2-7a71-44c1-9d0e-a4cac564cb0b</id>
+    </Compile>
+    <Compile Include="TC_10538\TC2\Teradata.cs">
+      <id>a978f5da-8c9d-4aae-a156-b79aa83c6f77</id>
+    </Compile>
+    <Compile Include="TC_10538\TC2\Vertica.cs">
+      <id>ad24ce93-8f97-48a3-8bd1-e94bef7bcfbd</id>
+    </Compile>
+    <Compile Include="TC_10539\Steps.cs">
+      <id>350325e6-9058-4a50-a297-ca05fcd9b910</id>
+    </Compile>
+    <Compile Include="TC_10539\TC10539Repo.cs">
+      <id>0aa9efa1-d6b5-4058-b94b-ca77d6480ec7</id>
+      <BoundTo>18f609c9-62e0-4c83-9e92-f6f181b866d6</BoundTo>
+      <DependentUpon>TC10539Repo.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+    </Compile>
+    <Compile Include="TC_10539\TC1\Amazon.cs">
+      <id>773eb80f-d012-457c-8216-2c2402328e57</id>
+    </Compile>
+    <Compile Include="TC_10539\TC1\Cleanup.cs">
+      <id>bc101852-c78e-4412-9f28-3647c9c2b18a</id>
+    </Compile>
+    <Compile Include="TC_10539\TC1\Precondition.cs">
+      <id>445ad30c-7c4e-448b-b25c-371dde0409b1</id>
+    </Compile>
+    <Compile Include="TC_10540\Steps.cs">
+      <id>102728c1-9289-4ea5-a7cd-390354322be5</id>
+    </Compile>
+    <Compile Include="TC_10540\TC10540.cs">
+      <id>c5d3ef98-e252-4a8e-9ee8-9a5e0e2b737d</id>
+      <BoundTo>1c594212-c8ba-4424-8660-9e121934d744</BoundTo>
+      <DependentUpon>TC10540.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+    </Compile>
+    <Compile Include="TC_10540\TC1\AmazonRedshift.cs">
+      <id>e7b48dbf-50b2-4282-9e37-5b342b6460f4</id>
+    </Compile>
+    <Compile Include="TC_10540\TC1\Cassandra.cs">
+      <id>afbe680a-6fd0-41d8-b527-064bdbc189b9</id>
+    </Compile>
+    <Compile Include="TC_10540\TC1\CleanUp.cs">
+      <id>673e136e-857e-47b1-9718-e06404811600</id>
+    </Compile>
+    <Compile Include="TC_10540\TC1\DB2.cs">
+      <id>d6ac8bcb-5330-4400-9c89-ed9032ffdfad</id>
+    </Compile>
+    <Compile Include="TC_10540\TC1\Derby.cs">
+      <id>feacefdd-c8a7-4a92-b321-faf09959f563</id>
+    </Compile>
+    <Compile Include="TC_10540\TC1\GreenPlum.cs">
+      <id>8460a325-6a1d-49e8-b8db-a7d263cef2ec</id>
+    </Compile>
+    <Compile Include="TC_10540\TC1\Informix.cs">
+      <id>cf88963a-da28-4084-8a6f-c1f9387249ab</id>
+    </Compile>
+    <Compile Include="TC_10540\TC1\MariaDB.cs">
+      <id>9a6c3497-60eb-4d2a-be5a-dde64b034b48</id>
+    </Compile>
+    <Compile Include="TC_10540\TC1\MSSQL.cs">
+      <id>6ab45bdc-7f98-446f-b3f6-c0675cbba77d</id>
+    </Compile>
+    <Compile Include="TC_10540\TC1\MySQL.cs">
+      <id>7171d779-cc56-4dff-ba57-7b2c002070cd</id>
+    </Compile>
+    <Compile Include="TC_10540\TC1\Netezza.cs">
+      <id>92f13798-752c-4ae5-8097-d3b0847934bf</id>
+    </Compile>
+    <Compile Include="TC_10540\TC1\Oracle.cs">
+      <id>aa99731e-6dc9-4f80-bb34-4e438113c69f</id>
+    </Compile>
+    <Compile Include="TC_10540\TC1\PostgreSQL.cs">
+      <id>ee80fa04-a3af-449b-a816-2d30fbdc017b</id>
+    </Compile>
+    <Compile Include="TC_10540\TC1\Precondition.cs">
+      <id>67d03f4e-ff16-42bf-b761-af6da43103d5</id>
+    </Compile>
+    <Compile Include="TC_10540\TC1\SybaseASE.cs">
+      <id>60a4ef80-d053-4fa9-a048-ff640335dc9e</id>
+    </Compile>
+    <Compile Include="TC_10540\TC1\Teradata.cs">
+      <id>9c041a90-5998-4f9e-8e8c-74733fa1b564</id>
+    </Compile>
+    <Compile Include="TC_10540\TC1\Vertica.cs">
+      <id>d4acfd5d-9e27-4165-85a6-f50350ca08a7</id>
+    </Compile>
+    <Compile Include="TC_10540\TC2\AmazonRedshift.cs">
+      <id>3fc7830d-db30-478d-a44e-fa756dd335af</id>
+    </Compile>
+    <Compile Include="TC_10540\TC2\CleanUp.cs">
+      <id>c387331c-3f81-4192-bbb0-f4cbeda8f502</id>
+    </Compile>
+    <Compile Include="TC_10540\TC2\Precondition.cs">
+      <id>1f37e790-546e-48aa-9dc3-082df8fe4621</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ADSAutomationV1Phase1_Part1.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>7d5425ee-03ad-4521-aed5-54cb038580b9</id>
+    </Content>
+    <None Include="app.config">
+      <id>05b60a60-ba2d-414a-90cf-b59e9ad44e37</id>
+    </None>
+    <None Include="Application\AppRepo.rximg">
+      <DependentUpon>AppRepo.rxrep</DependentUpon>
+      <id>bc54fee3-0081-47a3-a379-ad7a4d34c7fc</id>
+      <BoundTo>436930fb-c344-4d38-b51e-3951626eae78</BoundTo>
+      <imageblob>true</imageblob>
+    </None>
+    <None Include="Application\AppRepo.rxrep">
+      <id>436930fb-c344-4d38-b51e-3951626eae78</id>
+      <repoid>f8d285fa-17bd-4dd5-93ed-e37f10fde6c3</repoid>
+      <reporootid>095da91e-bafd-4e99-b3cf-35acdddb771e</reporootid>
+    </None>
+    <None Include="Preconditions\PreconditionRepo.rximg">
+      <DependentUpon>PreconditionRepo.rxrep</DependentUpon>
+      <id>72c60214-eaab-47b0-916b-098df56ec5bd</id>
+      <BoundTo>ec3408df-85f7-407d-af12-a4dc4b19375b</BoundTo>
+      <imageblob>true</imageblob>
+    </None>
+    <None Include="Preconditions\PreconditionRepo.rxrep">
+      <id>ec3408df-85f7-407d-af12-a4dc4b19375b</id>
+      <repoid>90119539-cae8-47d1-9b3b-6f0b6156408b</repoid>
+      <reporootid>c350295c-8dce-42ea-a15a-b3d424358fb2</reporootid>
+    </None>
+    <None Include="TC_10535\TC10535Repo.rximg">
+      <id>29421ff2-5fdc-436a-9a0a-fa3b5af6d103</id>
+      <imageblob>true</imageblob>
+    </None>
+    <None Include="TC_10535\TC10535Repo.rxrep">
+      <id>3b95554b-3030-4499-b27a-060b1177c3b4</id>
+      <repoid>975ef1ba-93ae-4f3b-af1e-3a6ed923ebad</repoid>
+      <reporootid>2510bc26-e460-40a3-a4eb-56b8d18cd507</reporootid>
+    </None>
+    <None Include="TC_10536\TC10536Repo.rximg">
+      <id>8dcc8e3e-197e-4613-9a74-f29977bf49ae</id>
+      <imageblob>true</imageblob>
+    </None>
+    <None Include="TC_10536\TC10536Repo.rxrep">
+      <id>93d0f919-a0aa-43a1-bf88-6e95ab73325c</id>
+      <repoid>8611f104-7f4f-410d-ad11-0b158792ffa9</repoid>
+      <reporootid>cea12c05-a3b8-42c3-82c1-854256c58bc1</reporootid>
+    </None>
+    <None Include="TC_10537\TC10537Repo.rximg">
+      <id>57b3cfc2-0d54-46ca-bb3d-a498be625f57</id>
+      <imageblob>true</imageblob>
+    </None>
+    <None Include="TC_10537\TC10537Repo.rxrep">
+      <id>428d29da-450b-4620-aedb-9ba84580e797</id>
+      <repoid>1c3b07e1-b3c0-4806-b95c-0ddcae44d36d</repoid>
+      <reporootid>3d47a378-e13a-42bf-b535-dbea43b928ef</reporootid>
+    </None>
+    <None Include="TC_10538\TC10538.rximg">
+      <id>5ac5789d-1f3f-45c8-9016-77f04d7d670e</id>
+      <imageblob>true</imageblob>
+    </None>
+    <None Include="TC_10538\TC10538.rxrep">
+      <id>cce3c320-7be8-49ba-aed2-0b61cdf25a7a</id>
+      <repoid>ed4266f9-c3ae-4169-81ae-c081d6dfccdf</repoid>
+      <reporootid>1379b5bb-7100-4454-94f6-b3f20ce0eb5d</reporootid>
+    </None>
+    <None Include="TC_10539\TC10539Repo.rximg">
+      <id>0e2155c6-56ea-43ca-aced-ce11f27acb62</id>
+      <imageblob>true</imageblob>
+    </None>
+    <None Include="TC_10539\TC10539Repo.rxrep">
+      <id>18f609c9-62e0-4c83-9e92-f6f181b866d6</id>
+      <repoid>363087f0-5cea-45e9-8382-a37e262c25db</repoid>
+      <reporootid>7417e892-3e29-4ada-941d-63b901f1afd8</reporootid>
+    </None>
+    <None Include="TC_10540\TC10540.rximg">
+      <id>d6fd3fa8-e4fe-4884-a438-e4b39b901fd1</id>
+      <imageblob>true</imageblob>
+    </None>
+    <None Include="TC_10540\TC10540.rxrep">
+      <id>1c594212-c8ba-4424-8660-9e121934d744</id>
+      <repoid>22af14a5-ba03-4477-a51d-90d1583fe4c6</repoid>
+      <reporootid>7a3291cc-9c23-4c57-8a74-70b869dbbdee</reporootid>
+    </None>
+    <Content Include="TestSequence.rxsqc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>17fec63d-7ea5-40c0-b27d-4092a1f298bf</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ADSAutomationV1Phase1Part1.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>039e2207-e0e9-4b3d-9df1-d4afa92dc307</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Application">
+      <id>fed2cecc-017f-447b-a964-6b2dad34757c</id>
+    </Folder>
+    <Folder Include="Base">
+      <id>29936229-a8f4-42db-b970-bea70fcd3ff4</id>
+    </Folder>
+    <Folder Include="Commons">
+      <id>27e5451e-e222-4508-a3a0-f9950a1abd27</id>
+    </Folder>
+    <Folder Include="Configuration">
+      <id>31bfd9e9-4ed3-4f8a-afff-e9a42d633de0</id>
+    </Folder>
+    <Folder Include="Extensions">
+      <id>035106b5-e2b9-44b1-ae94-6f5621532d24</id>
+    </Folder>
+    <Folder Include="TC_10535">
+      <id>bf9beb45-bfe9-4f9e-8943-f62004abea04</id>
+    </Folder>
+    <Folder Include="TC_10535\TC1">
+      <id>18eca8c9-5d43-455f-bc63-e245e3a328fc</id>
+    </Folder>
+    <Folder Include="TC_10535\TC2">
+      <id>ba70257f-caeb-4827-9a9e-46fb9b394a96</id>
+    </Folder>
+    <Folder Include="TC_10535\TC3">
+      <id>eee3f64a-0475-4426-822e-215fca415214</id>
+    </Folder>
+    <Folder Include="TC_10536">
+      <id>a1998b37-6722-4a02-9a0e-d1363a157934</id>
+    </Folder>
+    <Folder Include="TC_10536\TC1">
+      <id>41478fc3-9035-4a55-a5b3-5514afa10fd1</id>
+    </Folder>
+    <Folder Include="TC_10536\TC2">
+      <id>b3233bdf-f28a-4568-8054-ee50225ec0b7</id>
+    </Folder>
+    <Folder Include="TC_10536\TC3">
+      <id>84539518-b343-461d-bffe-b3099c2ddec3</id>
+    </Folder>
+    <Folder Include="TC_10537">
+      <id>ee2e8ced-b7ff-466e-807d-12236806e48f</id>
+    </Folder>
+    <Folder Include="TC_10537\TC1">
+      <id>5dca8700-11f0-4049-9334-3de593f1a2ee</id>
+    </Folder>
+    <Folder Include="TC_10537\TC2">
+      <id>f4851ff8-8779-48a9-ba00-6ef7f8a2417c</id>
+    </Folder>
+    <Folder Include="TC_10537\TC3">
+      <id>25995edd-37c4-4188-9aaa-8d2af79b0170</id>
+    </Folder>
+    <Folder Include="TC_10537\TC4">
+      <id>d36a046c-30e2-4946-aac5-fcd0fc4b32c1</id>
+    </Folder>
+    <Folder Include="TC_10537\TC5">
+      <id>ef45fd71-f6f3-45d5-a7a9-a2c1f09dad57</id>
+    </Folder>
+    <Folder Include="TC_10538">
+      <id>fd649c2d-dce0-464c-8b12-757228236f8a</id>
+    </Folder>
+    <Folder Include="TC_10538\TC1">
+      <id>40618e9b-54ed-40f1-9624-43795c4898af</id>
+    </Folder>
+    <Folder Include="TC_10538\TC2">
+      <id>92284b3d-3752-468b-9703-77af4d705699</id>
+    </Folder>
+    <Folder Include="TC_10539">
+      <id>bc4ec6ae-a298-4f65-b73a-4f61b886c7cc</id>
+    </Folder>
+    <Folder Include="TC_10539\TC1">
+      <id>7c47bec2-2ba1-4d9d-b33b-7088b570b360</id>
+    </Folder>
+    <Folder Include="TC_10540">
+      <id>b0f8ceb0-a4d0-45bb-86b3-e8919ed0d6f6</id>
+    </Folder>
+    <Folder Include="TC_10540\TC1">
+      <id>1b1a25e0-b7a2-4503-8907-3cd20e23fadd</id>
+    </Folder>
+    <Folder Include="TC_10540\TC2">
+      <id>e497ddf4-0a62-4043-99a6-3d5feea5892d</id>
+    </Folder>
+    <Folder Include="TestData">
+      <id>ecab0283-3e64-4884-8874-b095f215ed62</id>
+    </Folder>
+    <Folder Include="Preconditions">
+      <id>a4d9a330-b989-4327-abc7-1723fe2a2ec4</id>
+    </Folder>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

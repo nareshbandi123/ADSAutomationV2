@@ -1,0 +1,577 @@
+﻿<repository
+id="80149010-efb3-4f96-8fcc-2e4f178a436f"
+name="TC10597Repo"
+rxversion="8.2">
+	<codegen
+	classname="TC10597Repo"
+	namespace="ADSAutomationPhaseII.TC_10597">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="67d4f77a-b655-483e-8f11-b39f37f096df"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		capname="form"
+		id="d49bec0e-06ca-4dc7-b22a-4e1ead5f4e66"
+		isrooted="True"
+		name="Application"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="menuitem"
+			id="3c865f39-05c8-4f40-8322-507fa564efe9"
+			name="NewVAMenu"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='QueryPanel']/container[@name='panel']/?/?/container[@name='splitPane']/?/?/container[@name='tabbedPane']/container[@name='_gridResultsView']//container[@type='ResultSetTableView$ResultGridsSplitPane']//container[@type='HorizontalLayoutPanel']/container[1]/menuitem[1]
+			</item>
+			<basepath>
+				/form[@title~'^Aqua\ Data\ Studio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="d793453c-44f8-41c3-92c3-a09e1d1ad973"
+		isrooted="True"
+		name="SaveChanges"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="7de80509-8ca8-4d1d-9a40-ae7c2819e6a6"
+			name="DiscardButton"
+			searchtimeout="30000ms">
+				/form[@title='Save Changes']//container[@name='OptionPane.buttonArea']/button[@text='Discard']
+			</item>
+			<basepath>
+				/form[@title='Save Changes']
+			</basepath>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="c8b5f347-51ec-4f95-966a-891a9d08c9de"
+		isrooted="True"
+		name="VisualAnalyticsBook1Asterisk"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			addcaps="container,javaelement"
+			capname="container"
+			id="c14697f8-713e-4b99-b35a-1f93f93e3486"
+			isrooted="True"
+			name="ContainerMainPanel"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="3799afdd-ed51-4279-902a-f852c82a0798"
+				name="BIChartOverlayPanel"
+				refimgid="a34cecfa-2e88-4b25-a720-4c2c6c049bf7"
+				searchtimeout="30000ms">
+					/form[@title~'^Visual\ Analytics\ -\ \[Book']/container[@name='_mainPanel']//container[@name='_sheetsPane']/container[@name='Worksheet 1']//container[@name='main']/container[@name='_cardPanel']/container[@name='_chartPanel']/container/container[22]
+				</item>
+				<item
+				addcaps="listitem"
+				capname="listitem"
+				id="2be9872a-0c1b-43cd-936c-5bd501ee8585"
+				name="StockDate"
+				refimgid="473b5039-d9b5-4293-aaa9-2eebe6b00d9c"
+				searchtimeout="30000ms">
+					/form[@title~'^Visual\ Analytics\ -\ \[Book']/container[@name='_mainPanel']/container[@name='_contentPanel']/?/?/container[@name='_leftPanel']//container[@type='BIDimensionDataPane']//container[@name='viewport']/list[@type='BIDraggableList']/listitem[@text='stock_date']
+				</item>
+				<item
+				addcaps="listitem"
+				capname="listitem"
+				id="679c7041-fbe9-41b3-8f8d-0801c567e7e4"
+				name="StockSymbol"
+				refimgid="acd9645a-ab89-4397-9a5b-302d98a87620"
+				searchtimeout="30000ms">
+					/form[@title~'^Visual\ Analytics\ -\ \[Book']/container[@name='_mainPanel']/container[@name='_contentPanel']/?/?/container[@name='_leftPanel']//container[@type='BIDimensionDataPane']//container[@name='viewport']/list[@type='BIDraggableList']/listitem[@text='stock_symbol']
+				</item>
+				<item
+				addcaps="listitem"
+				capname="listitem"
+				id="e8354661-9279-4c3a-8295-de333dc1c730"
+				name="SUMStockClose"
+				refimgid="c37b10c8-6cc1-447e-960c-751a10df5d37"
+				searchtimeout="30000ms">
+					/form[@title~'^Visual\ Analytics\ -\ \[Book']/container[@name='_mainPanel']/container[@name='_contentPanel']/?/?/container[@name='_leftPanel']//container[@type='BIMeasureDataPane']//container[@name='viewport']/list[@type='BIDraggableList']/listitem[@text='SUM(stock_close)']
+				</item>
+				<item
+				addcaps="listitem"
+				capname="listitem"
+				id="804830a8-5970-49c4-acbd-886d742992e9"
+				name="SUMStockHigh"
+				refimgid="b5c64e0d-ab1a-42ec-9482-30536d8e4ab1"
+				searchtimeout="30000ms">
+					/form[@title~'^Visual\ Analytics\ -\ \[Book']/container[@name='_mainPanel']/container[@name='_contentPanel']/?/?/container[@name='_leftPanel']//container[@type='BIMeasureDataPane']//container[@name='viewport']/list[@type='BIDraggableList']/listitem[@text='SUM(stock_high)']
+				</item>
+				<item
+				addcaps="listitem"
+				capname="listitem"
+				id="2d2bb366-a280-41e8-b2e3-a674cbd62053"
+				name="SUMStockLow"
+				refimgid="e3d9c141-b4e1-44f0-a591-8a3d483602b6"
+				searchtimeout="30000ms">
+					/form[@title~'^Visual\ Analytics\ -\ \[Book']/container[@name='_mainPanel']/container[@name='_contentPanel']/?/?/container[@name='_leftPanel']//container[@type='BIMeasureDataPane']//container[@name='viewport']/list[@type='BIDraggableList']/listitem[@text='SUM(stock_low)']
+				</item>
+				<item
+				addcaps="listitem"
+				capname="listitem"
+				id="07727cae-e89d-4c01-8847-4f19ea9a54b1"
+				name="SUMStockOpen"
+				refimgid="da643190-c212-4e52-9a87-d857e4a6a018"
+				searchtimeout="30000ms">
+					/form[@title~'^Visual\ Analytics\ -\ \[Book']/container[@name='_mainPanel']/container[@name='_contentPanel']/?/?/container[@name='_leftPanel']//container[@type='BIMeasureDataPane']//container[@name='viewport']/list[@type='BIDraggableList']/listitem[@text='SUM(stock_open)']
+				</item>
+				<item
+				addcaps="button,javaelement"
+				capname="button"
+				id="85e6e373-55d2-4bdf-bb15-5a2c71aac0d8"
+				name="WindowsComboBoxUIDollarXPComboBoxButton"
+				refimgid="289b956b-6ffd-4dab-bb64-ff4ba46bab4b"
+				searchtimeout="30000ms">
+					/form[@title~'^Visual\ Analytics\ -\ \[Book']/container[@name='_mainPanel']/container[@name='_contentPanel']/?/?/container[@name='_sheetsPane']/container[@name='Worksheet 1']/container[@name='_worksheetPanel']/container[@name='_contentPanel']//container[@name='marks']//combobox[@type='MarkChartTypeSelector$1']/button[@text='']
+				</item>
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="d28849e0-043f-4e70-9255-0a6e54d38a38"
+				name="Panel"
+				refimgid="aeedf67f-d287-4b8a-987a-7f8eac437bdd"
+				searchtimeout="30000ms">
+					/form[@title~'^Visual\ Analytics\ -\ \[Book']/container[@name='_mainPanel']/container[@name='_contentPanel']/container[@name='_splitPane']/container[@name='_sheetsPane']/container[@name='Worksheet 1']/container[@name='_worksheetPanel']//container[@name='cols']//container[@name='panel']
+				</item>
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="298ef850-5c39-49d6-ae5d-a88e0443059e"
+				name="Panel2"
+				refimgid="5ec47eed-6c4e-4b43-b2f0-75b663d2d78b"
+				searchtimeout="30000ms">
+					/form[@title~'^Visual\ Analytics\ -\ \[Book']/container[@name='_mainPanel']/container[@name='_contentPanel']/container[@name='_splitPane']/container[@name='_sheetsPane']/container[@name='Worksheet 1']/container[@name='_worksheetPanel']//container[@name='filter']//container[@name='panel']
+				</item>
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="e6056c11-37c2-4483-b0be-a5b5341b4d62"
+				name="Panel1"
+				refimgid="0552965b-1f30-4f8c-9591-3a656054426a"
+				searchtimeout="30000ms">
+					/form[@title~'^Visual\ Analytics\ -\ \[Book']/container[@name='_mainPanel']/container[@name='_contentPanel']/container[@name='_splitPane']/container[@name='_sheetsPane']/container[@name='Worksheet 1']/container[@name='_worksheetPanel']//container[@name='rows']//container[@name='panel']
+				</item>
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="5969237d-b844-477a-89f6-02d0079d6945"
+				name="SUMStockClose1"
+				refimgid="cab904d3-832a-42c9-93a0-44b4c02717b0"
+				searchtimeout="30000ms">
+					/form[@title~'^Visual\ Analytics\ -\ \[Book']/container[@name='_mainPanel']/container[@name='_contentPanel']/container[@name='_splitPane']/container[@name='_sheetsPane']/container[@name='Worksheet 1']/container[@name='_worksheetPanel']//container[@name='rows']//text[@caption='SUM(stock_close)']
+				</item>
+				<item
+				addcaps="listitem"
+				capname="listitem"
+				id="0f9755ce-faef-4114-a257-7f191a02d360"
+				name="ListItemAll"
+				refimgid="8044bf6b-3838-4e67-b783-fc9f6124a8ef"
+				searchtimeout="30000ms">
+					/form[@title~'^Visual\ Analytics\ -\ \[Book']/container[@name='_mainPanel']/container[@name='_contentPanel']/container[@name='_splitPane']/container[@name='_sheetsPane']/container[@name='Worksheet 1']/container[@name='_worksheetPanel']//container[@name='stock_symbol,11,true,,Dimension']//list[@type='CategoricalFilterEditorPane$MultiSelectList']/listitem[@text='(All)']
+				</item>
+				<item
+				addcaps="listitem"
+				capname="listitem"
+				id="0a7dbfc0-5082-41fe-85f2-bbdeeba23fb3"
+				name="AAPL"
+				refimgid="da91fbd1-4e54-47e6-ab1d-c099a90d8d36"
+				searchtimeout="30000ms">
+					/form[@title~'^Visual\ Analytics\ -\ \[Book']/container[@name='_mainPanel']/container[@name='_contentPanel']/container[@name='_splitPane']/container[@name='_sheetsPane']/container[@name='Worksheet 1']/container[@name='_worksheetPanel']//container[@name='stock_symbol,11,true,,Dimension']//list[@type='CategoricalFilterEditorPane$MultiSelectList']/listitem[@text='AAPL']
+				</item>
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="d0bd05d8-1ea4-445c-9667-051183c3b20f"
+				name="High"
+				refimgid="d3ecd894-cd55-4dcb-9628-80a32ca7d4ef"
+				searchtimeout="30000ms">
+					/form[@title~'^Visual\ Analytics\ -\ \[Book']/container[@name='_mainPanel']/container[@name='_contentPanel']/container[@name='_splitPane']/container[@name='_sheetsPane']/container[@name='Worksheet 1']/container[@name='_worksheetPanel']/container[@name='_contentPanel']//container[@name='marks']//text[@caption='High']
+				</item>
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="8725859d-e91f-4d0c-b09d-8181c3b4b673"
+				name="TextLow"
+				refimgid="81b3305f-b627-47f7-8ecd-3767aa8cca9e"
+				searchtimeout="30000ms">
+					/form[@title~'^Visual\ Analytics\ -\ \[Book']/container[@name='_mainPanel']/container[@name='_contentPanel']/container[@name='_splitPane']/container[@name='_sheetsPane']/container[@name='Worksheet 1']/container[@name='_worksheetPanel']/container[@name='_contentPanel']//container[@name='marks']//text[@caption='Low']
+				</item>
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="1b61050f-c46e-47e5-a491-1060a5806fb9"
+				name="Open"
+				refimgid="7eec41ff-e183-49e6-997e-3b56fa8ab4d2"
+				searchtimeout="30000ms">
+					/form[@title~'^Visual\ Analytics\ -\ \[Book']/container[@name='_mainPanel']/container[@name='_contentPanel']/container[@name='_splitPane']/container[@name='_sheetsPane']/container[@name='Worksheet 1']/container[@name='_worksheetPanel']/container[@name='_contentPanel']//container[@name='marks']//text[@caption='Open']
+				</item>
+				<item
+				addcaps="container,javaelement"
+				capname="container"
+				id="afa7aa78-25fe-4abd-97a2-500787d4f4fb"
+				name="BIChartOverlayPanel1"
+				refimgid="babadb21-860e-4ff7-87d2-e179a37f0811"
+				searchtimeout="30000ms">
+					/form[@title~'^Visual\ Analytics\ -\ \[Book']/container[@name='_mainPanel']//container[@name='_sheetsPane']/container[@name='Worksheet 1']//container[@name='main']/container[@name='_cardPanel']/container[@name='_chartPanel']/container
+				</item>
+				<basepath>
+					/form[@title~'^Visual\ Analytics\ -\ \[Book']/container[@name='_mainPanel']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title~'^Visual\ Analytics\ -\ \[Book']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACYSURBVDhPYyAVfPr04T8yhgrjB+ia/m43AWMM
+A9AVQoXB4sia8BrQsq8FjIk2AEQgY2QDcGEMA5AF0DV/27n2/8ruPWAMYiPLgTCGATCMrvHNttVY
+DcLwAiEbQWJr+rfB5eEGENKI6bU1YLUM+DQiB2jlqZ9gjCwPwgy4NMJobAYgi+ONRmQ2XgOQYwFZ
+ITHsQWIA+fjDfwCHiQywSZu/VAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="ef93d7e5-f3f8-48d9-8ac3-08973ceb56d0"
+		isrooted="True"
+		name="Datastudio"
+		refpath="/form[@processname='datastudio' and @class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='0']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="aacc986e-ba98-40ea-bf3c-c18d22a51805"
+			name="MeasureTypeSum"
+			refimgid="06a784b4-093a-4cd4-8336-01529e32fea8"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='0']/contextmenu/menuitem[@text='Measure Type (Sum)']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='0']/?/?/menuitem[@text='Measure Type (Sum)']
+			</item>
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="28826628-98c6-4c30-933e-a08fcffe4904"
+			name="Price"
+			refimgid="372127e5-4982-4eb3-9874-b498b4af5034"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu/container/container/list/listitem[@text='Price']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='0']//container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='Price']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="723e26a4-2349-48a0-8ac7-5eaa6619a9e8"
+			name="EditAxis"
+			refimgid="9ce224f5-0584-489c-beb5-efb4bbd8bce3"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu/menuitem[@text='Edit Axis...']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='0']/?/?/menuitem[@text='Edit Axis...']
+			</item>
+			<basepath>
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='0']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIYSURBVDhPlZFJa5NRFIbvD3DnzrX0D7hxk4U7
+d+7EYqMIolkUqUULbW2poRojthSM7SI0VcEBLU2ERiWlCKXYRrIRkpCYoUmauZkgE5l4zXskwYAF
+u3j47hmec4dPrdmdOot937Vm38dJ+OM4dcr8adfl+RVGtVpFvV7/J5VKZSBmLx26ann9G/L5PNrt
+NjqdzgDMUS75d9FsNgfydOiqpXcO5HI5tFqtASiUy2Xkt54ht3hedv27ToeuMr6yI5PJoNFoDFAq
+lZD9asTRoyEUi0Uc/XTIkF6dDl2lN1uRSqVQq9X6cOf0tgmZ2TNSS2/qkZ0fknyvh3m6atr0HvF4
+XIo9uHtm6nT/21uTXg8duurewmtEo9F+A+H9Mk/PST59/5TE5PDwEMlkEoVCQWp01ajBjHA4LK/K
+e4VCIYG5uP4sIrY5WVOeWHoDo2UDsVgMwWAQdNXNOZME2WxWpg9PmaCdWYHu8SquTr+QmGvzuqNf
+f2Kxwufzga7STi7C7/fLo3AX8mXnBz7vOAXb9vcue/AFQiJdn13pnsIKj8cDuuryuAFer1cehUQi
+EdyeN+PK5HMMd+GXMfPXZpZhWN2QtdvtBl11afQhAoGAnODg4ECuwxMdRyKRkF46dNXFWw9ETKfT
++Li1B8PLTdxZeHssfCv+ETp01YUbE9EPNrsM4OT/gUPo0FUa7ZhOM3LXpRkZx8noOtox3W+2QEFu
+Et1VDAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="29b0ea4b-e19f-4625-925d-2910db81d700"
+		isrooted="True"
+		name="Datastudio1"
+		refpath="/form[@processname='datastudio' and @class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='1']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="e5dd0bcf-95a8-4e05-b9f8-e887340f440e"
+			name="Last"
+			refimgid="8267a652-b7e4-49fe-8628-a42cd058aae9"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='1']/contextmenu/menuitem[@text='Last']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='1']/?/?/menuitem[@text='Last']
+			</item>
+			<basepath>
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='1']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIYSURBVDhPlZFJa5NRFIbvD3DnzrX0D7hxk4U7
+d+7EYqMIolkUqUULbW2poRojthSM7SI0VcEBLU2ERiWlCKXYRrIRkpCYoUmauZkgE5l4zXskwYAF
+u3j47hmec4dPrdmdOot937Vm38dJ+OM4dcr8adfl+RVGtVpFvV7/J5VKZSBmLx26ann9G/L5PNrt
+NjqdzgDMUS75d9FsNgfydOiqpXcO5HI5tFqtASiUy2Xkt54ht3hedv27ToeuMr6yI5PJoNFoDFAq
+lZD9asTRoyEUi0Uc/XTIkF6dDl2lN1uRSqVQq9X6cOf0tgmZ2TNSS2/qkZ0fknyvh3m6atr0HvF4
+XIo9uHtm6nT/21uTXg8duurewmtEo9F+A+H9Mk/PST59/5TE5PDwEMlkEoVCQWp01ajBjHA4LK/K
+e4VCIYG5uP4sIrY5WVOeWHoDo2UDsVgMwWAQdNXNOZME2WxWpg9PmaCdWYHu8SquTr+QmGvzuqNf
+f2Kxwufzga7STi7C7/fLo3AX8mXnBz7vOAXb9vcue/AFQiJdn13pnsIKj8cDuuryuAFer1cehUQi
+EdyeN+PK5HMMd+GXMfPXZpZhWN2QtdvtBl11afQhAoGAnODg4ECuwxMdRyKRkF46dNXFWw9ETKfT
++Li1B8PLTdxZeHssfCv+ETp01YUbE9EPNrsM4OT/gUPo0FUa7ZhOM3LXpRkZx8noOtox3W+2QEFu
+Et1VDAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="3ae05c5c-a2fe-4558-802a-9fbf3998740f"
+		isrooted="True"
+		name="EditAxisLASTStockClose"
+		refpath="/form[@title='Edit Axis [LAST(stock_close)]']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			addcaps="container,javaelement"
+			capname="container"
+			id="3231daf4-b9d2-4961-9eea-ccb14f8ff44d"
+			isrooted="True"
+			name="CPanel"
+			refpath="/form[@title='Edit Axis [LAST(stock_close)]']/container[@type='CPanel']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="button,javaelement"
+				capname="button"
+				id="ce666f76-0c70-4374-ba42-2b1aa41f92e2"
+				name="Apply"
+				refimgid="5d47a3a2-c9b5-428e-9ae9-41df3cc7764e"
+				refpath="/form[@title~'^Edit\ Axis\ \[LAST\(stock_clo']/container/container[2]/container[@type='CButtonPanel']/button[@name='applyBtn']"
+				searchtimeout="30000ms">
+					/form[@title~'^Edit\ Axis\ \[LAST\(stock_clo']/container[@type='CPanel']//button[@name='applyBtn']
+				</item>
+				<item
+				addcaps="button,javaelement"
+				capname="button"
+				id="e0aabf25-12b0-411f-a71e-6f29a99cbfa0"
+				name="ButtonOK"
+				refimgid="5f23c786-5306-4c25-9ff6-b408babbbf72"
+				searchtimeout="30000ms">
+					/form[@title~'^Edit\ Axis\ \[LAST\(stock_clo']/container[@type='CPanel']//button[@text='OK']
+				</item>
+				<item
+				addcaps="checkbox,javaelement"
+				capname="checkbox"
+				id="0072f6fe-e8a7-4cdc-850f-3ee4e430bbc4"
+				name="IncludeZero"
+				refimgid="9c55392a-e4f3-4aed-92c6-abc558f88060"
+				refpath="/form[@title~'^Edit\ Axis\ \[LAST\(stock_clo']/container/container[1]/container/container[@name='axisRangePanel']/container/checkbox[@name='includeZero']"
+				searchtimeout="30000ms">
+					/form[@title~'^Edit\ Axis\ \[LAST\(stock_clo']/container[@type='CPanel']//container[@name='axisRangePanel']/?/?/checkbox[@name='includeZero']
+				</item>
+				<basepath>
+					/form[@title~'^Edit\ Axis\ \[LAST\(stock_clo']/container[@type='CPanel']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title~'^Edit\ Axis\ \[LAST\(stock_clo']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACYSURBVDhPYyAVfPr04T8yhgrjB+ia/m43AWMM
+A9AVQoXB4sia8BrQsq8FjIk2AEQgY2QDcGEMA5AF0DV/27n2/8ruPWAMYiPLgTCGATCMrvHNttVY
+DcLwAiEbQWJr+rfB5eEGENKI6bU1YLUM+DQiB2jlqZ9gjCwPwgy4NMJobAYgi+ONRmQ2XgOQYwFZ
+ITHsQWIA+fjDfwCHiQywSZu/VAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="074e9ce7-9035-4f66-9c1e-6128b4f5101b"
+		isrooted="True"
+		name="ServersList"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="treeitem"
+			id="0f6e214a-25ee-4eaa-81ac-a97c7eb5ef44"
+			name="LocalDBServersTreeItem"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='schemaTree']/?/?/treeitem[@text='Local Database Servers']
+			</item>
+			<item
+			capname="treeitem"
+			id="42455817-093b-43f2-a874-6b64bbf54c32"
+			name="AmazonRedshift"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text='Amazon Redshift']
+			</item>
+			<item
+			capname="treeitem"
+			id="687b1d8a-8279-4b44-b9b9-df583870cdde"
+			name="Cassandra37"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text='Cassandra 172.24.1.77 3.7']
+			</item>
+			<item
+			capname="treeitem"
+			id="c3acc780-3500-40ab-9700-abe57717e048"
+			name="Cassandra22"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text~'^Cassandra\ 172\.24\.1\.122\ 2\.']
+			</item>
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="1ebfbf8a-748c-4072-9785-c73c555586e0"
+			name="Derby1014"
+			refimgid="45362539-245a-4672-b28d-fdc4a731d485"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text='Derby 172.24.1.199 v10.14']
+			</item>
+			<item
+			capname="treeitem"
+			id="8951d885-6114-41bb-88a4-8e67f1954167"
+			name="Derby1013"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text='Derby 172.24.1.8 v10.13']
+			</item>
+			<item
+			capname="treeitem"
+			id="e4c2b412-7fed-4196-b33f-034a187a4270"
+			name="DB2111"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text='DB2 LUW 172.24.1.8 v11.1']
+			</item>
+			<item
+			capname="treeitem"
+			id="e41fea87-364c-402d-a3df-f6ed69c45513"
+			name="DB2105"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text~'^DB2\ LUW\ 172\.24\.1\.145\ v10\.']
+			</item>
+			<item
+			capname="treeitem"
+			id="d8a9f856-d6ec-46a3-94a2-3317bc42b65c"
+			name="Excell"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text='MS Excel']
+			</item>
+			<item
+			capname="treeitem"
+			id="838dd8c3-66c0-4e84-99ea-420f63697081"
+			name="Greenplum50"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text~'^Greenplum\ 10\.90\.1\.146\ v5\.']
+			</item>
+			<item
+			capname="unknown"
+			id="bc650173-6ba2-4fad-9143-134c4b4d3593"
+			name="Greenplum4312"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']/element
+			</item>
+			<item
+			capname="treeitem"
+			id="f6382d4e-bc5c-411b-ae82-7b65ff2c0cdf"
+			name="Informix1210"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text~'^Informix\ 172\.24\.1\.145\ v12']
+			</item>
+			<item
+			capname="treeitem"
+			id="9684e933-b68d-4b42-93a7-2bc40e524ea1"
+			name="Informix1170"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text~'^Informix\ 172\.24\.1\.140\ v11']
+			</item>
+			<item
+			capname="treeitem"
+			id="f96380ae-605b-4713-9452-d6d45b55a5e0"
+			name="MariaDB"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text='MariaDB 172.24.1.8 v10.2']
+			</item>
+			<item
+			capname="treeitem"
+			id="d96209e6-546a-46ae-8862-6e64bcafd706"
+			name="MongoDB341"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text~'^MongoDB\ 172\.24\.1\.155\ v3\.4']
+			</item>
+			<item
+			capname="treeitem"
+			id="f46006da-8173-4ad0-93ae-1ba2488ead71"
+			name="MongoDB321"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text~'^MongoDB\ 172\.24\.1\.155\ v3\.2']
+			</item>
+			<item
+			capname="treeitem"
+			id="1ea11b55-56ac-41f6-a396-99a59261cf39"
+			name="MySQL80"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text='MySQL 172.24.1.199 v8.0']
+			</item>
+			<item
+			capname="treeitem"
+			id="af69ff7f-c42b-40b6-b521-f1466fc88fc2"
+			name="MySQL57"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text='MySQL 172.24.1.8 v5.7']
+			</item>
+			<basepath>
+				/form[@title~'^Aqua Data Studio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="21f2cc24-0138-40c1-ad00-85cfc867d70f"
+		isrooted="True"
+		name="QuaryAnalyzerWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="unknown"
+			id="953a742b-3728-4080-b6f9-3b7ff87b5364"
+			name="QueryBox"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='QueryPanel']/container[@name='panel']/?/?/container[@name='splitPane']//container[@type='EditorImpl$MyScrollPane']/container[6]/element[@type='EditorComponentImpl']
+			</item>
+			<item
+			capname="tabpage"
+			id="91a5afb5-a619-4ec1-84e6-5fa047abd0fd"
+			name="Grid"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='QueryPanel']//container[@name='splitPane']//tabpage[@title='Grid   ']
+			</item>
+			<item
+			capname="menuitem"
+			id="09def949-7530-4e58-bc88-d46981ca0e93"
+			name="NewVA"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='QueryPanel']/container[@name='panel']/?/?/container[@name='splitPane']/?/?/container[@name='tabbedPane']/container[@name='_gridResultsView']//container[@type='ResultSetTableView$ResultGridsSplitPane']//container[@type='HorizontalLayoutPanel']/container[1]/menuitem[1]
+			</item>
+			<basepath>
+				/form[@title~'^Aqua\ Data\ Studio']
+			</basepath>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

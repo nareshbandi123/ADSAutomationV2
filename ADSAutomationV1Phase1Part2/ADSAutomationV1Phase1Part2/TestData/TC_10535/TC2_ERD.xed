@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><Diagram version="1.0" type="VERTICA" versionMajor="8" versionMinor="0" groupSchema="false" hide_inv="false">
+<Table id="0" name="ads_ParentTable" schema="" database="" background="16777165">
+<Column id="1" name="EMPID" type="varchar" length="80" nulls="true"/>
+</Table>
+<Table id="2" name="ads_ChildTable" schema="" database="" background="16777165">
+<Column id="3" name="ID" type="varchar" length="80" nulls="true"/>
+</Table>
+<Relation id="4" name="ads_Relation" cardinality="-2" identifying="false" nulls="false">
+<FK>1</FK>
+<PK>3</PK>
+<Text/>
+</Relation>
+<Sheet name="Untitled 1" id="5" disp_at="true" disp_ph="true" disp_co="true" disp_rn="true">
+<Place id="4" visible="true">500,0,0,0</Place>
+<Place id="2" visible="true">20,20,120,60</Place>
+<Place id="0" visible="true">10,10,120,60</Place>
+</Sheet>
+<Settings sheet="5" zoom="1.0"/>
+</Diagram>

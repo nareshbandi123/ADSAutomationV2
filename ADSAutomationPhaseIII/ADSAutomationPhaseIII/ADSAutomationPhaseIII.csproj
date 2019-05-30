@@ -1,0 +1,664 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{FAEC249A-2317-45C5-8761-BC7BE18DDE2B}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ADSAutomationPhaseIII</RootNamespace>
+    <AssemblyName>ADSAutomationPhaseIII</AssemblyName>
+    <RanorexVersion>8.2</RanorexVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RanorexTargetsPath>$(MSBuildProgramFiles32)\MSBuild\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>35036ed2-086d-4903-b0ad-9bdf0ceeb6e5</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Configuration">
+      <HintPath>..\packages\Configuration.0.1.3\lib\net35\Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Application\AppRepo.cs">
+      <DependentUpon>AppRepo.rxrep</DependentUpon>
+      <id>99ab6593-8c91-4dad-a15d-7c2c8c6cb50c</id>
+      <BoundTo>d734f89a-2721-4f75-a46d-7585e65106ba</BoundTo>
+      <RepositoryCode>true</RepositoryCode>
+    </Compile>
+    <Compile Include="Application\CloseADS.cs">
+      <id>ef300925-d6a8-4993-9fa0-299209bfbb17</id>
+    </Compile>
+    <Compile Include="Application\OpenADS.cs">
+      <id>9de5f8fe-0e47-4f3d-9f29-d85b401b1e9f</id>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <id>44851172-b2e7-4a7e-a43e-6bc8b94b5d37</id>
+    </Compile>
+    <Compile Include="Base\BaseClass.cs">
+      <id>58f931fc-b346-429e-896a-3d2abf838cb8</id>
+    </Compile>
+    <Compile Include="Commons\Common.cs">
+      <id>de6cc196-23b3-4fd9-9b51-cd667ede1d18</id>
+    </Compile>
+    <Compile Include="Commons\Reports.cs">
+      <id>30b5eb0e-a7d8-498b-852a-392af2078e59</id>
+    </Compile>
+    <Compile Include="Commons\ServerListConstants.cs">
+      <id>3bb594db-971a-46e1-ac5e-b56614f88d69</id>
+    </Compile>
+    <Compile Include="Configuration\Config.cs">
+      <id>b269b641-66ae-4baf-a8ee-a6be3385bbc9</id>
+    </Compile>
+    <Compile Include="Extensions\Extension.cs">
+      <id>5f71a40a-3e69-49b6-bcfa-fcdf967a5fe4</id>
+    </Compile>
+    <Compile Include="Preconditions\PreconditionRepo.cs">
+      <DependentUpon>PreconditionRepo.rxrep</DependentUpon>
+      <id>b03a7c8d-b3a8-4c15-a5fc-2541062a38e1</id>
+      <BoundTo>b715993e-36bb-4c72-9567-3f1b89145d93</BoundTo>
+      <RepositoryCode>true</RepositoryCode>
+    </Compile>
+    <Compile Include="Preconditions\Steps.cs">
+      <id>f1929f0a-a970-46e7-868c-d2a02f15b5b3</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>37d8f31f-979f-4675-8572-4641bd959b79</id>
+    </Compile>
+    <Compile Include="TC_10569\Steps.cs">
+      <id>63c834db-35cd-456f-b282-7f35025cb924</id>
+    </Compile>
+    <Compile Include="TC_10569\TC1\Projects.cs">
+      <id>b0e86f29-69a9-4c3f-a732-3a544a9f524f</id>
+    </Compile>
+    <Compile Include="TC_10569\TC2\CreateAndEmailExcelFile.cs">
+      <id>54cee211-6753-457b-b75a-d2bb6b31aaaf</id>
+    </Compile>
+    <Compile Include="TC_10569\TC3\DatabaseSchemaAndDataExporter.cs">
+      <id>e213afb9-3129-40b5-8543-f95ad9f96eab</id>
+    </Compile>
+    <Compile Include="TC_10569\TC4\FileTransferandRemoteCmdExe.cs">
+      <id>897912be-159d-41e0-b839-42c4f8f90f22</id>
+    </Compile>
+    <Compile Include="TC_10569\TC5\MultiServerScriptExe.cs">
+      <id>826d412c-10d2-4b2a-908a-bcee6197a2a5</id>
+    </Compile>
+    <Compile Include="TC_10569\TC6\RandomTableAndDataGeneration.cs">
+      <id>835210c4-35ac-4c6b-87ad-1dc74b20728b</id>
+    </Compile>
+    <Compile Include="TC_10569\TC7\SchemaCompare.cs">
+      <id>d9d83916-13e6-4316-bb6b-f84ce0be78ad</id>
+    </Compile>
+    <Compile Include="TC_10569\TC_10569_10572Repo.cs">
+      <DependentUpon>TC_10569_10572Repo.rxrep</DependentUpon>
+      <id>41d538c9-6f5d-43eb-b54f-5120fa069a61</id>
+      <BoundTo>5c380858-74cc-4707-8032-4f84007a3a5a</BoundTo>
+      <RepositoryCode>true</RepositoryCode>
+    </Compile>
+    <Compile Include="TC_10570\Steps.cs">
+      <id>35abc63f-eeb2-4311-a167-2575da84bb2d</id>
+    </Compile>
+    <Compile Include="TC_10570\TC10570Repo.cs">
+      <DependentUpon>TC10570Repo.rxrep</DependentUpon>
+      <id>880a6689-e154-4c0b-bacb-24eccbe60e54</id>
+      <BoundTo>85f6bfd3-8bd3-4fc9-b70a-a76b93eb3a9f</BoundTo>
+      <RepositoryCode>true</RepositoryCode>
+    </Compile>
+    <Compile Include="TC_10570\TC1\Editor_MongoAutoCompletion.cs">
+      <id>4228d2e9-88fd-48fd-810f-54c0c232a643</id>
+    </Compile>
+    <Compile Include="TC_10570\TC2\Editor_MongoAutoCompletion.cs">
+      <id>86799eef-7881-4b1c-a2b5-bf1d1cd521a5</id>
+    </Compile>
+    <Compile Include="TC_10570\TC3\Editor_MongoAutoCompletion.cs">
+      <id>f6fe61bb-2585-4f2b-bb0c-ec4122881bbc</id>
+    </Compile>
+    <Compile Include="TC_10570\TC4\Editor_MongoAutoCompletion.cs">
+      <id>7de8c5e3-80c0-4244-8b98-6335f92b4a28</id>
+    </Compile>
+    <Compile Include="TC_10573\Steps.cs">
+      <id>2b725568-17be-488e-9350-cb2b53a2c605</id>
+    </Compile>
+    <Compile Include="TC_10573\TC10573Repo.cs">
+      <DependentUpon>TC10573Repo.rxrep</DependentUpon>
+      <id>77bb820b-808a-4654-900f-0dae7d34fda1</id>
+      <BoundTo>480ad6a0-132b-4ba7-8dd4-174c27f2031c</BoundTo>
+      <RepositoryCode>true</RepositoryCode>
+    </Compile>
+    <Compile Include="TC_10573\TC1\EdiorsMongoJS.cs">
+      <id>19386ee4-88f9-453f-a1b0-fac7ded16800</id>
+    </Compile>
+    <Compile Include="TC_10574\Steps.cs">
+      <id>a6713e1d-ba71-4aba-9407-df5f65de8be9</id>
+    </Compile>
+    <Compile Include="TC_10574\TC10574Repo.cs">
+      <DependentUpon>TC10574Repo.rxrep</DependentUpon>
+      <id>2528881d-22d0-4589-9437-54e9508bcb1a</id>
+      <BoundTo>13066572-c2df-4071-91e1-b8443dad5fcd</BoundTo>
+      <RepositoryCode>true</RepositoryCode>
+    </Compile>
+    <Compile Include="TC_10574\TC1\CreateMultipleAbbreviations.cs">
+      <id>01eac995-3d25-4bbc-9cda-771b35c8bfe9</id>
+    </Compile>
+    <Compile Include="TC_10574\TC2\RearrangingAndDeleting.cs">
+      <id>1c0c2fb0-22d1-496f-a329-2d5b438baff1</id>
+    </Compile>
+    <Compile Include="TC_10584\Steps.cs">
+      <id>8eb6c11d-6d4c-4c29-83d7-c128ebd99222</id>
+    </Compile>
+    <Compile Include="TC_10584\TC10584_Repo.cs">
+      <DependentUpon>TC10584_Repo.rxrep</DependentUpon>
+      <id>2446bd59-8e57-4849-a0ec-d7bdbc12dd8c</id>
+      <BoundTo>f80f6e20-1014-4095-b1f7-eba72c795b02</BoundTo>
+      <RepositoryCode>true</RepositoryCode>
+    </Compile>
+    <Compile Include="TC_10584\TC1\SchemaTree.cs">
+      <id>ff1a1b39-1319-4020-aef4-97cf18ffc720</id>
+    </Compile>
+    <Compile Include="TC_10585\Steps.cs">
+      <id>60bc45e0-4a0e-432d-aa3f-a42851b4a614</id>
+    </Compile>
+    <Compile Include="TC_10585\TC10585Repo.cs">
+      <DependentUpon>TC10585Repo.rxrep</DependentUpon>
+      <id>6c0517b8-f350-482a-a603-370d0a247bf3</id>
+      <BoundTo>67aee4f8-c244-44af-baa5-30706682e156</BoundTo>
+      <RepositoryCode>true</RepositoryCode>
+    </Compile>
+    <Compile Include="TC_10585\TC1\VersionControl_Subversion.cs">
+      <id>25292770-e81c-4e5c-bd0f-fc97fc15f80e</id>
+    </Compile>
+    <Compile Include="TC_10585\TC2\History_SVNRepositoryBrowser.cs">
+      <id>f58754bb-de4b-44a3-b8b9-0f176cf95e1a</id>
+    </Compile>
+    <Compile Include="TC_10587\Steps.cs">
+      <id>02759625-c304-431e-aecf-83db1a512389</id>
+    </Compile>
+    <Compile Include="TC_10587\TC10587.cs">
+      <DependentUpon>TC10587.rxrep</DependentUpon>
+      <id>300fee51-554f-414f-8584-7c04a41836d9</id>
+      <BoundTo>2a6f9376-9e80-4edb-9a79-9925635cf090</BoundTo>
+      <RepositoryCode>true</RepositoryCode>
+    </Compile>
+    <Compile Include="TC_10587\TC1\VersionControl_Perforce.cs">
+      <id>6b5e902b-7854-4c10-ae01-ee73cbb92b2e</id>
+    </Compile>
+    <Compile Include="TC_10587\TC2\View_Depots_and_Files.cs">
+      <id>45cf9e41-a819-4608-a7e9-e59ed0277177</id>
+    </Compile>
+    <Compile Include="TC_10587\TC3\Edit_Workspace_and_Client_Mappings.cs">
+      <id>1f361fad-bd3c-432e-9313-aa6ee3e5f0f7</id>
+    </Compile>
+    <Compile Include="TC_10587\TC4\Show_History.cs">
+      <id>9a1b6842-7525-446a-8773-ec4dbd59acf6</id>
+    </Compile>
+    <Compile Include="TC_Files\Steps.cs">
+      <id>dce08ff9-1efb-4211-83f9-c8cd22549991</id>
+    </Compile>
+    <Compile Include="TC_Files\TC1\AmazonRedshift.cs">
+      <id>a000f6ce-9138-433b-830a-20ee8dcbcdfa</id>
+    </Compile>
+    <Compile Include="TC_Files\TC1\CleanUp.cs">
+      <id>cba52e4f-32c4-48cc-9fd2-cd91e54b4c05</id>
+    </Compile>
+    <Compile Include="TC_Files\TC1\Precondition.cs">
+      <id>cfe46246-0052-48f3-9161-98f35171502a</id>
+    </Compile>
+    <Compile Include="TC_Files\TCFiles.cs">
+      <DependentUpon>TCFiles.rxrep</DependentUpon>
+      <id>13b9f063-90d0-41eb-bde6-093fc158e6ae</id>
+      <BoundTo>5a8738da-7ea2-4f93-a3fb-c802acab50b3</BoundTo>
+      <RepositoryCode>true</RepositoryCode>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>05e15f28-8e3e-4f51-8c6a-89c20ab06ef1</id>
+    </None>
+    <None Include="Application\AppRepo.rximg">
+      <DependentUpon>AppRepo.rxrep</DependentUpon>
+      <id>cbec9b20-9323-46ee-b97c-75abaee7099d</id>
+      <BoundTo>d734f89a-2721-4f75-a46d-7585e65106ba</BoundTo>
+      <imageblob>true</imageblob>
+    </None>
+    <None Include="Application\AppRepo.rxrep">
+      <id>d734f89a-2721-4f75-a46d-7585e65106ba</id>
+      <repoid>b4a8a086-bc6a-4997-9e57-db741a9b2ced</repoid>
+      <reporootid>095da91e-bafd-4e99-b3cf-35acdddb771e</reporootid>
+    </None>
+    <None Include="packages.config">
+      <id>d3fdf72a-a64a-45c4-8c5e-b6dec85ef052</id>
+    </None>
+    <None Include="Preconditions\PreconditionRepo.rximg">
+      <DependentUpon>PreconditionRepo.rxrep</DependentUpon>
+      <id>d166d0b9-87ef-417e-922e-50de032cea5f</id>
+      <BoundTo>b715993e-36bb-4c72-9567-3f1b89145d93</BoundTo>
+      <imageblob>true</imageblob>
+    </None>
+    <None Include="Preconditions\PreconditionRepo.rxrep">
+      <id>b715993e-36bb-4c72-9567-3f1b89145d93</id>
+      <repoid>41e55b69-2b51-4f4c-a83a-9025117f0d48</repoid>
+      <reporootid>c350295c-8dce-42ea-a15a-b3d424358fb2</reporootid>
+    </None>
+    <None Include="TC_10569\TC_10569_10572Repo.rximg">
+      <DependentUpon>TC_10569_10572Repo.rxrep</DependentUpon>
+      <id>0651f5b9-249e-4474-bc8d-ecf5804d38db</id>
+      <BoundTo>5c380858-74cc-4707-8032-4f84007a3a5a</BoundTo>
+      <imageblob>true</imageblob>
+    </None>
+    <None Include="TC_10569\TC_10569_10572Repo.rxrep">
+      <id>5c380858-74cc-4707-8032-4f84007a3a5a</id>
+      <repoid>71cba37c-bbc6-4c16-9593-594037b7ca31</repoid>
+      <reporootid>59ae13e3-8823-4b1b-812d-b53f839dc6fb</reporootid>
+    </None>
+    <None Include="TC_10570\TC10570Repo.rximg">
+      <DependentUpon>TC10570Repo.rxrep</DependentUpon>
+      <id>7d34e95c-8ddd-4b33-a45a-c20917a6dd1d</id>
+      <BoundTo>85f6bfd3-8bd3-4fc9-b70a-a76b93eb3a9f</BoundTo>
+      <imageblob>true</imageblob>
+    </None>
+    <None Include="TC_10570\TC10570Repo.rxrep">
+      <id>85f6bfd3-8bd3-4fc9-b70a-a76b93eb3a9f</id>
+      <repoid>2a168245-05fe-4116-92c0-10a472e41805</repoid>
+      <reporootid>9a72e597-9b08-4844-adde-bf2726cace5a</reporootid>
+    </None>
+    <None Include="TC_10573\TC10573Repo.rximg">
+      <DependentUpon>TC10573Repo.rxrep</DependentUpon>
+      <id>3f46df0c-566a-4037-8361-a79f4712a25a</id>
+      <BoundTo>480ad6a0-132b-4ba7-8dd4-174c27f2031c</BoundTo>
+      <imageblob>true</imageblob>
+    </None>
+    <None Include="TC_10573\TC10573Repo.rxrep">
+      <id>480ad6a0-132b-4ba7-8dd4-174c27f2031c</id>
+      <repoid>0e8df8a5-6909-4fa1-b25c-0b9eca761b01</repoid>
+      <reporootid>9a93b08d-33d3-4a42-9f3c-d94cf12500c7</reporootid>
+    </None>
+    <None Include="TC_10574\TC10574Repo.rximg">
+      <DependentUpon>TC10574Repo.rxrep</DependentUpon>
+      <id>2e3c7105-aec7-4855-927d-02f6881bd9f0</id>
+      <BoundTo>13066572-c2df-4071-91e1-b8443dad5fcd</BoundTo>
+      <imageblob>true</imageblob>
+    </None>
+    <None Include="TC_10574\TC10574Repo.rxrep">
+      <id>13066572-c2df-4071-91e1-b8443dad5fcd</id>
+      <repoid>14fcb520-f107-4527-ab0b-c46c2730a874</repoid>
+      <reporootid>11c4f6c8-1d4e-4217-b2eb-1926bb15b259</reporootid>
+    </None>
+    <None Include="TC_10584\TC10584_Repo.rximg">
+      <DependentUpon>TC10584_Repo.rxrep</DependentUpon>
+      <id>82ef3380-d726-4b38-8233-cee47531f989</id>
+      <BoundTo>f80f6e20-1014-4095-b1f7-eba72c795b02</BoundTo>
+      <imageblob>true</imageblob>
+    </None>
+    <None Include="TC_10584\TC10584_Repo.rxrep">
+      <id>f80f6e20-1014-4095-b1f7-eba72c795b02</id>
+      <repoid>ada5e1b7-e527-4e86-8ab4-76246b27414f</repoid>
+      <reporootid>c3a23cb1-831a-4265-85df-32442ba172ce</reporootid>
+    </None>
+    <None Include="TC_10585\TC10585Repo.rximg">
+      <DependentUpon>TC10585Repo.rxrep</DependentUpon>
+      <id>a630b92b-b374-4ef3-b97d-a9f412c8bcd0</id>
+      <BoundTo>67aee4f8-c244-44af-baa5-30706682e156</BoundTo>
+      <imageblob>true</imageblob>
+    </None>
+    <None Include="TC_10585\TC10585Repo.rxrep">
+      <id>67aee4f8-c244-44af-baa5-30706682e156</id>
+      <repoid>c77045e3-a584-4ab2-8be1-517ef33a5828</repoid>
+      <reporootid>d2b6a929-0884-4910-ac0d-07a7a3453990</reporootid>
+    </None>
+    <None Include="TC_10587\TC10587.rximg">
+      <DependentUpon>TC10587.rxrep</DependentUpon>
+      <id>cf567c51-bd4f-4501-b9b3-d1cbd637258f</id>
+      <BoundTo>2a6f9376-9e80-4edb-9a79-9925635cf090</BoundTo>
+      <imageblob>true</imageblob>
+    </None>
+    <None Include="TC_10587\TC10587.rxrep">
+      <id>2a6f9376-9e80-4edb-9a79-9925635cf090</id>
+      <repoid>58b88c78-b654-479d-b960-1a522ac3ee04</repoid>
+      <reporootid>af3ddc0c-32bd-4a47-95a1-aa516ac35d09</reporootid>
+    </None>
+    <None Include="TC_Files\TCFiles.rximg">
+      <DependentUpon>TCFiles.rxrep</DependentUpon>
+      <id>975226fe-cd5c-40e7-9694-e3187ee2645a</id>
+      <BoundTo>5a8738da-7ea2-4f93-a3fb-c802acab50b3</BoundTo>
+      <imageblob>true</imageblob>
+    </None>
+    <None Include="TC_Files\TCFiles.rxrep">
+      <id>5a8738da-7ea2-4f93-a3fb-c802acab50b3</id>
+      <repoid>037a213e-471f-47d3-9b6a-dff69890946e</repoid>
+      <reporootid>2ce1bb3a-c0a5-49c8-928c-d19bccc371ce</reporootid>
+    </None>
+    <None Include="TestData\QuerySripts\Amazon Redshift\10_CreateTableWithConstraints.txt">
+      <id>3173daf0-dffc-4cb5-a0c0-c2868d37e017</id>
+    </None>
+    <None Include="TestData\QuerySripts\Amazon Redshift\11_CreateView.txt">
+      <id>7d8815d5-3d5f-4267-8d82-9adb5deb5a2f</id>
+    </None>
+    <None Include="TestData\QuerySripts\Amazon Redshift\12_CreateIndex.txt">
+      <id>9b4eefab-425a-4545-9f2d-8ff53f9b7fb1</id>
+    </None>
+    <None Include="TestData\QuerySripts\Amazon Redshift\13_CreateTrigger.txt">
+      <id>5a156aa1-8777-4591-b4db-09b430802967</id>
+    </None>
+    <None Include="TestData\QuerySripts\Amazon Redshift\14_DropView.txt">
+      <id>7ad2ddb8-6a3f-40d1-b76d-dc513d0b101d</id>
+    </None>
+    <None Include="TestData\QuerySripts\Amazon Redshift\15_DropIndex.txt">
+      <id>722f8859-4860-48b5-8f88-34cd268d1e8c</id>
+    </None>
+    <None Include="TestData\QuerySripts\Amazon Redshift\16_DropTrigger.txt">
+      <id>d73f1681-402b-42cc-88e0-d774231d46f4</id>
+    </None>
+    <None Include="TestData\QuerySripts\Amazon Redshift\17_CreateDatabase.txt">
+      <id>49342f26-137c-4cfa-9de7-7f232cb4dbb5</id>
+    </None>
+    <None Include="TestData\QuerySripts\Amazon Redshift\18_DropDatabase.txt">
+      <id>6b48a2bd-31fe-434e-ae75-11751bda9779</id>
+    </None>
+    <None Include="TestData\QuerySripts\Amazon Redshift\19_CreateTable.txt">
+      <id>6c45f553-1491-421c-beb1-5ac36f39dc45</id>
+    </None>
+    <None Include="TestData\QuerySripts\Amazon Redshift\1_CreateTable.txt">
+      <id>6f7568f0-8b7a-4e50-ab8c-043f9203c872</id>
+    </None>
+    <None Include="TestData\QuerySripts\Amazon Redshift\20_InsertTable.txt">
+      <id>aa416962-e0d7-4158-83d2-fa8a953e0932</id>
+    </None>
+    <None Include="TestData\QuerySripts\Amazon Redshift\21_DropSecondTable.txt">
+      <id>78f793cb-cd43-4d02-a962-ab982d6fbae6</id>
+    </None>
+    <None Include="TestData\QuerySripts\Amazon Redshift\22_CreateProcedure.txt">
+      <id>f8df76ad-a412-48a1-bbc5-bcc6db3a424d</id>
+    </None>
+    <None Include="TestData\QuerySripts\Amazon Redshift\23_CreateFunctions.txt">
+      <id>b6e0c34a-d33a-473e-b3ba-cce8c4fbd1e7</id>
+    </None>
+    <None Include="TestData\QuerySripts\Amazon Redshift\24_CreateEvents.txt">
+      <id>d83e1c92-f2f8-4971-b151-f63f190fd390</id>
+    </None>
+    <None Include="TestData\QuerySripts\Amazon Redshift\25_DropProcedure.txt">
+      <id>a9d26742-3c2b-4cef-b609-a1a189780e85</id>
+    </None>
+    <None Include="TestData\QuerySripts\Amazon Redshift\26_DropFunction.txt">
+      <id>8e7f034e-046c-4c24-9053-a6eccec848b8</id>
+    </None>
+    <None Include="TestData\QuerySripts\Amazon Redshift\27_DropEvents.txt">
+      <id>b2f17de0-6dde-4b6e-a913-1c81e09e694b</id>
+    </None>
+    <None Include="TestData\QuerySripts\Amazon Redshift\28_ImportTable.txt">
+      <id>1d0240a8-7d15-4b4e-9edf-a4a1239fe1a5</id>
+    </None>
+    <None Include="TestData\QuerySripts\Amazon Redshift\2_InsertTable.txt">
+      <id>10da6b40-e35b-43bd-8f90-9bfc106cca93</id>
+    </None>
+    <None Include="TestData\QuerySripts\Amazon Redshift\3_SelectTable.txt">
+      <id>3c577dd7-84ef-430c-9474-ffab193d8875</id>
+    </None>
+    <None Include="TestData\QuerySripts\Amazon Redshift\4_ValidateData.txt">
+      <id>14a36a22-3001-42e8-8cff-98a4919528f3</id>
+    </None>
+    <None Include="TestData\QuerySripts\Amazon Redshift\5_DropTable.txt">
+      <id>7badd468-a528-4147-9a52-4601d28aeb6f</id>
+    </None>
+    <None Include="TestData\QuerySripts\Amazon Redshift\6_CreateDatabase.txt">
+      <id>9d5e4faf-0dc6-4346-a151-171a6bdef5eb</id>
+    </None>
+    <None Include="TestData\QuerySripts\Amazon Redshift\7_DropDatabase.txt">
+      <id>1b3ead34-31a9-4aa3-b601-93aaf0a44733</id>
+    </None>
+    <None Include="TestData\QuerySripts\Amazon Redshift\8_CreateTable.txt">
+      <id>23d41937-1e19-412a-b1cc-a0927e06b609</id>
+    </None>
+    <None Include="TestData\QuerySripts\Amazon Redshift\9_SelectTable.txt">
+      <id>afcf1de3-485e-4606-8992-1c5d74c5ce08</id>
+    </None>
+    <None Include="TestData\QuerySripts\Amazon Redshift\root%40Amazon Redshift.sql">
+      <id>3db9b9ab-43cd-4b0e-851f-9da430a4ba9b</id>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ADSAutomationPhaseIII.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>ef0d98dc-f079-4093-a27d-edc2d23d1ce3</id>
+    </Content>
+    <Content Include="ADSAutomationVersion2PhaseIII.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>aa163eb6-99f0-491b-8652-8c005be2a9d3</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Application">
+      <id>998482b5-61f3-4566-9f87-842e44958bfe</id>
+    </Folder>
+    <Folder Include="Base">
+      <id>28460b2d-0cb6-4ad6-ba3e-0235f8ea8e25</id>
+    </Folder>
+    <Folder Include="Configuration">
+      <id>49453504-9e53-4def-83f6-67502a473c49</id>
+    </Folder>
+    <Folder Include="Extensions">
+      <id>c5d9a045-6b46-4fbe-8543-1e58df6415b1</id>
+    </Folder>
+    <Folder Include="Commons">
+      <id>b69d2abf-46cf-4c24-a57e-4f49acb7d184</id>
+    </Folder>
+    <Folder Include="New folder">
+      <id>46247407-b8f0-42af-a486-cc6df4dc3c54</id>
+    </Folder>
+    <Folder Include="TC_10574">
+      <id>b5549008-f720-4c40-b424-24784ad782c7</id>
+    </Folder>
+    <Folder Include="TC_10573">
+      <id>437713c0-9094-4f2e-b025-4068eddbd7ea</id>
+    </Folder>
+    <Folder Include="TC_10570">
+      <id>babe4b67-49f4-4357-be8e-cd6067b1e6f4</id>
+    </Folder>
+    <Folder Include="TC_10570\TC4">
+      <id>1f53461d-4078-4c6e-aaa0-46ce640bcd6c</id>
+    </Folder>
+    <Folder Include="TC_10570\TC3">
+      <id>36fd08e7-b035-421a-8211-ff5ce76e37e5</id>
+    </Folder>
+    <Folder Include="TC_10570\TC2">
+      <id>5212b69d-9507-4256-9e79-db5a5775ef0a</id>
+    </Folder>
+    <Folder Include="TC_10570\TC1">
+      <id>35c5f671-74f7-4d24-acc2-62ff7c08c3d6</id>
+    </Folder>
+    <Folder Include="TC_10573\TC1">
+      <id>13ee2447-d29b-4b96-966e-e7da57f02980</id>
+    </Folder>
+    <Folder Include="TC_10574\TC2">
+      <id>3d372369-4404-4fa4-9ed5-b97775a37b94</id>
+    </Folder>
+    <Folder Include="TC_10574\TC1">
+      <id>9fb1da79-63b0-49a4-823a-9e63f3658e62</id>
+    </Folder>
+    <Folder Include="TC_10584">
+      <id>e4986fea-db60-401d-895d-bc1460400afd</id>
+    </Folder>
+    <Folder Include="TC_10569">
+      <id>754cadc0-ef97-4955-9c8a-df4060fa8c43</id>
+    </Folder>
+    <Folder Include="TC_10569\TC7">
+      <id>60aec714-0025-4d02-bb31-d13f9444b747</id>
+    </Folder>
+    <Folder Include="TC_10569\TC6">
+      <id>e8dd42d5-85f9-4525-9eba-788df04ef984</id>
+    </Folder>
+    <Folder Include="TC_10569\TC5">
+      <id>555b7e39-d4d0-41ae-a780-baf5cedea109</id>
+    </Folder>
+    <Folder Include="TC_10569\TC4">
+      <id>d4afeb0a-d03e-4bd8-9adf-2498e9890633</id>
+    </Folder>
+    <Folder Include="TC_10569\TC3">
+      <id>964cb4e8-20cd-4f42-8c26-8e4f144ff204</id>
+    </Folder>
+    <Folder Include="TC_10569\TC2">
+      <id>47cd1427-0f2e-4d78-9f19-f97dc9202bbf</id>
+    </Folder>
+    <Folder Include="TC_10569\TC1">
+      <id>3ed61491-1165-4bea-8a87-98f53bf6cf9a</id>
+    </Folder>
+    <Folder Include="TC_10584\TC1">
+      <id>4c1c49fd-95bd-4c62-88fa-7d4ef58524f3</id>
+    </Folder>
+    <Folder Include="TC_10585">
+      <id>3390b359-5231-403a-95e2-7f675fb166a5</id>
+    </Folder>
+    <Folder Include="TC_10585\TC2">
+      <id>8abf226c-24f6-412c-84a6-1a3cd03a21f0</id>
+    </Folder>
+    <Folder Include="TC_10585\TC1">
+      <id>85b2b2fa-22b8-41dd-84b9-42cc116e8be9</id>
+    </Folder>
+    <Folder Include="TC_10587">
+      <id>17d26268-a707-4bdf-9a51-5ffef9b11a99</id>
+    </Folder>
+    <Folder Include="TC_10587\TC4">
+      <id>86ef54e3-a1b3-4319-a1c8-75ecc9500870</id>
+    </Folder>
+    <Folder Include="TC_10587\TC3">
+      <id>18d3eadf-482e-423c-92ff-ed19ff652c61</id>
+    </Folder>
+    <Folder Include="TC_10587\TC2">
+      <id>c8b4ed5f-e7c0-4eeb-896b-ff55cd44df0b</id>
+    </Folder>
+    <Folder Include="TC_10587\TC1">
+      <id>f10d32b0-ffdc-474c-963c-2d8c28858275</id>
+    </Folder>
+    <Folder Include="TC_Files">
+      <id>b8cd75a2-3549-4ad9-9e9c-40272ebf086e</id>
+    </Folder>
+    <Folder Include="TC_Files\TC1">
+      <id>b92d797b-773e-4ea3-9f3a-c1ba218922fc</id>
+    </Folder>
+    <Folder Include="TestData">
+      <id>24f67115-4348-4ff8-8071-151d52f80875</id>
+    </Folder>
+    <Folder Include="Preconditions">
+      <id>7e578917-ed43-43a4-ba9d-4adcf31a7022</id>
+    </Folder>
+    <Folder Include="TestData\TC_10588">
+      <id>d15ae8bc-3fb9-4d52-8710-3e3fb474fa3a</id>
+    </Folder>
+    <Folder Include="TestData\TC_10585">
+      <id>7ab34781-8b9d-44cb-a03f-af0b6160d3ed</id>
+    </Folder>
+    <Folder Include="TestData\TC_10569">
+      <id>3db4878c-377d-48b3-bf85-c0be0c7aa928</id>
+    </Folder>
+    <Folder Include="TestData\TC_10587">
+      <id>5059bdec-d49d-43c4-99d3-3551fc03607d</id>
+    </Folder>
+    <Folder Include="TestData\TC_Files">
+      <id>d3659b07-3ed1-4800-9f31-5e888ceaac0e</id>
+    </Folder>
+    <Folder Include="TestData\QuerySripts">
+      <id>ac7ee3f0-d702-4696-904c-cb83ad7f5a4c</id>
+    </Folder>
+    <Folder Include="TestData\QuerySripts\Amazon Redshift">
+      <id>86cbcb76-44be-45e7-889a-020e5d1caebe</id>
+    </Folder>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

@@ -1,0 +1,7 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "ADSAutomationV1Phase1_Part1",
+    "RunConfig": "Default"
+  }
+]

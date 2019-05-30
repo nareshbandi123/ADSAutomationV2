@@ -1,0 +1,258 @@
+﻿<repository
+id="037a213e-471f-47d3-9b6a-dff69890946e"
+name="TCFiles"
+rxversion="8.2">
+	<codegen
+	classname="TCFiles"
+	namespace="ADSAutomationPhaseIII.TC_Files">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="2ce1bb3a-c0a5-49c8-928c-d19bccc371ce"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		capname="form"
+		id="e420146a-603f-4729-97d4-e256086016b9"
+		isrooted="True"
+		name="Application"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="246dec7c-21c1-422b-b2fa-35a16caa5d59"
+			name="SaveQuery"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio\ ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='QueryPanel']//container[@name='editorToolBar']/button[4]
+			</item>
+			<item
+			capname="menuitem"
+			id="5e855a4c-968b-4e85-90f8-812d4d348375"
+			name="FileMenu"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio\ ']//menuitem[@text='File']
+			</item>
+			<item
+			capname="unknown"
+			id="5b6c65d1-9ad2-4607-96c3-2de4adf5962e"
+			name="QATextEditor"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio\ ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='QueryPanel']/container[@name='panel']/?/?/container[@name='splitPane']//container[@type='EditorImpl$MyScrollPane']/container[6]/element[@type='EditorComponentImpl']
+			</item>
+			<item
+			capname="button"
+			id="383d9532-9289-4265-890c-6e9c7c91d8b4"
+			name="Execute"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio\ ']//container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='QueryPanel']//container[@name='toolBar']/button[@name='executeButton']
+			</item>
+			<basepath>
+				/form[@title~'^Aqua\ Data\ Studio\ ']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="a7b85a78-6b2b-4e01-9988-08a24e8e4d28"
+		isrooted="True"
+		name="SaveForm"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="text"
+			id="dce5826f-918d-435f-99db-880bc3a4e7e8"
+			name="FileText"
+			searchtimeout="30000ms">
+				/form[@title='Save']//element/container[@type='JPanel']/container[3]/container[2]/text[@accessiblename='File name:']
+			</item>
+			<item
+			capname="button"
+			id="d3c5b29a-446b-4fa8-9ab0-aaf6de9d75d1"
+			name="SaveButton"
+			searchtimeout="30000ms">
+				/form[@title='Save']//element/container[@type='JPanel']/container[3]/container[3]/button[@text='Save']
+			</item>
+			<basepath>
+				/form[@title='Save']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="d3889890-aad9-487e-a809-8660b9cc1500"
+		isrooted="True"
+		name="Datastudio"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="menuitem"
+			id="98ea3d81-3987-41a1-b888-a0dc06bb7584"
+			name="SaveResult"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Save Results']
+			</item>
+			<item
+			capname="menuitem"
+			id="308084d3-bad9-4953-9d46-296cb2daca63"
+			name="Open"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Open']
+			</item>
+			<item
+			capname="menuitem"
+			id="be5c337d-e29b-4c46-ab21-0b7446229894"
+			name="OpenRecent"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Open Recent']
+			</item>
+			<item
+			capname="menuitem"
+			id="1e047aeb-60da-45a8-a5d8-730d3432398e"
+			name="OpenInCurrentWindow"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Open in Current Window']
+			</item>
+			<item
+			capname="menuitem"
+			id="dd7ff3b6-b773-43b1-a1c4-02014440b763"
+			name="NewCurrentWindow"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='New in Current Window']
+			</item>
+			<item
+			capname="menuitem"
+			id="a7f00ea0-8403-4eaa-9111-c0b466195b65"
+			name="SaveAs"
+			searchtimeout="30000ms">
+				/form[@processname='datastudio']//menuitem[@text='Save As...']
+			</item>
+			<basepath>
+				/form[@processname='datastudio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="59f401c3-ff08-4de5-969a-c7a0ec868855"
+		isrooted="True"
+		name="OpenForm"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="text"
+			id="0d8a2136-ca16-4a12-a623-324cc73e3980"
+			name="FileText"
+			searchtimeout="30000ms">
+				/form[@title='Open']//element/container[@type='JPanel']/container[3]/container[2]/text[@accessiblename='File name:']
+			</item>
+			<item
+			capname="button"
+			id="57ed9fe3-a0b0-4e60-b72e-393a7dbfbb3c"
+			name="OpenButton"
+			searchtimeout="30000ms">
+				/form[@title='Open']//element/container[@type='JPanel']/container[3]/container[3]/button[@text='Open']
+			</item>
+			<basepath>
+				/form[@title='Open']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="f4ee676c-d217-4766-b32d-fbdd4a64d3fe"
+		isrooted="True"
+		name="SaveResults"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="text"
+			id="5de10899-61df-44f0-8b88-8e78e21b6d0a"
+			name="FileText"
+			searchtimeout="30000ms">
+				/form[@title='Save Results']//container[@type='JPanel']/container[@name='tabbedPane']/container[2]//text[@name='fileNameField']
+			</item>
+			<item
+			capname="button"
+			id="579da6db-6a77-4e31-8764-bbe6eb94892d"
+			name="Browse"
+			searchtimeout="30000ms">
+				/form[@title='Save Results']//container[@type='JPanel']/container[@name='tabbedPane']/container[2]//button[@text='...']
+			</item>
+			<item
+			capname="button"
+			id="205750e0-1949-47b8-9b5c-6bccedc263cb"
+			name="SaveToFile"
+			searchtimeout="30000ms">
+				/form[@title='Save Results']//container[@type='JPanel']/?/?/button[@text='Save to File']
+			</item>
+			<basepath>
+				/form[@title='Save Results']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="6db2723b-2860-4feb-b6df-a661a45dec5f"
+		isrooted="True"
+		name="SelectSaveResult"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="text"
+			id="008f5a00-3ddd-461c-8d7c-4e0f07d29a2e"
+			name="FilePath"
+			searchtimeout="30000ms">
+				/form[@title='Select']//element/container[@type='JPanel']/container[3]/container[2]/text[@accessiblename='File name:']
+			</item>
+			<item
+			capname="button"
+			id="8bd6d890-8dd1-4ea5-a89c-d49f754ad843"
+			name="Select"
+			searchtimeout="30000ms">
+				/form[@title='Select']//element/container[@type='JPanel']/container[3]/container[3]/button[@text='Select']
+			</item>
+			<basepath>
+				/form[@title='Select']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="4b7f364c-ba52-4efc-9555-8c6193263130"
+		isrooted="True"
+		name="FileModified"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="3283aa85-2afa-408d-b1f4-1379dc87fec6"
+			name="Cancel"
+			searchtimeout="30000ms">
+				/form[@title='File Modified']//container[@name='OptionPane.buttonArea']/button[@text='Cancel']
+			</item>
+			<basepath>
+				/form[@title='File Modified']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="e0dcb3e8-50a5-4343-8f5b-5a66553f4584"
+		isrooted="True"
+		name="SunAwtWindow"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="7bc22d0f-ef7b-4188-8e12-37ce08be390c"
+			name="ADSFile"
+			refimgid="366e7255-8511-4bcc-b35a-9d4f41e7e4dc"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='1']//menuitem[@text='1  ADS.sql']
+			</item>
+			<basepath>
+				/form[@class='SunAwtWindow' and @type='Popup$HeavyWeightWindow' and @fulltype='javax.swing.Popup$HeavyWeightWindow' and @instance='1']
+			</basepath>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

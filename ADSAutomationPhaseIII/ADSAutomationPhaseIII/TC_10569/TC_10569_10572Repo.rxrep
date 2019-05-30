@@ -1,0 +1,1411 @@
+﻿<repository
+id="71cba37c-bbc6-4c16-9593-594037b7ca31"
+name="TC_10569_10572Repo"
+rxversion="8.2">
+	<codegen
+	classname="TC_10569_10572Repo"
+	namespace="ADSAutomationPhaseIII.TC_10569">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="59ae13e3-8823-4b1b-812d-b53f839dc6fb"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="5f79065d-6192-4519-a557-b10bfe9bb3c1"
+		isrooted="True"
+		name="AquaDataStudioDailog"
+		searchtimeout="10000ms"
+		usecache="False">
+			<item
+			addcaps="checkbox,javaelement"
+			capname="checkbox"
+			id="bfd42ea7-ab28-47e6-902c-75b4e75101f5"
+			name="F3Projects"
+			refimgid="355f29b5-f4ae-4305-878d-876829220eac"
+			searchtimeout="15000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLeftStripe']/checkbox[@text='F3: Projects']
+			</item>
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="71395c6e-0a3c-4ddd-bb86-5992f222acdb"
+			name="ProjectsTree"
+			refimgid="944f8c4f-51f7-42a5-befd-87f516d2a3ed"
+			searchtimeout="15000ms">
+				/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='projectTree']/treeitem[@text='Projects']
+			</item>
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="a80bf7fc-14f6-480d-a4a8-34462f16c433"
+			name="ADSFolder"
+			refimgid="48c42266-0e6d-4bf6-95c0-7cf80398aec0"
+			searchtimeout="1000ms">
+				/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='ADS']
+			</item>
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="57b43753-4121-4ac9-974a-95f5ad82e05c"
+			name="AquaScripts"
+			refimgid="8879973c-7b53-4ef7-8d82-cab55c5989e7"
+			searchtimeout="15000ms">
+				/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='ADS']/treeitem[@text='AquaScripts']
+			</item>
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="58f57160-6530-454d-a39e-ed1423cdb0f5"
+			name="ServersADS"
+			refimgid="2bc16acb-ed12-46b3-b86c-4349e957d3c5"
+			searchtimeout="15000ms">
+				/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='ADS']/treeitem[@text='Servers']
+			</item>
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="daabf6f1-a0bb-4582-bfa2-a970ddd640d4"
+			name="UserFiles"
+			refimgid="f5c8efc4-aa19-4dc4-8e58-4ffae201f539"
+			searchtimeout="15000ms">
+				/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='ADS']/treeitem[@text='User Files']
+			</item>
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="2c6693f4-7a57-4fd5-bd32-28e52cb9c981"
+			name="TreeItemAds"
+			refimgid="6fae87b4-8549-46f8-8bda-4e52aee9529f"
+			searchtimeout="15000ms">
+				/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='ads']
+			</item>
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="71b56f80-1c18-481f-8940-3cafe16cf71a"
+			name="SampleXjs"
+			refimgid="5b6c37c2-6892-4036-a640-358da16e8c61"
+			searchtimeout="15000ms">
+				/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='sample.xjs']
+			</item>
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="ef09c0f0-b427-4637-920a-549acd0a7d68"
+			name="ADSSample"
+			refimgid="d68a4c21-c7c7-4145-bb2e-76e3af097d05"
+			searchtimeout="15000ms">
+				/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='ADSSample']
+			</item>
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="265bf24d-a7bc-4a1e-9bbd-57c373983065"
+			name="AquaScriptsADSSample"
+			refimgid="3c812ad3-110e-4281-806d-d112bb0c4fc8"
+			searchtimeout="15000ms">
+				/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='ADSSample']/treeitem[@text='AquaScripts']
+			</item>
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="a350f955-63a7-4bad-aea4-004ea4022554"
+			name="CreateAndEmailExlFileXjs"
+			refimgid="564bfcf3-468a-4027-b351-0032297d035e"
+			searchtimeout="15000ms">
+				/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='Create and Email Excel File.xjs']
+			</item>
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="47671eaf-93c3-4a94-9680-02735181ce66"
+			name="ServersADSSample"
+			refimgid="04ba8204-073d-44e0-8c02-243ab073eacf"
+			searchtimeout="15000ms">
+				/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='ADSSample']/treeitem[@text='Servers']
+			</item>
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="5b7c1c7d-4690-4cbc-9a9e-53da5f18b561"
+			name="UserFilesADSSample"
+			refimgid="a90365ae-80b5-4edf-9ba3-4b3135d6c777"
+			searchtimeout="15000ms">
+				/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='ADSSample']/treeitem[@text='User Files']
+			</item>
+			<item
+			addcaps="tabpage"
+			capname="tabpage"
+			id="b561d414-956d-4298-b3ed-363b822fce69"
+			name="ADSSampleCreateAndEmailExcelFileX"
+			refimgid="98eb1c18-61f9-4624-8345-ee9374f2a551"
+			searchtimeout="15000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']//container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//tabpage[@title='ADSSample [Create and Email Excel File.xjs]']
+			</item>
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="393eb8d7-79ce-4f8b-8dc1-a64da84ccfab"
+			name="ADSDtSchemExporter"
+			refimgid="2350985d-4cbe-41e5-b211-d6505540d375"
+			searchtimeout="15000ms">
+				/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='ADSDtSchemExporter']
+			</item>
+			<folder
+			addcaps="tree,javaelement"
+			capname="tree"
+			id="159573aa-ceef-4c52-bc65-211b33a0e52c"
+			isrooted="True"
+			name="DtSchemExporter"
+			searchtimeout="15000ms"
+			usecache="False">
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="01671882-ffe7-4b50-bde5-39a98bf39508"
+				name="AquaScriptsDtSchemExporter"
+				refimgid="488eb557-7e59-4187-a8df-6192b48b81e0"
+				searchtimeout="15000ms">
+					/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='ADSDtSchemExporter']/treeitem[@text='AquaScripts']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="5c2a1dfb-4a87-49e5-a217-474e1737c5a0"
+				name="ServersDtSchemExporter"
+				refimgid="83b0ec51-424d-43a4-835e-2bd62d716c3a"
+				searchtimeout="15000ms">
+					/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='ADSDtSchemExporter']/treeitem[@text='Servers']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="5b4188e5-905d-4c19-8d22-462dfd017276"
+				name="UserFilesDtSchemExporter"
+				refimgid="b18b8a25-f545-4d91-a9b9-7cd559caf327"
+				searchtimeout="15000ms">
+					/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='ADSDtSchemExporter']/treeitem[@text='User Files']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="d6c25259-f2ab-4ae5-b5bc-1f6faf9daf2e"
+				name="Cassandra17224112222"
+				refimgid="a6a125eb-f1fa-4431-9978-5cc0379cebfa"
+				searchtimeout="15000ms">
+					/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text~'Cassandra 172.24.1.122 2.2']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="7c4fd533-e78c-40c1-aeb8-a63992167d6b"
+				name="AmazonRedshift"
+				refimgid="de8ea8c6-2d4e-42fa-8459-af19279c9618"
+				refpath="/form[@title='Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container[@type='JPanel']/container[@type='NonOpaquePanel']/container[@type='JPanel']/container[@type='ContentManagerImpl$MyNonOpaquePanel']/container[@type='ContentManagerImpl$MyContentComponent']/container[@type='JPanel']/container[@type='JScrollPane']/container[@name='viewport']/tree[@name='projectTree']/treeitem[@text='Projects']/treeitem[@text='ADS']/treeitem[@text='Servers']/treeitem[@text='Amazon Redshift']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='Amazon Redshift']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="11101127-25af-4ccd-9ff7-f385e2e35ef6"
+				name="SampleSql"
+				refimgid="69eb8d4b-502f-40b0-9e84-99c39799e899"
+				refpath="/form[@title='Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container[@type='JPanel']/container[@type='NonOpaquePanel']/container[@type='JPanel']/container[@type='ContentManagerImpl$MyNonOpaquePanel']/container[@type='ContentManagerImpl$MyContentComponent']/container[@type='JPanel']/container[@type='JScrollPane']/container[@name='viewport']/tree[@name='projectTree']/treeitem[@text='Projects']/treeitem[@text='ADS']/treeitem[@text='User Files']/treeitem[@text='sample.sql']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='sample.sql']
+				</item>
+				<basepath>
+					/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']
+				</basepath>
+			</folder>
+			<item
+			addcaps="tabpage"
+			capname="tabpage"
+			id="1939adb2-1a15-4504-9769-2e7a32f2d107"
+			name="QATemplateEditorDtSchemExporter"
+			refimgid="767bb38a-2ef5-462b-aee9-9460babd5680"
+			searchtimeout="15000ms">
+				/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']//container[@type='PlatDockingContentPanel']//tabpage[@title='ADSDtSchemExporter [Database Schema and Data Exporter.xjs]']
+			</item>
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="aee06591-193c-4817-8370-9f96d2e7dccf"
+			name="DatabaseSchemaAndDataExporterXjs"
+			refimgid="3b8557c2-cca1-4cdc-80ee-a9da8df5b5c5"
+			searchtimeout="15000ms">
+				/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text~'Database Schema and Data Exporter.xjs']
+			</item>
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="50d6704d-423b-4777-8fb4-6329713accb0"
+			name="FileTransferRemoteCmdExe"
+			refimgid="d9a44eee-42fe-4972-a541-af480a25631b"
+			searchtimeout="15000ms">
+				/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='FileTransferRemoteCmdExe']
+			</item>
+			<folder
+			capname="treeitem"
+			id="46a6c7f7-beb8-4757-84a4-4b80dec778cf"
+			isrooted="True"
+			name="FoldersFileTransferRemoteCmdExe"
+			searchtimeout="15000ms"
+			usecache="False">
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="6329a55f-bef0-45d8-b618-28a382be6163"
+				name="AquaScripts"
+				refimgid="69743eeb-5f30-4bf6-8901-c7e007d2335a"
+				searchtimeout="15000ms">
+					/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='FileTransferRemoteCmdExe']/treeitem[@text='AquaScripts']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="941884cc-b4e9-40a5-a584-e3bb4ead435a"
+				name="Servers"
+				refimgid="122363f5-7614-4785-aa34-3cd210a2dd6a"
+				searchtimeout="15000ms">
+					/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='FileTransferRemoteCmdExe']/treeitem[@text='Servers']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="d2df8257-d0f0-48a9-b328-c9e356281611"
+				name="UserFiles"
+				refimgid="9ade19fa-6ec0-4b01-8d18-78dbf3aa4a80"
+				searchtimeout="15000ms">
+					/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='FileTransferRemoteCmdExe']/treeitem[@text='User Files']
+				</item>
+				<basepath>
+					/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='FileTransferRemoteCmdExe']
+				</basepath>
+			</folder>
+			<item
+			addcaps="tabpage"
+			capname="tabpage"
+			id="a37a3b35-d35a-46cb-9508-955ffc3d5e71"
+			name="MultiServerScriptExeMultiServerQAEditor"
+			refimgid="2b252f4d-5a6a-4164-986c-62b6df2d0aaa"
+			searchtimeout="15000ms">
+				/form[@title~'^Aqua Data Studio']/?/?/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//tabpage[@title~'^MultiServerScriptExe\ \[Mul']
+			</item>
+			<folder
+			addcaps="container,javaelement"
+			capname="container"
+			id="218f0d54-a379-4395-99df-c8a81c560bed"
+			isrooted="True"
+			name="FolderContainer"
+			searchtimeout="15000ms"
+			usecache="False">
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="26dc7a16-33f2-4011-9782-b86b191ac565"
+				name="MultiServerScriptExe"
+				refimgid="a89da9d4-6ac4-4294-9c55-feb4dcf7a7f3"
+				searchtimeout="15000ms">
+					/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='MultiServerScriptExe']
+				</item>
+				<folder
+				capname="treeitem"
+				id="45a54bcc-5721-4130-9e6f-307559e87877"
+				isrooted="True"
+				name="MultiServerScriptExeStructure"
+				searchtimeout="15000ms"
+				usecache="False">
+					<item
+					addcaps="treeitem"
+					capname="treeitem"
+					id="ef8b8730-6fa9-41cc-9b8a-ac6e4843af1a"
+					name="AquaScripts"
+					refimgid="c52aa81e-6fe7-42f3-83aa-879456a53d67"
+					searchtimeout="15000ms">
+						/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='MultiServerScriptExe']/treeitem[@text='AquaScripts']
+					</item>
+					<item
+					addcaps="treeitem"
+					capname="treeitem"
+					id="ab9eff6e-8190-4f09-8d26-500adbe592ba"
+					name="Servers"
+					refimgid="e1565b8f-3ddb-4fbf-a064-a74743b098b2"
+					searchtimeout="15000ms">
+						/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='MultiServerScriptExe']/treeitem[@text='Servers']
+					</item>
+					<item
+					addcaps="treeitem"
+					capname="treeitem"
+					id="e261b977-425b-49dc-9a65-8e1a14304b41"
+					name="UserFiles"
+					refimgid="7eee0744-ec58-4600-afa0-7cddc3dc13c3"
+					searchtimeout="15000ms">
+						/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='MultiServerScriptExe']/treeitem[@text='User Files']
+					</item>
+					<basepath>
+						/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='MultiServerScriptExe']
+					</basepath>
+				</folder>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="f19fcaed-3803-4934-8d96-0abc69bec7b1"
+				name="MultiServerScriptExecuteXjs"
+				refimgid="edfdd9a9-cb1a-4c81-a789-be668b327849"
+				searchtimeout="15000ms">
+					/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='Multi Server Script Execute.xjs']
+				</item>
+				<basepath>
+					/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']
+				</basepath>
+			</folder>
+			<item
+			addcaps="checkbox,javaelement"
+			capname="checkbox"
+			id="1fc050c7-ca4b-4ac9-be7f-310716e7cdfe"
+			name="F1Servers"
+			refimgid="b3d37198-0b73-40ce-9475-bc99ec26f01f"
+			searchtimeout="15000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLeftStripe']/checkbox[@text='F1: Servers']
+			</item>
+			<item
+			addcaps="unknown,javaelement"
+			capname="unknown"
+			id="be941c97-0d0a-476b-8c80-5854e6beef17"
+			name="SettingIcon"
+			refimgid="3c1c0cf7-1311-439d-936c-cda7f53adb43"
+			searchtimeout="15000ms">
+				/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='ToolWindowHeader$3']//element[@type='ToolWindowHeader$ActionButton$1']
+			</item>
+			<item
+			addcaps="tabpage"
+			capname="tabpage"
+			id="663d3e20-0517-47fd-babc-6b50f9a2c000"
+			name="FileTransferRemoteCmdExeFTPFromXjs"
+			refimgid="83d50004-1474-41c7-8930-af6223ae37f0"
+			searchtimeout="15000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']//container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//tabpage[@title~'FileTransferRemoteCmdExe']
+			</item>
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="a6fbd55b-e458-4980-8b69-49196ce6b94a"
+			name="FileTransferXjs"
+			refimgid="efaacfe9-9aad-427d-8436-0f2ea069264a"
+			searchtimeout="15000ms">
+				/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='FileTransferRemoteCmdExe']//treeitem[@text='AquaScripts']//treeitem[@text~'.xjs']
+			</item>
+			<item
+			addcaps="tabpage"
+			capname="tabpage"
+			id="6bb8b1ed-570e-4e5b-b993-bed865d9890c"
+			name="QAEditorRandomTblDtGeneration"
+			refimgid="3cceebf6-73aa-4a56-b751-a567bccbb71c"
+			searchtimeout="15000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']//container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//tabpage[@title~'RandomTblDtGeneration']
+			</item>
+			<item
+			addcaps="tabpage"
+			capname="tabpage"
+			id="60962f47-0441-4753-bc0f-613682b8b819"
+			name="firstQAEditorRandomTblDtGeneration"
+			refimgid="5bd268b0-3a22-4aee-9672-35da409f7ce6"
+			searchtimeout="15000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']//container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//tabpage[@title~'RandomTblDtGeneration'][1]
+			</item>
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="bcdf7445-5e94-4fd8-bba3-f892207ce1c7"
+			name="RandomTblDtGeneration"
+			refimgid="f877d16e-b95b-4f2e-a774-417839fc5cf8"
+			searchtimeout="15000ms">
+				/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='RandomTblDtGeneration']
+			</item>
+			<folder
+			capname="tree"
+			id="63141233-57f7-48e4-b888-856d4eaadd43"
+			isrooted="True"
+			name="RandomTableAndDtGen"
+			searchtimeout="15000ms"
+			usecache="False">
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="752d0d2a-2863-46f7-b0a4-773ac19101f6"
+				name="AquaScripts"
+				refimgid="6ac86d08-064a-4726-8426-2d2bd7afa209"
+				searchtimeout="15000ms">
+					/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='RandomTblDtGeneration']/treeitem[@text='AquaScripts']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="44a59561-0671-4e21-8e47-318f7d49b285"
+				name="Servers"
+				refimgid="78a4f66d-5df7-40e2-bba8-0886df3277e2"
+				searchtimeout="15000ms">
+					/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='RandomTblDtGeneration']/treeitem[@text='Servers']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="52c0865a-5f5f-4e7b-81ab-c42fc5f951c0"
+				name="UserFiles"
+				refimgid="54e5f8e1-61c9-4be4-8afb-e607230b2bee"
+				searchtimeout="15000ms">
+					/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='RandomTblDtGeneration']/treeitem[@text='User Files']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="7f33e554-63b7-4324-a328-9048fa8f6bc8"
+				name="ExecuteTableGenerationScriptXjs"
+				refimgid="0d5d335a-0155-4284-8933-265e0aa59277"
+				searchtimeout="15000ms">
+					/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='ExecuteTableGenerationScript.xjs']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="16c37d63-424d-472e-bbde-631fdfa02e4f"
+				name="RandomDataGeneratorXjs"
+				refimgid="d26f682e-b292-4a01-8db6-3f962956051e"
+				refpath="/form[@title='Aqua Data Studio [RandomTableGenerator.xjs]']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container[@type='JPanel']/container[@type='NonOpaquePanel']/container[@type='JPanel']/container[@type='ContentManagerImpl$MyNonOpaquePanel']/container[@type='ContentManagerImpl$MyContentComponent']/container[@type='JPanel']/container[@type='JScrollPane']/container[@name='viewport']/tree[@name='projectTree']/treeitem[@text='Projects']/treeitem[@text='RandomTblDtGeneration']/treeitem[@text='AquaScripts']/treeitem[@text='RandomDataGenerator.xjs']"
+				searchtimeout="15000ms">
+					/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='RandomDataGenerator.xjs']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="25394ecc-f694-4813-9d1c-1375bc1e161a"
+				name="RandomTableGeneratorXjs"
+				refimgid="db512952-91a8-4b82-adc8-aaea0c4ddc6a"
+				refpath="/form[@title='Aqua Data Studio [RandomTableGenerator.xjs]']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container[@type='JPanel']/container[@type='NonOpaquePanel']/container[@type='JPanel']/container[@type='ContentManagerImpl$MyNonOpaquePanel']/container[@type='ContentManagerImpl$MyContentComponent']/container[@type='JPanel']/container[@type='JScrollPane']/container[@name='viewport']/tree[@name='projectTree']/treeitem[@text='Projects']/treeitem[@text='RandomTblDtGeneration']/treeitem[@text='AquaScripts']/treeitem[@text='RandomTableGenerator.xjs']"
+				searchtimeout="15000ms">
+					/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='RandomTableGenerator.xjs']
+				</item>
+				<basepath>
+					/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']
+				</basepath>
+			</folder>
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="e86d1156-c5ce-40fa-bed8-b631ea6228b0"
+			name="SchemaCompare"
+			refimgid="9ae19eba-270b-4325-8901-a83afdba0d7c"
+			searchtimeout="15000ms">
+				/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='SchemaCompare']
+			</item>
+			<folder
+			capname="treeitem"
+			id="38eb60f7-9928-402e-a8a6-6291804485ec"
+			isrooted="True"
+			name="SchemaCompareStructure"
+			searchtimeout="15000ms"
+			usecache="False">
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="80c552df-b3db-4c90-b355-ef0f52c94317"
+				name="AquaScripts"
+				refimgid="206668fe-72d5-43aa-8f84-a1d8180924f3"
+				searchtimeout="15000ms">
+					/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='SchemaCompare']/treeitem[@text='AquaScripts']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="68e24446-b66d-48c5-9d97-dc5e35c445fe"
+				name="Servers"
+				refimgid="ee0f2061-709c-43a5-bc0f-8f98f4b30b8d"
+				searchtimeout="15000ms">
+					/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='SchemaCompare']/treeitem[@text='Servers']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="08bf2c24-9e01-4a12-b624-a2cb52f9298e"
+				name="UserFiles"
+				refimgid="8f078688-133e-402a-8df1-8d1be2823e59"
+				searchtimeout="15000ms">
+					/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='SchemaCompare']/treeitem[@text='User Files']
+				</item>
+				<basepath>
+					/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='SchemaCompare']
+				</basepath>
+			</folder>
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="e45de49c-5d10-412a-ab4f-a5d74b5a5d6f"
+			name="SchemaCompareXjs"
+			refimgid="dc23adaf-9581-4a9e-85eb-f7a81da495c9"
+			refpath="/form[@title='Aqua Data Studio [Schema Compare.xjs]']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container[@type='JPanel']/container[@type='NonOpaquePanel']/container[@type='JPanel']/container[@type='ContentManagerImpl$MyNonOpaquePanel']/container[@type='ContentManagerImpl$MyContentComponent']/container[@type='JPanel']/container[@type='JScrollPane']/container[@name='viewport']/tree[@name='projectTree']/treeitem[@text='Projects']/treeitem[@text='SchemaCompare']/treeitem[@text='AquaScripts']/treeitem[@text='Schema Compare.xjs']"
+			searchtimeout="15000ms">
+				/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='projectTree']//treeitem[@text='Schema Compare.xjs']
+			</item>
+			<item
+			addcaps="tabpage"
+			capname="tabpage"
+			id="2199ac07-73b2-4d6b-9d19-2d4f9b55d3ab"
+			name="SchemaCompareQAEditor"
+			refimgid="039ea86e-d0ed-4579-8afc-1565466fa7ee"
+			searchtimeout="15000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']//container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//tabpage[@title='SchemaCompare [Schema Compare.xjs]']
+			</item>
+			<item
+			addcaps="tabpage"
+			capname="tabpage"
+			id="98e47066-d1dd-4497-ba15-04216205b0db"
+			name="TableGeneratorXjs"
+			refimgid="0cb37b13-929d-4d92-abb5-b0b1afd8c949"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']//container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//tabpage[@title~'RandomTableGenerator.xjs']
+			</item>
+			<item
+			addcaps="tabpage"
+			capname="tabpage"
+			id="9ed4ebe2-cefb-4cec-8088-6d0c6ed00407"
+			name="ExecuteTableGeneration"
+			refimgid="f398b6ae-3cd6-43d7-ae01-13a1c07d3a25"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']//container[@type='PlatDockingContentPanel']//tabpage[@title~'ExecuteTableGenerationScript.xjs']
+			</item>
+			<item
+			addcaps="tabpage"
+			capname="tabpage"
+			id="3e90bb5f-29f0-4f20-a58e-6e3652e1ec60"
+			name="RandomDataGeneratorXjs"
+			refimgid="7d02f12e-e3a4-4bff-a169-61f2be31a9e0"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLayeredPane']//container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//tabpage[@title~'RandomDataGenerator.xjs']
+			</item>
+			<item
+			capname="checkbox"
+			id="c11cd4eb-1ce3-442f-991e-b433640b1fdc"
+			name="ServersTab"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua Data Studio']//container[@name='myLeftStripe']/checkbox[@text='F1: Servers']
+			</item>
+			<basepath>
+				/form[@title~'^Aqua Data Studio']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAK7SURBVDhPhZNbSFNxHMf3FD320HOv9dBDD71F
+DHsIgiAi66mCIEN8KDBSulFD1wxHEOhMtznXMnVWlu7mZe7mtmZzbuou7Tg1184U3drmzu7w7X+O
+DKysfvDhHM4538/5HX6/w5OpVEf7B4bEesO40zht3rJYbbDaZjBjd8DucLKUzRZLUKszfFQoldfU
+avUB3t4yjE/Gkskk0uk0MpkMstksGIZBLpfjyOfzKBQKHOOeCC68MOlOt9vu85+YDnICrU6PWCzG
+BYvFIkqlEiqVCke5XOaCrHzSu4amdxSk/h00GDZx5qV7ihOMabQIhUKgaRqJRAKpVIqD7Soej4Oi
+KHg8HtTLnRDqomjxM2h2pnBJGiry203HeU1dk+iYpvBlJYaNzU0kSLAqYKWs3Opy46ZiFrcVYdz5
+RKNxhEbD62CZL3Yf5t0SG1EjieKyLon6OQaPQgwEy3k89GfR6PqB6/otnFNt4JSYwhWJF/cGI7g7
+EK7UiB1t3CdUBbXaJG64GNQvFdAQLKLOk8NVUxoXR7ZxtpcmgjWceBBEc+f7Pr7QdIwLs7WfoHF+
+G8N6IzfKfyFXKNv3FbROebC+vv5fzBYreG1SDc5LKNRqEr8IJjzL6DH/hmUZUksEMivBFoFx2gRu
+jP5AEI5AFJpwEuqVLFRmN/ew0pfFm0UGPfM03gYYDIZykJLzYSoPkTOxKxhSD8e8Ph+3TNU9cH52
+ode+wgXZQKuRLJCXhozQSkb+ilwT2GO7gm6l8oiqf0BMdn11huz+wuISJqaMUM2uYjRaxNj3EqQ+
+Gh1UAc+CeXSSsChcwOP51K5gbykUikMypfKkXNHX1z+3Brkvjm7yVgHpQEKOLALSQZc3DpE7/qeg
+WmQ8Twe939CylOZom4tDGMhAGMzguWcDoq87ECwk/y4gv20de/N/fBgZjf0E9QDs1GDdW0gAAAAA
+SUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="184c48fa-072b-47cf-aab7-82b0ac2ad4d9"
+		isrooted="True"
+		name="SubMenuItems"
+		refpath="/form[@processname='datastudio' and @class='SunAwtWindow']"
+		searchtimeout="15000ms"
+		usecache="False">
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="87e23e4c-84e7-472f-ba95-2cfe6886752b"
+			name="NewProject"
+			refimgid="3c817ac1-5a90-4754-a965-b44249d4f594"
+			searchtimeout="15000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='New Project']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="8f379565-3bdf-4250-a7e1-8d62da1dc257"
+			name="MenuItemNew"
+			refimgid="f61105cf-f2e5-44f0-8c9c-784176a82ca1"
+			searchtimeout="15000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='New']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="20bc162a-7c10-4208-8a85-25a163add0b8"
+			name="NewFolder"
+			refimgid="aa21e9e2-9782-421e-a3f7-e5b894dc924e"
+			searchtimeout="15000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='New Folder']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="d983f323-0ba6-4688-932f-ee3a01965a8b"
+			name="RegisterServer"
+			refimgid="ed5a0251-055c-4b59-a418-c27b175568f3"
+			searchtimeout="15000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='Register Server']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="884d1cc7-200d-425b-8dce-5bd628229877"
+			name="Close"
+			refimgid="4e0bfd7b-abcc-4147-8314-7c7027a3f988"
+			searchtimeout="15000ms">
+				/form[@class='SunAwtWindow']//menuitem[@name='TabDocumentPane.close']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="92232d7c-ca1c-458e-99c2-380656a785e0"
+			name="FloatingMode"
+			refimgid="48efeba8-8ad0-4745-beaa-b4536e48b9b0"
+			searchtimeout="15000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='Floating Mode']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="6bc8643d-dc63-4bcc-a570-1bcfa52b9982"
+			name="Remove"
+			refimgid="19656338-5906-4da5-8a28-dee88c6074cf"
+			searchtimeout="15000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='Remove']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="651fc1cc-2f4f-4618-b400-1bc88edaec7f"
+			name="Delete"
+			refimgid="32b6f49b-2071-4fbe-8be7-05db21716b8f"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='Delete']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="1cc0bb6b-5704-42a2-8cf5-5d2bf4addea9"
+			name="UnregisterServer"
+			refimgid="f1e2034c-a7ce-40a4-8b3a-388930ce679c"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//menuitem[@text='Unregister Server']
+			</item>
+			<basepath>
+				/form[@class='SunAwtWindow']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIYSURBVDhPlZFJa5NRFIbvD3DnzrX0D7hxk4U7
+d+7EYqMIolkUqUULbW2poRojthSM7SI0VcEBLU2ERiWlCKXYRrIRkpCYoUmauZkgE5l4zXskwYAF
+u3j47hmec4dPrdmdOot937Vm38dJ+OM4dcr8adfl+RVGtVpFvV7/J5VKZSBmLx26ann9G/L5PNrt
+NjqdzgDMUS75d9FsNgfydOiqpXcO5HI5tFqtASiUy2Xkt54ht3hedv27ToeuMr6yI5PJoNFoDFAq
+lZD9asTRoyEUi0Uc/XTIkF6dDl2lN1uRSqVQq9X6cOf0tgmZ2TNSS2/qkZ0fknyvh3m6atr0HvF4
+XIo9uHtm6nT/21uTXg8duurewmtEo9F+A+H9Mk/PST59/5TE5PDwEMlkEoVCQWp01ajBjHA4LK/K
+e4VCIYG5uP4sIrY5WVOeWHoDo2UDsVgMwWAQdNXNOZME2WxWpg9PmaCdWYHu8SquTr+QmGvzuqNf
+f2Kxwufzga7STi7C7/fLo3AX8mXnBz7vOAXb9vcue/AFQiJdn13pnsIKj8cDuuryuAFer1cehUQi
+EdyeN+PK5HMMd+GXMfPXZpZhWN2QtdvtBl11afQhAoGAnODg4ECuwxMdRyKRkF46dNXFWw9ETKfT
++Li1B8PLTdxZeHssfCv+ETp01YUbE9EPNrsM4OT/gUPo0FUa7ZhOM3LXpRkZx8noOtox3W+2QEFu
+Et1VDAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="ee56dfc2-ab26-4676-a542-65061fe73dda"
+		isrooted="True"
+		name="NewProjectDailog"
+		refpath="/form[@title='New Project']"
+		searchtimeout="15000ms"
+		usecache="False">
+			<item
+			addcaps="text,javaelement"
+			capname="text"
+			id="d478b103-a41d-47f0-b7bc-585f9fe3beb3"
+			name="FolderField"
+			refimgid="75e019fc-72c4-448f-b01f-557d35c41716"
+			refpath="/form[@title='New Project']/container[@type='JPanel']/container[@type='CPanel']/container[@type='JPanel']/text[@name='projectFolderField']"
+			searchtimeout="15000ms">
+				/form[@title='New Project']/container[@type='JPanel']//text[@name='projectFolderField']
+			</item>
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="30fc4a5e-0e49-44cb-b179-11d488fb85cd"
+			name="None"
+			refimgid="5e9c0b41-38d1-4eea-a4f5-643e85665c1b"
+			refpath="/form[@title='New Project']/container[@type='JPanel']/container[@name='templatePanel']/container[@name='split']/container[@name='leftComponent']/list[@name='options']/listitem[@text='None']"
+			searchtimeout="15000ms">
+				/form[@title='New Project']/?/?/container[@name='templatePanel']//list[@name='options']/listitem[@text='None']
+			</item>
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="3602817a-23be-47af-b4d0-e545e501dad1"
+			name="CreateButton"
+			refimgid="53fbbe8b-7ba3-4bd0-a7c8-eb1d5b1e3ab5"
+			searchtimeout="15000ms">
+				/form[@title='New Project']//container[@name='buttonPanel']/button[@text='Create']
+			</item>
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="d6403de7-62e2-495c-a8f6-33f235b8723c"
+			name="CreateAndEmailExcelFile"
+			refimgid="53e5a1c0-7fcf-4292-9c8a-d96b23874f8f"
+			searchtimeout="15000ms">
+				/form[@title='New Project']//container[@name='templatePanel']//list[@name='options']/listitem[@text~'Create and Email Excel File']
+			</item>
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="f317d410-7831-493d-8189-2f0cffb55711"
+			name="DatabaseSchemaAndDataExporter"
+			refimgid="350cc255-3f4e-4903-8864-95a1e9cba8a5"
+			searchtimeout="15000ms">
+				/form[@title='New Project']//container[@name='templatePanel']//list[@name='options']/listitem[@text='Database Schema and Data Exporter']
+			</item>
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="a5a0b65d-bb87-4e23-a9fe-4d121ff68bb6"
+			name="FileTransferAndRemoteCmdExe"
+			refimgid="9c3d9ea0-445d-4c08-a5a8-cb7c11dfbda6"
+			searchtimeout="15000ms">
+				/form[@title='New Project']//container[@name='templatePanel']//list[@name='options']/listitem[@text='File Transfer and Remote Command Execution']
+			</item>
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="8e4e059a-cd86-4469-88a9-18d436c3ed34"
+			name="MultiServerScriptExecute"
+			refimgid="76f44fde-75e6-487f-a00a-6d0fed37c28e"
+			searchtimeout="15000ms">
+				/form[@title='New Project']//container[@name='templatePanel']//list[@name='options']/listitem[@text='Multi Server Script Execute']
+			</item>
+			<item
+			addcaps="cell"
+			capname="cell"
+			id="fbbffb49-b4ce-4f47-961d-d15827b20bdc"
+			name="chkFTPTransferFrom"
+			refimgid="8d1537c1-e853-4134-9792-33be2a34b60c"
+			searchtimeout="15000ms">
+				/form[@title='New Project']//container[@name='templatePanel']//container[@name='rightComponent']/container[@name='contentPanel']//container[@name='propertyTable']/container[@type='JBScrollPane']//table[@name='table']/row/cell[@text='Transfer from']/..//cell[@category='FTP']
+			</item>
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="e979e784-febb-457e-9790-b3700608cde3"
+			name="RandomTableAndDataGeneration"
+			refimgid="1820f0a2-c10d-444a-80ca-a1c500b483af"
+			searchtimeout="15000ms">
+				/form[@title='New Project']//container[@name='templatePanel']//list[@name='options']/listitem[@text~'Random Table And Data Generation']
+			</item>
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="132c52b1-e421-4701-b0ae-476446884fb9"
+			name="SchemaCompare"
+			refimgid="a9acd972-e3ca-46d8-84f1-78aba11bffd3"
+			searchtimeout="15000ms">
+				/form[@title='New Project']//container[@name='templatePanel']//list[@name='options']/listitem[@text='Schema Compare']
+			</item>
+			<basepath>
+				/form[@title='New Project']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAK7SURBVDhPhZNbSFNxHMf3FD320HOv9dBDD71F
+DHsIgiAi66mCIEN8KDBSulFD1wxHEOhMtznXMnVWlu7mZe7mtmZzbuou7Tg1184U3drmzu7w7X+O
+DKysfvDhHM4538/5HX6/w5OpVEf7B4bEesO40zht3rJYbbDaZjBjd8DucLKUzRZLUKszfFQoldfU
+avUB3t4yjE/Gkskk0uk0MpkMstksGIZBLpfjyOfzKBQKHOOeCC68MOlOt9vu85+YDnICrU6PWCzG
+BYvFIkqlEiqVCke5XOaCrHzSu4amdxSk/h00GDZx5qV7ihOMabQIhUKgaRqJRAKpVIqD7Soej4Oi
+KHg8HtTLnRDqomjxM2h2pnBJGiry203HeU1dk+iYpvBlJYaNzU0kSLAqYKWs3Opy46ZiFrcVYdz5
+RKNxhEbD62CZL3Yf5t0SG1EjieKyLon6OQaPQgwEy3k89GfR6PqB6/otnFNt4JSYwhWJF/cGI7g7
+EK7UiB1t3CdUBbXaJG64GNQvFdAQLKLOk8NVUxoXR7ZxtpcmgjWceBBEc+f7Pr7QdIwLs7WfoHF+
+G8N6IzfKfyFXKNv3FbROebC+vv5fzBYreG1SDc5LKNRqEr8IJjzL6DH/hmUZUksEMivBFoFx2gRu
+jP5AEI5AFJpwEuqVLFRmN/ew0pfFm0UGPfM03gYYDIZykJLzYSoPkTOxKxhSD8e8Ph+3TNU9cH52
+ode+wgXZQKuRLJCXhozQSkb+ilwT2GO7gm6l8oiqf0BMdn11huz+wuISJqaMUM2uYjRaxNj3EqQ+
+Gh1UAc+CeXSSsChcwOP51K5gbykUikMypfKkXNHX1z+3Brkvjm7yVgHpQEKOLALSQZc3DpE7/qeg
+WmQ8Twe939CylOZom4tDGMhAGMzguWcDoq87ECwk/y4gv20de/N/fBgZjf0E9QDs1GDdW0gAAAAA
+SUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="41ad5079-b1a6-4ffa-932c-d88cb6010340"
+		isrooted="True"
+		name="CreateNewScriptDailog"
+		refpath="/form[@title='Create New Script']"
+		searchtimeout="15000ms"
+		usecache="False">
+			<item
+			addcaps="text,javaelement"
+			capname="text"
+			id="04e8d5ff-3ca8-4cc5-9794-add099c5db61"
+			name="NameField"
+			refimgid="bed54e38-a378-479e-97ef-4f4936ffaf4a"
+			searchtimeout="15000ms">
+				/form[@title='Create New Script']//text[@name='nameField']
+			</item>
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="ba6495f8-3358-4a37-9908-dc06faa7d894"
+			name="ButtonOK"
+			refimgid="b2904d9e-1729-4985-acac-4b82b2ba344b"
+			searchtimeout="15000ms">
+				/form[@title='Create New Script']//button[@text='OK']
+			</item>
+			<basepath>
+				/form[@title='Create New Script']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAK7SURBVDhPhZNbSFNxHMf3FD320HOv9dBDD71F
+DHsIgiAi66mCIEN8KDBSulFD1wxHEOhMtznXMnVWlu7mZe7mtmZzbuou7Tg1184U3drmzu7w7X+O
+DKysfvDhHM4538/5HX6/w5OpVEf7B4bEesO40zht3rJYbbDaZjBjd8DucLKUzRZLUKszfFQoldfU
+avUB3t4yjE/Gkskk0uk0MpkMstksGIZBLpfjyOfzKBQKHOOeCC68MOlOt9vu85+YDnICrU6PWCzG
+BYvFIkqlEiqVCke5XOaCrHzSu4amdxSk/h00GDZx5qV7ihOMabQIhUKgaRqJRAKpVIqD7Soej4Oi
+KHg8HtTLnRDqomjxM2h2pnBJGiry203HeU1dk+iYpvBlJYaNzU0kSLAqYKWs3Opy46ZiFrcVYdz5
+RKNxhEbD62CZL3Yf5t0SG1EjieKyLon6OQaPQgwEy3k89GfR6PqB6/otnFNt4JSYwhWJF/cGI7g7
+EK7UiB1t3CdUBbXaJG64GNQvFdAQLKLOk8NVUxoXR7ZxtpcmgjWceBBEc+f7Pr7QdIwLs7WfoHF+
+G8N6IzfKfyFXKNv3FbROebC+vv5fzBYreG1SDc5LKNRqEr8IJjzL6DH/hmUZUksEMivBFoFx2gRu
+jP5AEI5AFJpwEuqVLFRmN/ew0pfFm0UGPfM03gYYDIZykJLzYSoPkTOxKxhSD8e8Ph+3TNU9cH52
+ode+wgXZQKuRLJCXhozQSkb+ilwT2GO7gm6l8oiqf0BMdn11huz+wuISJqaMUM2uYjRaxNj3EqQ+
+Gh1UAc+CeXSSsChcwOP51K5gbykUikMypfKkXNHX1z+3Brkvjm7yVgHpQEKOLALSQZc3DpE7/qeg
+WmQ8Twe939CylOZom4tDGMhAGMzguWcDoq87ECwk/y4gv20de/N/fBgZjf0E9QDs1GDdW0gAAAAA
+SUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="ca99b481-5a48-4607-91a1-d84726229925"
+		isrooted="True"
+		name="CreateNewFileDialog"
+		refpath="/form[@title='Create New File']"
+		searchtimeout="15000ms"
+		usecache="False">
+			<item
+			addcaps="text,javaelement"
+			capname="text"
+			id="50e0a23d-2309-4b7a-9420-c32733d52c50"
+			name="NameField"
+			refimgid="f03bcbd5-748f-4e20-9330-b4acd0ec146d"
+			searchtimeout="15000ms">
+				/form[@title='Create New File']//text[@name='nameField']
+			</item>
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="b2de0403-04e4-4f4b-9fe8-31b640c7bdec"
+			name="ButtonOK"
+			refimgid="5e983027-c639-49bb-8f9b-8d95a988da48"
+			searchtimeout="15000ms">
+				/form[@title='Create New File']//button[@text='OK']
+			</item>
+			<basepath>
+				/form[@title='Create New File']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAK7SURBVDhPhZNbSFNxHMf3FD320HOv9dBDD71F
+DHsIgiAi66mCIEN8KDBSulFD1wxHEOhMtznXMnVWlu7mZe7mtmZzbuou7Tg1184U3drmzu7w7X+O
+DKysfvDhHM4538/5HX6/w5OpVEf7B4bEesO40zht3rJYbbDaZjBjd8DucLKUzRZLUKszfFQoldfU
+avUB3t4yjE/Gkskk0uk0MpkMstksGIZBLpfjyOfzKBQKHOOeCC68MOlOt9vu85+YDnICrU6PWCzG
+BYvFIkqlEiqVCke5XOaCrHzSu4amdxSk/h00GDZx5qV7ihOMabQIhUKgaRqJRAKpVIqD7Soej4Oi
+KHg8HtTLnRDqomjxM2h2pnBJGiry203HeU1dk+iYpvBlJYaNzU0kSLAqYKWs3Opy46ZiFrcVYdz5
+RKNxhEbD62CZL3Yf5t0SG1EjieKyLon6OQaPQgwEy3k89GfR6PqB6/otnFNt4JSYwhWJF/cGI7g7
+EK7UiB1t3CdUBbXaJG64GNQvFdAQLKLOk8NVUxoXR7ZxtpcmgjWceBBEc+f7Pr7QdIwLs7WfoHF+
+G8N6IzfKfyFXKNv3FbROebC+vv5fzBYreG1SDc5LKNRqEr8IJjzL6DH/hmUZUksEMivBFoFx2gRu
+jP5AEI5AFJpwEuqVLFRmN/ew0pfFm0UGPfM03gYYDIZykJLzYSoPkTOxKxhSD8e8Ph+3TNU9cH52
+ode+wgXZQKuRLJCXhozQSkb+ilwT2GO7gm6l8oiqf0BMdn11huz+wuISJqaMUM2uYjRaxNj3EqQ+
+Gh1UAc+CeXSSsChcwOP51K5gbykUikMypfKkXNHX1z+3Brkvjm7yVgHpQEKOLALSQZc3DpE7/qeg
+WmQ8Twe939CylOZom4tDGMhAGMzguWcDoq87ECwk/y4gv20de/N/fBgZjf0E9QDs1GDdW0gAAAAA
+SUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="2cb7e79e-e049-4a02-8b2b-8323aee5db8a"
+		isrooted="True"
+		name="NewFolderDailog"
+		refpath="/form[@title='New Folder']"
+		searchtimeout="15000ms"
+		usecache="False">
+			<item
+			addcaps="text,javaelement"
+			capname="text"
+			id="44da3c70-ce64-467d-b9b5-3baee8937ff2"
+			name="NameTextField"
+			refimgid="6072df3b-a0d6-431f-b984-e3bf9198d71b"
+			refpath="/form[@title='New Folder']/container[@type='JOptionPane']/container[1]/container[@name='OptionPane.realBody']/container[@name='OptionPane.body']/text[@name='OptionPane.textField']"
+			searchtimeout="15000ms">
+				/form[@title='New Folder']//container[@name='OptionPane.realBody']/container[@name='OptionPane.body']/text[@name='OptionPane.textField']
+			</item>
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="a52bfff6-477c-46ea-9ec0-9b81d3c9e2da"
+			name="ButtonOK"
+			refimgid="5f92c58e-23ab-4bae-9c3b-70f2bce345be"
+			searchtimeout="15000ms">
+				/form[@title='New Folder']//container[@name='OptionPane.buttonArea']/button[@text='OK']
+			</item>
+			<basepath>
+				/form[@title='New Folder']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAFkSURBVDhPrZNLSwJRGIb9Kf0QI4WIiJCIahNE
+BBluukDQogh3hrgwWkxXE0GSsXG8tookM1SSBPNC2KJBIobKS17GQHmbIxExJo3QCw+c2/fwHThH
+cULTWifDwuX2wu3xweP1w+MLiPjBinOGdYM+ZXBgd2HAEFSJ9Cl+xkE7wXEcSqUSBEFAs9kESavV
+Qq1WA8/z2KTjGDRdYWg7Wuw3hivKrRD1Vf63IJblMGyOgL7hQT0IWLl4hdIULZJu2gIDxUBN5TER
+eMNM+B3ziTp0mQ/o0g3MxaoYOc5CQyWx7s9Dn65jNVTA2H5KvM6lXpZA43jE6E4cC4f3WPY+Y419
+wvheoiIKZmUJJs8KUJvjmNq9xZI9g2lLsqEyXgfbxSRSwcZ5CharTRZHVpu2Q0A2yuWyLMjZXwW5
+XE4WXQW90PEOyGLkpfrNovPu1zGhq4AclENbIP0LPXcgTc8dSPMvHcjHhk/SZ9eXiSm3wgAAAABJ
+RU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="b542ecae-497c-4941-af16-fc163970814c"
+		isrooted="True"
+		name="RegisterServer"
+		searchtimeout="15000ms"
+		usecache="False">
+			<item
+			addcaps="text,javaelement"
+			capname="text"
+			id="75bce300-94c7-4d68-9973-c05ab0f01515"
+			name="TxtName"
+			refimgid="1de563ad-b4e3-4bfd-b653-d7abf4496a85"
+			searchtimeout="15000ms">
+				/form[@title~'^Register Server -']/container[@name='tabbedPane']/container[@name='generalTab']//container[@name='generalContentPanel']//container[@name='connectionNameConfigComponent']//text[@name='_txtName']
+			</item>
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="acfc3ec5-7643-41c7-a7e1-5db23ed12aa6"
+			name="TestConnection"
+			refimgid="dd266fe9-eccc-4bc5-a6f1-4f7e5808ff26"
+			searchtimeout="15000ms">
+				/form[@title~'^Register Server -']/container[@type='HorizontalLayoutPanel']//button[@name='_btnTestConnection']
+			</item>
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="70c87051-760a-487d-a704-baa7be0f43c9"
+			name="Save"
+			refimgid="78317900-1fcb-4fac-8ed6-bc14c6df6e3c"
+			searchtimeout="15000ms">
+				/form[@title~'^Register Server -']/container[@type='HorizontalLayoutPanel']//button[@text='Save']
+			</item>
+			<item
+			addcaps="text,javaelement"
+			capname="text"
+			id="4544de26-a11a-4cb9-81e0-490fa2ef8c5b"
+			name="Host"
+			refimgid="95cb8e8c-7cbf-4700-aac0-9d1c3da54d7e"
+			searchtimeout="15000ms">
+				/form[@title~'^Register Server -']/container[@name='tabbedPane']/container[@name='generalTab']//container[@name='generalContentPanel']//container[@name='locationConfigComponent']/container/text[2]
+			</item>
+			<item
+			addcaps="text,javaelement"
+			capname="text"
+			id="7dc516ec-c14b-49f3-8dd0-a5ab34af2a53"
+			name="DtBase"
+			refimgid="c44b0075-b4cc-40c0-a180-0f747899a8c5"
+			searchtimeout="15000ms">
+				/form[@title~'^Register Server -']/container[@name='tabbedPane']/container[@name='generalTab']//container[@name='generalContentPanel']//container[@name='locationConfigComponent']/container/text[6]
+			</item>
+			<item
+			addcaps="text,javaelement"
+			capname="text"
+			id="fc7fd73b-d03e-482b-95d6-afb68cfea39e"
+			name="Port"
+			refimgid="5aa103ce-1c64-455b-9af7-c97b627afe54"
+			searchtimeout="15000ms">
+				/form[@title~'^Register Server -']/container[@name='tabbedPane']/container[@name='generalTab']//container[@name='generalContentPanel']//container[@name='locationConfigComponent']/container/text[4]
+			</item>
+			<item
+			addcaps="text,javaelement"
+			capname="text"
+			id="b5f96e40-7e03-407d-88fd-1de626413f07"
+			name="txtLoginName"
+			refimgid="12866b7b-5342-4d29-873b-0a6c2ab87df7"
+			searchtimeout="15000ms">
+				/form[@title~'^Register Server -']/container[@name='tabbedPane']/container[@name='generalTab']//container[@name='generalContentPanel']//container[@name='authenticationConfigComponent']//text[@name='_txtLoginName']
+			</item>
+			<item
+			addcaps="text,javaelement"
+			capname="text"
+			id="38c2a3c8-a7ea-4f5b-a810-97ab648ca29f"
+			name="txtPassword"
+			refimgid="4958006e-dac9-4abb-ac8e-9f387f4a5eb4"
+			searchtimeout="15000ms">
+				/form[@title~'^Register Server -']/container[@name='tabbedPane']/container[@name='generalTab']//container[@name='generalContentPanel']//container[@name='authenticationConfigComponent']//text[@name='_txtPassword']
+			</item>
+			<basepath>
+				/form[@title~'^Register Server -']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAK7SURBVDhPhZNbSFNxHMf3FD320HOv9dBDD71F
+DHsIgiAi66mCIEN8KDBSulFD1wxHEOhMtznXMnVWlu7mZe7mtmZzbuou7Tg1184U3drmzu7w7X+O
+DKysfvDhHM4538/5HX6/w5OpVEf7B4bEesO40zht3rJYbbDaZjBjd8DucLKUzRZLUKszfFQoldfU
+avUB3t4yjE/Gkskk0uk0MpkMstksGIZBLpfjyOfzKBQKHOOeCC68MOlOt9vu85+YDnICrU6PWCzG
+BYvFIkqlEiqVCke5XOaCrHzSu4amdxSk/h00GDZx5qV7ihOMabQIhUKgaRqJRAKpVIqD7Soej4Oi
+KHg8HtTLnRDqomjxM2h2pnBJGiry203HeU1dk+iYpvBlJYaNzU0kSLAqYKWs3Opy46ZiFrcVYdz5
+RKNxhEbD62CZL3Yf5t0SG1EjieKyLon6OQaPQgwEy3k89GfR6PqB6/otnFNt4JSYwhWJF/cGI7g7
+EK7UiB1t3CdUBbXaJG64GNQvFdAQLKLOk8NVUxoXR7ZxtpcmgjWceBBEc+f7Pr7QdIwLs7WfoHF+
+G8N6IzfKfyFXKNv3FbROebC+vv5fzBYreG1SDc5LKNRqEr8IJjzL6DH/hmUZUksEMivBFoFx2gRu
+jP5AEI5AFJpwEuqVLFRmN/ew0pfFm0UGPfM03gYYDIZykJLzYSoPkTOxKxhSD8e8Ph+3TNU9cH52
+ode+wgXZQKuRLJCXhozQSkb+ilwT2GO7gm6l8oiqf0BMdn11huz+wuISJqaMUM2uYjRaxNj3EqQ+
+Gh1UAc+CeXSSsChcwOP51K5gbykUikMypfKkXNHX1z+3Brkvjm7yVgHpQEKOLALSQZc3DpE7/qeg
+WmQ8Twe939CylOZom4tDGMhAGMzguWcDoq87ECwk/y4gv20de/N/fBgZjf0E9QDs1GDdW0gAAAAA
+SUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="a53eb853-1ff3-4d92-8170-12b56e1aeb24"
+		isrooted="True"
+		name="ConnectionTestSUCCESS"
+		refimgid="5824c123-a921-4298-9e00-6b2d81189bc0"
+		refpath="/form[@title='Connection Test - SUCCESS']"
+		searchtimeout="15000ms"
+		usecache="False">
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="06bb320a-d30f-4fdb-9e19-01d8be9d2e81"
+			name="Close"
+			refimgid="b3f4a25b-eb21-48d9-89d3-d9cd0cd4fc7c"
+			searchtimeout="15000ms">
+				/form[@title='Connection Test - SUCCESS']/container[@type='JPanel']/container[@type='HorizontalLayoutPanel']//button[@text='Close']
+			</item>
+			<basepath>
+				/form[@title='Connection Test - SUCCESS']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAK7SURBVDhPhZNbSFNxHMf3FD320HOv9dBDD71F
+DHsIgiAi66mCIEN8KDBSulFD1wxHEOhMtznXMnVWlu7mZe7mtmZzbuou7Tg1184U3drmzu7w7X+O
+DKysfvDhHM4538/5HX6/w5OpVEf7B4bEesO40zht3rJYbbDaZjBjd8DucLKUzRZLUKszfFQoldfU
+avUB3t4yjE/Gkskk0uk0MpkMstksGIZBLpfjyOfzKBQKHOOeCC68MOlOt9vu85+YDnICrU6PWCzG
+BYvFIkqlEiqVCke5XOaCrHzSu4amdxSk/h00GDZx5qV7ihOMabQIhUKgaRqJRAKpVIqD7Soej4Oi
+KHg8HtTLnRDqomjxM2h2pnBJGiry203HeU1dk+iYpvBlJYaNzU0kSLAqYKWs3Opy46ZiFrcVYdz5
+RKNxhEbD62CZL3Yf5t0SG1EjieKyLon6OQaPQgwEy3k89GfR6PqB6/otnFNt4JSYwhWJF/cGI7g7
+EK7UiB1t3CdUBbXaJG64GNQvFdAQLKLOk8NVUxoXR7ZxtpcmgjWceBBEc+f7Pr7QdIwLs7WfoHF+
+G8N6IzfKfyFXKNv3FbROebC+vv5fzBYreG1SDc5LKNRqEr8IJjzL6DH/hmUZUksEMivBFoFx2gRu
+jP5AEI5AFJpwEuqVLFRmN/ew0pfFm0UGPfM03gYYDIZykJLzYSoPkTOxKxhSD8e8Ph+3TNU9cH52
+ode+wgXZQKuRLJCXhozQSkb+ilwT2GO7gm6l8oiqf0BMdn11huz+wuISJqaMUM2uYjRaxNj3EqQ+
+Gh1UAc+CeXSSsChcwOP51K5gbykUikMypfKkXNHX1z+3Brkvjm7yVgHpQEKOLALSQZc3DpE7/qeg
+WmQ8Twe939CylOZom4tDGMhAGMzguWcDoq87ECwk/y4gv20de/N/fBgZjf0E9QDs1GDdW0gAAAAA
+SUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="dc7604ba-42c1-49ba-9d1f-6297adfe08ca"
+		isrooted="True"
+		name="ConnectionTestFAILED"
+		refpath="/form[@title='Connection Test - FAILED']"
+		searchtimeout="15000ms"
+		usecache="False">
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="3c2eeacb-1ecf-4208-9115-e75e348a8016"
+			name="Close"
+			refimgid="b6b9905f-92cb-4680-9a69-78a1c573b629"
+			searchtimeout="15000ms">
+				/form[@title='Connection Test - FAILED']/container[@type='JPanel']/container[@type='HorizontalLayoutPanel']//button[@text='Close']
+			</item>
+			<basepath>
+				/form[@title='Connection Test - FAILED']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAK7SURBVDhPhZNbSFNxHMf3FD320HOv9dBDD71F
+DHsIgiAi66mCIEN8KDBSulFD1wxHEOhMtznXMnVWlu7mZe7mtmZzbuou7Tg1184U3drmzu7w7X+O
+DKysfvDhHM4538/5HX6/w5OpVEf7B4bEesO40zht3rJYbbDaZjBjd8DucLKUzRZLUKszfFQoldfU
+avUB3t4yjE/Gkskk0uk0MpkMstksGIZBLpfjyOfzKBQKHOOeCC68MOlOt9vu85+YDnICrU6PWCzG
+BYvFIkqlEiqVCke5XOaCrHzSu4amdxSk/h00GDZx5qV7ihOMabQIhUKgaRqJRAKpVIqD7Soej4Oi
+KHg8HtTLnRDqomjxM2h2pnBJGiry203HeU1dk+iYpvBlJYaNzU0kSLAqYKWs3Opy46ZiFrcVYdz5
+RKNxhEbD62CZL3Yf5t0SG1EjieKyLon6OQaPQgwEy3k89GfR6PqB6/otnFNt4JSYwhWJF/cGI7g7
+EK7UiB1t3CdUBbXaJG64GNQvFdAQLKLOk8NVUxoXR7ZxtpcmgjWceBBEc+f7Pr7QdIwLs7WfoHF+
+G8N6IzfKfyFXKNv3FbROebC+vv5fzBYreG1SDc5LKNRqEr8IJjzL6DH/hmUZUksEMivBFoFx2gRu
+jP5AEI5AFJpwEuqVLFRmN/ew0pfFm0UGPfM03gYYDIZykJLzYSoPkTOxKxhSD8e8Ph+3TNU9cH52
+ode+wgXZQKuRLJCXhozQSkb+ilwT2GO7gm6l8oiqf0BMdn11huz+wuISJqaMUM2uYjRaxNj3EqQ+
+Gh1UAc+CeXSSsChcwOP51K5gbykUikMypfKkXNHX1z+3Brkvjm7yVgHpQEKOLALSQZc3DpE7/qeg
+WmQ8Twe939CylOZom4tDGMhAGMzguWcDoq87ECwk/y4gv20de/N/fBgZjf0E9QDs1GDdW0gAAAAA
+SUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="2df13881-7a77-4236-bb7c-c4e584dde02c"
+		isrooted="True"
+		name="ConnectionTest"
+		refimgid="eb82a830-a709-4274-a6fd-a37e895f9562"
+		searchtimeout="15000ms"
+		usecache="False">
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="846ff4e0-f17d-4c4a-bd27-04a16f405c38"
+			name="Close"
+			refimgid="e282ed1e-3492-4f03-986c-87a69279ec35"
+			searchtimeout="15000ms">
+				/form[@title~'Connection Test -']/container[@type='JPanel']/container[@type='HorizontalLayoutPanel']//button[@text='Close']
+			</item>
+			<basepath>
+				/form[@title~'Connection Test -']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAK7SURBVDhPhZNbSFNxHMf3FD320HOv9dBDD71F
+DHsIgiAi66mCIEN8KDBSulFD1wxHEOhMtznXMnVWlu7mZe7mtmZzbuou7Tg1184U3drmzu7w7X+O
+DKysfvDhHM4538/5HX6/w5OpVEf7B4bEesO40zht3rJYbbDaZjBjd8DucLKUzRZLUKszfFQoldfU
+avUB3t4yjE/Gkskk0uk0MpkMstksGIZBLpfjyOfzKBQKHOOeCC68MOlOt9vu85+YDnICrU6PWCzG
+BYvFIkqlEiqVCke5XOaCrHzSu4amdxSk/h00GDZx5qV7ihOMabQIhUKgaRqJRAKpVIqD7Soej4Oi
+KHg8HtTLnRDqomjxM2h2pnBJGiry203HeU1dk+iYpvBlJYaNzU0kSLAqYKWs3Opy46ZiFrcVYdz5
+RKNxhEbD62CZL3Yf5t0SG1EjieKyLon6OQaPQgwEy3k89GfR6PqB6/otnFNt4JSYwhWJF/cGI7g7
+EK7UiB1t3CdUBbXaJG64GNQvFdAQLKLOk8NVUxoXR7ZxtpcmgjWceBBEc+f7Pr7QdIwLs7WfoHF+
+G8N6IzfKfyFXKNv3FbROebC+vv5fzBYreG1SDc5LKNRqEr8IJjzL6DH/hmUZUksEMivBFoFx2gRu
+jP5AEI5AFJpwEuqVLFRmN/ew0pfFm0UGPfM03gYYDIZykJLzYSoPkTOxKxhSD8e8Ph+3TNU9cH52
+ode+wgXZQKuRLJCXhozQSkb+ilwT2GO7gm6l8oiqf0BMdn11huz+wuISJqaMUM2uYjRaxNj3EqQ+
+Gh1UAc+CeXSSsChcwOP51K5gbykUikMypfKkXNHX1z+3Brkvjm7yVgHpQEKOLALSQZc3DpE7/qeg
+WmQ8Twe939CylOZom4tDGMhAGMzguWcDoq87ECwk/y4gv20de/N/fBgZjf0E9QDs1GDdW0gAAAAA
+SUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="99b21533-be3d-4b66-ae4e-d6373e64eabe"
+		isrooted="True"
+		name="Servers"
+		refpath="/form[@title='Servers']"
+		searchtimeout="15000ms"
+		usecache="False">
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="9ca43c1f-d663-43db-b6c0-3b2c2245e740"
+			name="AmazonRedshift"
+			refimgid="2aaed0eb-7bf1-4fbc-a386-3d95ad2b4af6"
+			refpath="/form[@title='Servers']/container[@name='myInternalDecorator']/container[@type='JPanel']/container[@type='NonOpaquePanel']/container[@type='JPanel']/container[@type='ContentManagerImpl$MyNonOpaquePanel']/container[@type='ContentManagerImpl$MyContentComponent']/container[@type='JPanel']/container[@type='JScrollPane']/container[@name='viewport']/tree[@name='schemaTree']/treeitem[@text='Root']/treeitem[@text='Local Database Servers']/treeitem[@text='Amazon Redshift']"
+			searchtimeout="15000ms">
+				/form[@title='Servers']/container[@name='myInternalDecorator']/container[@type='JPanel']/container[@type='NonOpaquePanel']//container[@type='ContentManagerImpl$MyContentComponent']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text='Amazon Redshift']
+			</item>
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="69a11727-1271-4a33-b7c7-80cbebb1e7cc"
+			name="Cassandra17224112222"
+			refimgid="7988c317-dfb1-4b4c-b747-deb7dc20db16"
+			searchtimeout="15000ms">
+				/form[@title='Servers']/container[@name='myInternalDecorator']/container[@type='JPanel']/container[@type='NonOpaquePanel']//container[@type='ContentManagerImpl$MyContentComponent']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text~'Cassandra 172.24.1.122 2.2']
+			</item>
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="d8b0bbfd-e277-4566-a091-7862318ada73"
+			name="LocalDatabaseServers"
+			refimgid="d1a0e13d-4ac9-49c2-9119-59cede5492e8"
+			searchtimeout="15000ms">
+				/form[@title='Servers']/container[@name='myInternalDecorator']/?/?/container[@type='NonOpaquePanel']//container[@type='ContentManagerImpl$MyContentComponent']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text='Local Database Servers']
+			</item>
+			<item
+			addcaps="unknown,javaelement"
+			capname="unknown"
+			id="93381498-d2a4-4358-a1c0-b641d30f62b9"
+			name="SettingsIcon"
+			refimgid="93a5e97c-2a05-4379-9214-8070f7b655ab"
+			searchtimeout="30000ms">
+				/form[@title='Servers']/container[@name='myInternalDecorator']//container[@name='myHeader']//container[@type='ToolWindowHeader$3']/element[@type='ToolWindowHeader$ActionButton$1']
+			</item>
+			<basepath>
+				/form[@title='Servers']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAFkSURBVDhPrZNLSwJRGIb9Kf0QI4WIiJCIahNE
+BBluukDQogh3hrgwWkxXE0GSsXG8tookM1SSBPNC2KJBIobKS17GQHmbIxExJo3QCw+c2/fwHThH
+cULTWifDwuX2wu3xweP1w+MLiPjBinOGdYM+ZXBgd2HAEFSJ9Cl+xkE7wXEcSqUSBEFAs9kESavV
+Qq1WA8/z2KTjGDRdYWg7Wuw3hivKrRD1Vf63IJblMGyOgL7hQT0IWLl4hdIULZJu2gIDxUBN5TER
+eMNM+B3ziTp0mQ/o0g3MxaoYOc5CQyWx7s9Dn65jNVTA2H5KvM6lXpZA43jE6E4cC4f3WPY+Y419
+wvheoiIKZmUJJs8KUJvjmNq9xZI9g2lLsqEyXgfbxSRSwcZ5CharTRZHVpu2Q0A2yuWyLMjZXwW5
+XE4WXQW90PEOyGLkpfrNovPu1zGhq4AclENbIP0LPXcgTc8dSPMvHcjHhk/SZ9eXiSm3wgAAAABJ
+RU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="4b380cdb-fd27-41b0-a88b-de68d7556269"
+		isrooted="True"
+		name="RemoveDailog"
+		refimgid="1227f6e9-856c-4734-8914-7c00c7dd0662"
+		refpath="/form[@title='Remove']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="f252e281-ad2c-492c-bfeb-82cc4a24f62c"
+			name="ButtonYes"
+			refimgid="4e8f3840-6bb5-4cf7-b78b-8862f9bdaa22"
+			searchtimeout="30000ms">
+				/form[@title='Remove']//button[@text='Yes']
+			</item>
+			<basepath>
+				/form[@title='Remove']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAlFJREFUOE+lk+tLk2EYh/eX9CGipCIyCKLo4HHlzA8SVoR9KogkkKDM
+CKRCCwQtKUjtIJSdrKggqQ+CFZmHHGlzzrU552HqNnWbO7zHXT3bBLXQoG74fXvv63c9z8tj+O9p
+aDFz55WDmuYBqpp+cLnRzJnqTk5UdlNc8YWic60Ulr6koOTJshw8/RjjkXIMdc9tNLVrNLZp3GqV
+qX4dofJZkIpHs5Q3+Tl710fJ7UlO1o5zvNrN0SoXh644yS8zsyZtB4baZjN1bwLcfBvm4oMpTt1w
+U3zdybFrDg5ftVNYYaPg0iCmcisHLgxgLLOQe95CRmk369KNGGoaXuAPxAhHNeZFQhGVYFghIDIb
+SsUbUPDMyLi9Mg6PhHVMosvqYePW7QJQ38JqE4+DokJEijMX0ZkKaoz6VSwuLxs2b8Nw/+n7hU//
+HE0HSYkzH9OZmdeYnNNw+xR+Tir0DP0FoItmWSwnm8M606J5TDQ7pxSs4zKd1tUACW1NLMtxglEd
+X0hjYlbD5VWwTSj0j8h8tgjAphUAi+pxZsRySl3FLtQtozK9wxLtfSsAkupqQl1PqQdS6o6kusJ3
+l0yXQ6LNnACkLwckb1yDqDh3YKn6dEq9zy3R45TosMX40PsbQOyiLqiHhLo/eesqIwl1z6L6V3uM
+T9Yo73q8rE8A7i0xEOVI4p+HYggATMyByxdnyKPRP6rxbVilw67wcVBOAtambRFvof4hufvzyTGa
+yBbJEskUycg1sS/HxN7sPPaI7M7KY1dmKjszUsnJL2LhTf7rGAy/AP7X5rYY5FLEAAAAAElFTkSu
+QmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="9a177c4f-dc50-4d43-bafb-fa1d2405e4ac"
+		isrooted="True"
+		name="Delete"
+		refpath="/form[@title='Delete']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="a1a8a1a8-ffea-4349-86df-b3924a7cb913"
+			name="ButtonYes"
+			refimgid="9595f336-b25b-4f1c-ac70-a27bce81b9f0"
+			searchtimeout="30000ms">
+				/form[@title='Delete']//container[@name='OptionPane.buttonArea']/button[@text='Yes']
+			</item>
+			<basepath>
+				/form[@title='Delete']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAFkSURBVDhPrZNLSwJRGIb9Kf0QI4WIiJCIahNE
+BBluukDQogh3hrgwWkxXE0GSsXG8tookM1SSBPNC2KJBIobKS17GQHmbIxExJo3QCw+c2/fwHThH
+cULTWifDwuX2wu3xweP1w+MLiPjBinOGdYM+ZXBgd2HAEFSJ9Cl+xkE7wXEcSqUSBEFAs9kESavV
+Qq1WA8/z2KTjGDRdYWg7Wuw3hivKrRD1Vf63IJblMGyOgL7hQT0IWLl4hdIULZJu2gIDxUBN5TER
+eMNM+B3ziTp0mQ/o0g3MxaoYOc5CQyWx7s9Dn65jNVTA2H5KvM6lXpZA43jE6E4cC4f3WPY+Y419
+wvheoiIKZmUJJs8KUJvjmNq9xZI9g2lLsqEyXgfbxSRSwcZ5CharTRZHVpu2Q0A2yuWyLMjZXwW5
+XE4WXQW90PEOyGLkpfrNovPu1zGhq4AclENbIP0LPXcgTc8dSPMvHcjHhk/SZ9eXiSm3wgAAAABJ
+RU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="5a0c34d0-985c-464e-99c5-969843c709b1"
+		isrooted="True"
+		name="UnregisterServer"
+		refpath="/form[@title='Unregister Server']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="9e8c34d4-5c73-4984-864f-e31155ddd4dc"
+			name="ButtonYes"
+			refimgid="4109812c-7ded-4895-9a89-921cab567f11"
+			searchtimeout="30000ms">
+				/form[@title='Unregister Server']//container[@name='OptionPane.buttonArea']/button[@text='Yes']
+			</item>
+			<basepath>
+				/form[@title='Unregister Server']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAFkSURBVDhPrZNLSwJRGIb9Kf0QI4WIiJCIahNE
+BBluukDQogh3hrgwWkxXE0GSsXG8tookM1SSBPNC2KJBIobKS17GQHmbIxExJo3QCw+c2/fwHThH
+cULTWifDwuX2wu3xweP1w+MLiPjBinOGdYM+ZXBgd2HAEFSJ9Cl+xkE7wXEcSqUSBEFAs9kESavV
+Qq1WA8/z2KTjGDRdYWg7Wuw3hivKrRD1Vf63IJblMGyOgL7hQT0IWLl4hdIULZJu2gIDxUBN5TER
+eMNM+B3ziTp0mQ/o0g3MxaoYOc5CQyWx7s9Dn65jNVTA2H5KvM6lXpZA43jE6E4cC4f3WPY+Y419
+wvheoiIKZmUJJs8KUJvjmNq9xZI9g2lLsqEyXgfbxSRSwcZ5CharTRZHVpu2Q0A2yuWyLMjZXwW5
+XE4WXQW90PEOyGLkpfrNovPu1zGhq4AclENbIP0LPXcgTc8dSPMvHcjHhk/SZ9eXiSm3wgAAAABJ
+RU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="03a9c673-bbf1-4ded-8a3c-5284508fb11d"
+		isrooted="True"
+		name="Warning"
+		refpath="/form[@title='Warning']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="aedf4a7b-df3a-47b0-bff4-36ec1798f533"
+			name="ButtonOK"
+			refimgid="16632b84-0e67-48f0-8378-70620e182345"
+			searchtimeout="30000ms">
+				/form[@title='Warning']//container[@name='OptionPane.buttonArea']/button[@text='OK']
+			</item>
+			<basepath>
+				/form[@title='Warning']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAFkSURBVDhPrZNLSwJRGIb9Kf0QI4WIiJCIahNE
+BBluukDQogh3hrgwWkxXE0GSsXG8tookM1SSBPNC2KJBIobKS17GQHmbIxExJo3QCw+c2/fwHThH
+cULTWifDwuX2wu3xweP1w+MLiPjBinOGdYM+ZXBgd2HAEFSJ9Cl+xkE7wXEcSqUSBEFAs9kESavV
+Qq1WA8/z2KTjGDRdYWg7Wuw3hivKrRD1Vf63IJblMGyOgL7hQT0IWLl4hdIULZJu2gIDxUBN5TER
+eMNM+B3ziTp0mQ/o0g3MxaoYOc5CQyWx7s9Dn65jNVTA2H5KvM6lXpZA43jE6E4cC4f3WPY+Y419
+wvheoiIKZmUJJs8KUJvjmNq9xZI9g2lLsqEyXgfbxSRSwcZ5CharTRZHVpu2Q0A2yuWyLMjZXwW5
+XE4WXQW90PEOyGLkpfrNovPu1zGhq4AclENbIP0LPXcgTc8dSPMvHcjHhk/SZ9eXiSm3wgAAAABJ
+RU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

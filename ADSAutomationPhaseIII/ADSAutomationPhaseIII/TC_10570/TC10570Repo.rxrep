@@ -1,0 +1,968 @@
+﻿<repository
+id="2a168245-05fe-4116-92c0-10a472e41805"
+name="TC10570Repo"
+rxversion="8.2">
+	<codegen
+	classname="TC10570Repo"
+	namespace="ADSAutomationPhaseIII.TC_10570">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="9a72e597-9b08-4844-adde-bf2726cace5a"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		capname="form"
+		id="d54a3fac-3b92-4b4a-9c2b-770fb3053792"
+		isrooted="True"
+		name="Application"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="menuitem"
+			id="da992c0f-dfcc-4c8a-a60b-60218253b432"
+			name="FileMenu"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio']//menuitem[@text='File']
+			</item>
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="c32a1335-02c2-4351-9aaf-24155c3eed88"
+			name="MongoDBServerlist"
+			refimgid="46499dd4-2a2b-4ca9-aa8f-b81fe810575b"
+			refpath="/form[@title='Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container[@type='JPanel']/container[@type='NonOpaquePanel']/container[@type='JPanel']/container[@type='ContentManagerImpl$MyNonOpaquePanel']/container[@type='ContentManagerImpl$MyContentComponent']/container[@type='JPanel']/container[@type='JScrollPane']/container[@name='viewport']/tree[@name='schemaTree']/treeitem[@text='Root']/treeitem[@text='Local Database Servers']/treeitem[@text='MongoDB 172.24.1.155 v3.4.1']"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text~'^MongoDB\ 172\.24\.1\.155\ v3\.4']
+			</item>
+			<item
+			addcaps="container,javaelement"
+			capname="container"
+			id="00b2bfb6-6e12-4974-a4d8-08a42233c812"
+			name="SelectQueryPane"
+			refimgid="f92a80c8-5d24-46f9-9ea2-638be0c6cc6f"
+			refpath="/form[@title='Aqua Data Studio [Untitled 17]*']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']/container[@name='ToolWindowFrame.MainComponent']/container[@accessiblename='@MongoDB 172.24.1.155 v3.4.1 [Untitled 17]*']/container[@type='QueryPanel']/container[@name='panel']/container[@name='editorPanel']/container[@name='splitPane']/container[3]/container[@name='tabbedPane']/container[@name='_gridResultsView']/container[@name='splitPane']/container[@accessiblename='select * from ads_Collection']"
+			searchtimeout="30000ms">
+				<image
+				guid="97602de8-cda6-4288-98da-2bb1afa2a04d"
+				name="QueryExecuted">
+					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
+GCEAAACAIowQAAAAQBFGCAAAAKAIIwQAAABQhBECAAAAKMIIAQAAABRhhAAAAACKMEIAAAAARRgh
+AAAAgCKMEAAAAEARRggAAACgCCMEAAAAUIQRAgAAACjCCAEAAAAUYYQAAAAAijBCAAAAAEUYIQAA
+AIAijBAAAABAEUYIAAAAoAgjBAAAAFCEEQIAAAAowggBAAAAFGGEAAAAAIowQgAAAABFGCEAAACA
+IowQAAAAQBFGCAAAAKAIIwQAAABQhBECAAAAKMIIAQAAABRhhAAAAACKMEIAAAAARRghAAAAgCKM
+EAAAAEARRggAAACgCCMEAAAAUIQRAgAAACgiHSEuX75cZ4QAAAAAVs6ZEAAAAEARzoQAAAAAinAm
+BAAAAFCEMyEAAACAIpwJAQAAABThTAgAAACgCGdCAAAAAEU4EwIAAAAowpkQAAAAQBHOhAAAAACK
+cCYEAAAAUIQzIQAAAIAinAkBAAAAFOFMCAAAAKAIZ0IAAAAARRghAAAAgCKMEAAAAEARRggAAACg
+CCMEAAAAUIQRAgAAACjCCAEAAAAUYYQAAAAAijBCAAAAAEUYIQAAAIAijBAAAABAEUYIAAAAoAgj
+BAAAAFCEEQIAAAAowggBAAAAFGGEAAAAAIowQgAAAABFGCEAAACAIowQAAAAQBFGCAAAAKAIIwQA
+AABQhBECAAAAKMIIAQAAABRhhAAAAACKMEIAAAAARRghAAAAgCKMEAAAAEARRggAAACgCCMEAAAA
+UIQRAgAAACjCCAEAAAAUYYQAAAAAijBCAAAAAEUYIQAAAIAijBAAAABAEUYIAAAAoAgjBAAAAFCE
+EQIAAAAowggBAAAAFGGEAAAAAIowQgAAAABFGCEAAACAIowQAAAAQBFGCAAAAKAIIwQAAABQhBEC
+AAAAKMIIAQAAABRhhAAAAACKMEIAAAAARRghAAAAgCKMEAAAAEARRggAAACgCCMEAAAAUIQRAgAA
+ACjCCAEAAAAUYYQAAAAAijBCAAAAAEUYIQAAAIAijBAAAABAEUYIAAAAoAgjBAAAAFCEEQIAAAAo
+wggBAAAAFGGEAAAAAIowQgAAAABFGCEAAACAIowQAAAAQBFGCAAAAKAIIwQAAABQhBECAAAAKMII
+AQAAABRhhAAAAACKMEIAAAAARRghAAAAgCKMEAAAAEARRggAAACgCCMEAAAAUIQRAgAAACjCCAEA
+AAAUYYQAAAAAijBCAAAAAEUYIQAAAIAijBAAAABAEUYIAAAAoAgjBAAAAFCEEQIAAAAowggBAAAA
+FGGEAAAAAIowQgAAAABFGCEAAACAIuYaISRJkiRJkpZp0AghSZIkSZK0rsYjhCRJkiRJ0np7qPp/
+cHYAcZEt0tgAAAAASUVORK5CYII=
+				</image>
+				/form[@title~'^Aqua\ Data\ Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='QueryPanel']//container[@name='splitPane']//container[@name='_gridResultsView']/?/?/container[@accessiblename='select * from ads_Collection']
+			</item>
+			<folder
+			addcaps="container,javaelement"
+			capname="container"
+			id="84735de7-20c4-4d89-bc29-de923d38240d"
+			isrooted="True"
+			name="CreateDatabasePanel"
+			refpath="/form[@title='Aqua Data Studio ']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="efaa5bb8-3e24-4a47-8063-a6faa519a2c3"
+				name="CollectionsName"
+				refimgid="dab1470c-6d2b-4478-ac8b-6519753af4bf"
+				refpath="/form[@title='Aqua Data Studio ']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']/container[@name='ToolWindowFrame.MainComponent']/container[@accessiblename='Create: Database']/container[@type='CommonSchemaTab$8']/container[@name='this$0']/container[@accessiblename='General   ']/container[2]/container[@type='CFormPane']/text[@name='_mongoCollNameField']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']/?/?/container[@accessiblename='General   ']/container[2]/?/?/text[@name='_mongoCollNameField']
+				</item>
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="0c352df3-cd2a-4eab-b41b-2b5252eb47f6"
+				name="DatabaseName"
+				refimgid="76c75cb4-dcb0-4930-b67e-bb2ee0369aa3"
+				refpath="/form[@title='Aqua Data Studio ']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']/container[@name='ToolWindowFrame.MainComponent']/container[@accessiblename='Create: Database']/container[@type='CommonSchemaTab$8']/container[@name='this$0']/container[@accessiblename='General   ']/container[2]/container[@type='CFormPane']/text[@name='nameField']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']/?/?/container[@accessiblename='General   ']/container[2]/?/?/text[@name='nameField']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="0f562a69-b6ee-4405-9e1f-8342ebb64052"
+				name="Databases"
+				refimgid="7a6c75ac-603c-499d-bb76-2f54319bf942"
+				refpath="/form[@title='Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container[@type='JPanel']/container[@type='NonOpaquePanel']/container[@type='JPanel']/container[@type='ContentManagerImpl$MyNonOpaquePanel']/container[@type='ContentManagerImpl$MyContentComponent']/container[@type='JPanel']/container[@type='JScrollPane']/container[@name='viewport']/tree[@name='schemaTree']/treeitem[@text='Root']/treeitem[@text='Local Database Servers']/treeitem[@text='MongoDB 172.24.1.155 v3.4.1']/treeitem[@text='Databases']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text~'^MongoDB\ 172\.24\.1\.155\ v3\.4']/treeitem[@text='Databases']
+				</item>
+				<item
+				addcaps="button,javaelement"
+				capname="button"
+				id="0117683d-f123-4f28-a7d0-7f9c2aead11c"
+				name="CreateDBButton"
+				refimgid="c1277bf2-69e5-40dc-ba54-41b8db45d87a"
+				refpath="/form[@title='Aqua Data Studio ']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']/container[@name='ToolWindowFrame.MainComponent']/container[@accessiblename='Create: Database']/container[@type='CommonSchemaTab$8']/container[@name='this$0']/container[@type='CToolBar']/button[@text='Create']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='CommonSchemaTab$8']//button[@text='Create']
+				</item>
+				<item
+				addcaps="button,javaelement"
+				capname="button"
+				id="a8ce86fb-949d-4d66-b454-aceff99bcb58"
+				name="QueryPanelDropdownarrow"
+				refimgid="6074e59e-f51a-4108-8613-35faa74047b2"
+				refpath="/form[@title='Aqua Data Studio [Untitled 23]*']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']/container[@name='ToolWindowFrame.MainComponent']/container[@accessiblename='@MongoDB 172.24.1.155 v3.4.1 [Untitled 23]*']/container[@type='QueryPanel']/container[@name='panel']/container[@name='editorPanel']/container[@name='panelBar']/container[3]/container[@type='JPanel']/combobox[@name='databaseField']/button[@text='']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='QueryPanel']//container[@name='panelBar']//combobox[@name='databaseField']/button[@text='']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="5bce1020-1cd1-46fd-9f1a-3c5e537bc28f"
+				name="DorpnewDB"
+				refimgid="072b7b66-8f9d-43fc-aed7-6fd80d80aa6a"
+				refpath="/form[@title='Aqua Data Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container[@type='JPanel']/container[@type='NonOpaquePanel']/container[@type='JPanel']/container[@type='ContentManagerImpl$MyNonOpaquePanel']/container[@type='ContentManagerImpl$MyContentComponent']/container[@type='JPanel']/container[@type='JScrollPane']/container[@name='viewport']/tree[@name='schemaTree']/treeitem[@text='Root']/treeitem[@text='Local Database Servers']/treeitem[@text='MongoDB 172.24.1.155 v3.4.1']/treeitem[@text='Databases']/treeitem[@text='ads_db']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text~'^MongoDB\ 172\.24\.1\.155\ v3\.4']/?/?/treeitem[@text='ads_db']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="c969a298-7e81-4840-a036-b963927b0c28"
+				name="AdsDBNew"
+				refimgid="0f739ad4-7a21-4df5-a29b-8cb8d984900f"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text~'MongoDB 172.24.1.155 v3.4.1']/?/?/treeitem[@text='ads_DBNew']
+				</item>
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="f9a2590b-f779-4727-8f31-ba2417e557c9"
+				name="CreateDatabase"
+				refimgid="94a83271-a9b6-48c4-9f9d-dce753d8a717"
+				refpath="/form[@title='Aqua Data Studio ']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']/container[@name='ToolWindowFrame.MainComponent']/container[@accessiblename='Create: Database']/tabpage[@title='Create: Database']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//tabpage[@title='Create: Database']
+				</item>
+				<basepath>
+					/form[@title~'^Aqua\ Data\ Studio']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title~'^Aqua\ Data\ Studio']
+			</basepath>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="f91c2511-0a1a-4be8-a8a7-09023121563d"
+		isrooted="True"
+		name="Datastudio"
+		refpath="/form[@processname='datastudio' and @class='SunAwtWindow']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="70f3219a-48de-4f5d-aeca-a758cf2ff59c"
+			name="Options"
+			refimgid="ba540b46-dc5d-4295-8a65-03a897da85c0"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu[@type='JPopupMenu']/menuitem[@text='Options']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']/?/?/menuitem[@text='Options']
+			</item>
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="a7ab4a46-c570-4ce8-983f-38b85b518da4"
+			name="MongoSQL"
+			refimgid="d27724ec-998b-4e6f-8a7e-e55333e41feb"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu[@name='ComboPopup.popup']/container[@name='ComboBox.scrollPane']/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='MongoSQL']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='MongoSQL']
+			</item>
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="552ba23a-d589-4149-82f5-971777ca8287"
+			name="MongoJS"
+			refimgid="aedd195f-338a-4c04-aa60-92221f93ba00"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu[@name='ComboPopup.popup']/container[@name='ComboBox.scrollPane']/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='MongoJS']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='MongoJS']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="7b90a9f1-0d30-4afd-91e4-62294668ed6b"
+			name="QueryAnalyzer"
+			refimgid="f3f221f6-0b88-4326-81b9-1737c7c302b5"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu/menuitem[@text='Query Analyzer']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']/?/?/menuitem[@text='Query Analyzer']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="ce2cb9de-2984-4a46-8046-6a2d4e0ec3cb"
+			name="CreateDatabase"
+			refimgid="dc6c166c-7add-44c6-833e-f9e7a1907015"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu[@type='CPopupMenu']/menuitem[@text='Create Database']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']/?/?/menuitem[@text='Create Database']
+			</item>
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="7bc69cf3-f7f1-4934-b205-ca77a1723324"
+			name="DBCreated"
+			refimgid="a4aa6f61-6d77-4b2d-bf36-c5853ae4966f"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='ads_DBNew']
+			</item>
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="4c66f90b-a11a-4a88-a34c-c79a29c98053"
+			name="TestDBCreated"
+			refimgid="516fa067-aefa-4d3b-9e55-57ab3b07bf99"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='NewData']
+			</item>
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="e001041d-e749-4ac1-a162-7e2cceca96e8"
+			name="AdsDbDropdown"
+			refimgid="22f2bfa3-6a1e-4218-aca4-a4b7e127799b"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu[@name='ComboPopup.popup']/container[@name='ComboBox.scrollPane']/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='ads_db']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='ads_db']
+			</item>
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="43a8175c-f905-4c23-91d8-5dd7e6e9f8cf"
+			name="TomDBDropdown"
+			refimgid="75e528b7-3330-45e4-96a2-66a15d7d9fae"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu[@name='ComboPopup.popup']/container[@name='ComboBox.scrollPane']/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='tom']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']//container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='tom']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="2e00e64d-e94a-4d08-8de5-ea147e42b315"
+			name="Close"
+			refimgid="00687399-4d20-4e8a-8631-1916b5d0e8e5"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu[@type='JidePopupMenu']/menuitem[@name='TabDocumentPane.close']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']/?/?/menuitem[@name='TabDocumentPane.close']
+			</item>
+			<item
+			addcaps="menuitem,javaelement"
+			capname="menuitem"
+			id="fa68bc3c-17b9-4eb4-9753-35c810e09c1d"
+			name="DropDatabase"
+			refimgid="d94cf72f-8a4d-464c-83af-798ea101a155"
+			refpath="/form[@processname='datastudio' and @class='SunAwtWindow']/contextmenu[@type='CPopupMenu']/menuitem[@text='Drop Database']"
+			searchtimeout="30000ms">
+				/form[@class='SunAwtWindow']/?/?/menuitem[@text='Drop Database']
+			</item>
+			<basepath>
+				/form[@class='SunAwtWindow']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIYSURBVDhPlZFJa5NRFIbvD3DnzrX0D7hxk4U7
+d+7EYqMIolkUqUULbW2poRojthSM7SI0VcEBLU2ERiWlCKXYRrIRkpCYoUmauZkgE5l4zXskwYAF
+u3j47hmec4dPrdmdOot937Vm38dJ+OM4dcr8adfl+RVGtVpFvV7/J5VKZSBmLx26ann9G/L5PNrt
+NjqdzgDMUS75d9FsNgfydOiqpXcO5HI5tFqtASiUy2Xkt54ht3hedv27ToeuMr6yI5PJoNFoDFAq
+lZD9asTRoyEUi0Uc/XTIkF6dDl2lN1uRSqVQq9X6cOf0tgmZ2TNSS2/qkZ0fknyvh3m6atr0HvF4
+XIo9uHtm6nT/21uTXg8duurewmtEo9F+A+H9Mk/PST59/5TE5PDwEMlkEoVCQWp01ajBjHA4LK/K
+e4VCIYG5uP4sIrY5WVOeWHoDo2UDsVgMwWAQdNXNOZME2WxWpg9PmaCdWYHu8SquTr+QmGvzuqNf
+f2Kxwufzga7STi7C7/fLo3AX8mXnBz7vOAXb9vcue/AFQiJdn13pnsIKj8cDuuryuAFer1cehUQi
+EdyeN+PK5HMMd+GXMfPXZpZhWN2QtdvtBl11afQhAoGAnODg4ECuwxMdRyKRkF46dNXFWw9ETKfT
++Li1B8PLTdxZeHssfCv+ETp01YUbE9EPNrsM4OT/gUPo0FUa7ZhOM3LXpRkZx8noOtox3W+2QEFu
+Et1VDAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="cf1f1a18-8f1c-4719-9e41-bcc0e522dd35"
+		isrooted="True"
+		name="Options"
+		refpath="/form[@title='Options']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			addcaps="tree,javaelement"
+			capname="tree"
+			id="54f3fbce-e3c9-4e57-a6dc-513ca531ce22"
+			isrooted="True"
+			name="MenuOptions"
+			refpath="/form[@title='Options']/container[1]/container[@type='SettingsEditor']/container[@name='mySplitter']/container[2]/element[@name='myTreeView']/container[@name='myScroller']/container[@type='SettingsTreeView$2']/tree[@name='myTree']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="0880e11b-2944-42a7-9891-c6c4628e0559"
+				name="Options_QueryAnalyser"
+				refimgid="f2d9bca7-152d-4ec7-b300-f133dd0fef3d"
+				refpath="/form[@title='Options']/container[1]/container[@type='SettingsEditor']/container[@name='mySplitter']/container[2]/element[@name='myTreeView']/container[@name='myScroller']/container[@type='SettingsTreeView$2']/tree[@name='myTree']/treeitem[@text='']/treeitem[14]"
+				searchtimeout="30000ms">
+					/form[@title='Options']/container[1]/?/?/container[@name='mySplitter']//container[@type='SettingsTreeView$2']/tree[@name='myTree']/treeitem/treeitem[14]
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="6dbae1b7-896a-4923-8e77-5c51c623fda3"
+				name="MangoDBSQL"
+				refimgid="217cb7b5-15d1-40f3-a05a-df69fcfd1895"
+				refpath="/form[@title='Options']/container[1]/container[@type='SettingsEditor']/container[@name='mySplitter']/container[2]/element[@name='myTreeView']/container[@name='myScroller']/container[@type='SettingsTreeView$2']/tree[@name='myTree']/treeitem[@text='']/treeitem[14]/treeitem[19]"
+				searchtimeout="30000ms">
+					/form[@title='Options']/container[1]/?/?/container[@name='mySplitter']//container[@type='SettingsTreeView$2']/tree[@name='myTree']/treeitem/treeitem[14]/treeitem[19]
+				</item>
+				<basepath>
+					/form[@title='Options']/container[1]/?/?/container[@name='mySplitter']//container[@type='SettingsTreeView$2']/tree[@name='myTree']
+				</basepath>
+			</folder>
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="407a5f37-bbc7-4eb8-8f0c-54d20091d37d"
+			name="DefaultSyntaxButt"
+			refimgid="b14835d0-6248-493a-9dcb-a8c991fb5098"
+			searchtimeout="30000ms">
+				/form[@title='Options']/container[1]/?/?/container[@name='mySplitter']/container[3]/?/?/container[@name='myContent']//container[@type='JideSplitPane']//container[@type='JBScrollPane']//table[@name='table']/combobox[@type='AQComboBoxOptionEditor$AQComboBoxTableRendererEditor$1']/button[@text='']
+			</item>
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="63291711-1a62-4316-8a10-44dcd4148d3d"
+			name="ButtonOK"
+			refimgid="ab2735cd-0e70-4219-9a48-7eecd3357697"
+			refpath="/form[@title='Options']/container[2]/container[@type='JPanel']/container[@type='JPanel']/container[@type='JPanel']/button[@text='OK']"
+			searchtimeout="30000ms">
+				/form[@title='Options']/container[2]/container[@type='JPanel']//button[@text='OK']
+			</item>
+			<item
+			addcaps="checkbox,javaelement"
+			capname="checkbox"
+			id="9f4ed480-54db-4f82-a461-3ae2163b702b"
+			name="AutoCompletionCheckbox"
+			refimgid="aa3de552-0972-41b4-8d51-2d7e8180830a"
+			refpath="/form[@title='Options']/container[1]/container[@type='SettingsEditor']/container[@name='mySplitter']/container[3]/container[@type='LoadingDecorator$MyLayeredPane']/container[@name='myContent']/element[@type='ConfigurableEditor$1']/container[@type='JPanel']/container[@type='AQPropertyPane']/container[@type='JideSplitPane']/container[1]/container[@name='propertyTable']/container[@type='JBScrollPane']/container[1]/table[@name='table']/checkbox[@text='']"
+			searchtimeout="30000ms">
+				/form[@title='Options']/container[1]/?/?/container[@name='mySplitter']/container[3]/?/?/container[@name='myContent']//container[@type='JideSplitPane']/container[1]/?/?/container[@type='JBScrollPane']/container[1]/table[@name='table']/checkbox[@text='']
+			</item>
+			<item
+			addcaps="cell"
+			capname="cell"
+			id="88f789ee-5804-487d-bfb3-59f077e588a2"
+			name="AutoCompletionCheckboxChecked"
+			refimgid="1520ea73-1232-4454-90ae-0eab8c6f7e3c"
+			refpath="/form[@title='Options']/container[1]/container[@type='SettingsEditor']/container[@name='mySplitter']/container[3]/container[@type='LoadingDecorator$MyLayeredPane']/container[@name='myContent']/element[@type='ConfigurableEditor$1']/container[@type='JPanel']/container[@type='AQPropertyPane']/container[@type='JideSplitPane']/container[1]/container[@name='propertyTable']/container[@type='JBScrollPane']/container[1]/table[@name='table']/row[@index='1']/cell[@text='true']"
+			searchtimeout="30000ms">
+				/form[@title='Options']/container[1]/?/?/container[@name='mySplitter']/container[3]/?/?/container[@name='myContent']//container[@type='JideSplitPane']/container[1]/?/?/container[@type='JBScrollPane']/container[1]/table[@name='table']/row[@index='1']/cell[@text='true']
+			</item>
+			<item
+			addcaps="cell"
+			capname="cell"
+			id="a7aff6d2-dbcf-4113-b59e-3d8a3e9e3b7f"
+			name="MongoSQL"
+			refimgid="32eb073d-d823-4462-a6c8-a9cc579d5548"
+			searchtimeout="30000ms">
+				/form[@title='Options']/container[1]/?/?/container[@name='mySplitter']/container[3]/?/?/container[@name='myContent']//container[@type='JideSplitPane']//container[@type='JBScrollPane']//row//cell[@text='Default Syntax']/../cell[2]
+			</item>
+			<item
+			addcaps="cell"
+			capname="cell"
+			id="b5068667-ed46-426e-8fd2-95555b189071"
+			name="MongoJS"
+			refimgid="e063c6d1-fd74-4db0-9ea2-2f424429340d"
+			refpath="/form[@title='Options']/container[1]/container[@type='SettingsEditor']/container[@name='mySplitter']/container[3]/container[@type='LoadingDecorator$MyLayeredPane']/container[@name='myContent']/element[@type='ConfigurableEditor$1']/container[3]/container[@type='AQPropertyPane']/container[@type='JideSplitPane']/container[1]/container[@name='propertyTable']/container[@type='JBScrollPane']/container[1]/table[@name='table']/row[@index='5']/cell[@text='MongoJS']"
+			searchtimeout="30000ms">
+				/form[@title='Options']/container[1]/?/?/container[@name='mySplitter']/container[3]/?/?/container[@name='myContent']/element/container[3]//container[@name='propertyTable']/container[@type='JBScrollPane']/container[1]/table[@name='table']/row[@index='5']/cell[@text='MongoJS']
+			</item>
+			<basepath>
+				/form[@title='Options']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAK7SURBVDhPhZNbSFNxHMf3FD320HOv9dBDD71F
+DHsIgiAi66mCIEN8KDBSulFD1wxHEOhMtznXMnVWlu7mZe7mtmZzbuou7Tg1184U3drmzu7w7X+O
+DKysfvDhHM4538/5HX6/w5OpVEf7B4bEesO40zht3rJYbbDaZjBjd8DucLKUzRZLUKszfFQoldfU
+avUB3t4yjE/Gkskk0uk0MpkMstksGIZBLpfjyOfzKBQKHOOeCC68MOlOt9vu85+YDnICrU6PWCzG
+BYvFIkqlEiqVCke5XOaCrHzSu4amdxSk/h00GDZx5qV7ihOMabQIhUKgaRqJRAKpVIqD7Soej4Oi
+KHg8HtTLnRDqomjxM2h2pnBJGiry203HeU1dk+iYpvBlJYaNzU0kSLAqYKWs3Opy46ZiFrcVYdz5
+RKNxhEbD62CZL3Yf5t0SG1EjieKyLon6OQaPQgwEy3k89GfR6PqB6/otnFNt4JSYwhWJF/cGI7g7
+EK7UiB1t3CdUBbXaJG64GNQvFdAQLKLOk8NVUxoXR7ZxtpcmgjWceBBEc+f7Pr7QdIwLs7WfoHF+
+G8N6IzfKfyFXKNv3FbROebC+vv5fzBYreG1SDc5LKNRqEr8IJjzL6DH/hmUZUksEMivBFoFx2gRu
+jP5AEI5AFJpwEuqVLFRmN/ew0pfFm0UGPfM03gYYDIZykJLzYSoPkTOxKxhSD8e8Ph+3TNU9cH52
+ode+wgXZQKuRLJCXhozQSkb+ilwT2GO7gm6l8oiqf0BMdn11huz+wuISJqaMUM2uYjRaxNj3EqQ+
+Gh1UAc+CeXSSsChcwOP51K5gbykUikMypfKkXNHX1z+3Brkvjm7yVgHpQEKOLALSQZc3DpE7/qeg
+WmQ8Twe939CylOZom4tDGMhAGMzguWcDoq87ECwk/y4gv20de/N/fBgZjf0E9QDs1GDdW0gAAAAA
+SUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="f8882a9b-8f0d-4632-a459-567435ae8c2a"
+		isrooted="True"
+		name="FileMenu"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="treeitem"
+			id="b6276824-2f74-47c1-bec8-03feb5710c9a"
+			name="MongoDB"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text='MongoDB 172.24.1.155 v3.4.1']
+			</item>
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="7fdabd5b-ce95-48e6-ae34-6642ee4d58ad"
+			name="MongoDB172241155V341"
+			refimgid="106724ee-57fe-4572-b914-b30cc8700aa5"
+			refpath="/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container/container[@type='NonOpaquePanel']/container/container/container[@type='ContentManagerImpl$MyContentComponent']/container/container/container/tree/treeitem/treeitem/treeitem[@text~'^MongoDB\ 172\.24\.1\.155\ v3\.4']"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text~'^MongoDB\ 172\.24\.1\.155\ v3\.4']
+			</item>
+			<item
+			addcaps="unknown,javaelement"
+			capname="unknown"
+			id="5ea24e0f-1928-4042-b6c1-a05a9d2430a2"
+			name="EditorComponentImpl"
+			refimgid="0adcbf8d-5dea-4d64-9904-c8a53a1f0eb3"
+			refpath="/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container/container[@name='myInnerComponent']/container[@name='myInnerComponent']/container/container/container[3]/container/container/container[@name='splitPane']/container[1]/container/container[@type='PsiAwareTextEditorImpl$PsiAwareTextEditorComponent']/container/container[@type='JPanel']/container/container[@type='EditorImpl$MyScrollPane']/container[6]/element[@type='EditorComponentImpl']"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']/?/?/container[@accessiblename='@MongoDB 172.24.1.155 v3.4.1 [Untitled 2]']/container[3]/container[@name='panel']/?/?/container[@name='splitPane']//container[@type='EditorImpl$MyScrollPane']/container[6]/element[@type='EditorComponentImpl']
+			</item>
+			<item
+			addcaps="container,javaelement"
+			capname="container"
+			id="8e29deee-a259-4adc-8ced-e99b52d53e36"
+			name="MyContent"
+			refimgid="af7f0206-a698-48b5-9bb0-b64849afa986"
+			refpath="/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@name='myContent']"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@name='myContent']
+			</item>
+			<item
+			capname="unknown"
+			id="6fbf87f8-0a2e-436c-8a45-a3ab4e12e8fb"
+			name="QueryTextArea"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='QueryPanel']/container[@name='panel']/?/?/container[@name='splitPane']//container[@type='EditorImpl$MyScrollPane']/container[6]/element[@type='EditorComponentImpl']
+			</item>
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="4bc1d460-79cd-4669-b1b4-3231840f527a"
+			name="ExecuteButton"
+			refimgid="c2002806-5763-47cf-8474-737006c4fa3b"
+			refpath="/form[@title='Aqua Data Studio [Untitled]']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']/container[@name='ToolWindowFrame.MainComponent']/container[@accessiblename='@MongoDB 172.24.1.155 v3.4.1 [Untitled]']/container[@type='QueryPanel']/container[@name='panel']/container[@name='editorPanel']/container[@name='panelBar']/container[@name='toolBar']/button[@name='executeButton']"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='QueryPanel']//container[@name='toolBar']/button[@name='executeButton']
+			</item>
+			<item
+			addcaps="unknown,javaelement"
+			capname="unknown"
+			id="0f246225-bfce-47d3-9354-cf90abe832c5"
+			name="EditorComponentImpl1"
+			refimgid="9e73f58b-0ce8-44bf-862c-205eb6e606e0"
+			refpath="/form[@title='Aqua Data Studio [Untitled]*']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']/container[@name='ToolWindowFrame.MainComponent']/container[@accessiblename='@MongoDB 172.24.1.155 v3.4.1 [Untitled]*']/container[@type='QueryPanel']/container[@name='panel']/container[@name='editorPanel']/container[@name='splitPane']/container[3]/container[@name='tabbedPane']/container[@name='_theTextResultMessageComponent']/container[2]/container[@type='EditorImpl$MyScrollPane']/container[1]/element[@type='EditorComponentImpl']"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='QueryPanel']//container[@name='splitPane']//container[@name='_theTextResultMessageComponent']/?/?/container[@type='EditorImpl$MyScrollPane']/container[1]/element[@type='EditorComponentImpl']
+			</item>
+			<item
+			addcaps="unknown,javaelement"
+			capname="unknown"
+			id="58a051eb-0dd3-46a7-bde2-e5d8963ade68"
+			name="QueryEditor"
+			refimgid="2442f775-b5a3-4042-8dd2-780ebc96544f"
+			refpath="/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container/container[@name='myInnerComponent']/container[@name='myInnerComponent']/container/container/container[@type='QueryPanel']/container/container/container[@name='splitPane']/container[1]/container/container[@type='PsiAwareTextEditorImpl$PsiAwareTextEditorComponent']/container/container[@type='JPanel']/container/container[@type='EditorImpl$MyScrollPane']/container[6]/element[@type='EditorComponentImpl']"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='QueryPanel']/container[@name='panel']/?/?/container[@name='splitPane']//container[@type='LoadingDecorator$MyLayeredPane']/container[@type='JPanel']/container[@type='JPanel']/container[@type='EditorImpl$MyScrollPane']/container[6]/element[@type='EditorComponentImpl']
+			</item>
+			<item
+			capname="treeitem"
+			id="33dda679-9a88-484a-a22b-fe4563ca508e"
+			name="SelectADS_DB"
+			refimgid="88468006-07bc-4c52-ace7-bedaf3134e25"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text~'^MongoDB\ 172\.24\.1\.155\ v3\.4']/?/?/treeitem[@text='ads_db']
+			</item>
+			<item
+			addcaps="treeitem"
+			capname="treeitem"
+			id="69ae0be1-d22c-4045-8814-f7bf9b948f52"
+			name="SelectTom_DB"
+			refimgid="5ff5796e-9170-4bb5-bfd5-6d76d9a82d05"
+			refpath="/form[@title='Aqua Data Studio [Untitled 7]']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container[@type='JPanel']/container[@type='NonOpaquePanel']/container[@type='JPanel']/container[@type='ContentManagerImpl$MyNonOpaquePanel']/container[@type='ContentManagerImpl$MyContentComponent']/container[@type='JPanel']/container[@type='JScrollPane']/container[@name='viewport']/tree[@name='schemaTree']/treeitem[@text='Root']/treeitem[@text='Local Database Servers']/treeitem[@text='MongoDB 172.24.1.155 v3.4.1']/treeitem[@text='Databases']/treeitem[@text='tom']"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text~'^MongoDB\ 172\.24\.1\.155\ v3\.4']/?/?/treeitem[@text='tom']
+			</item>
+			<item
+			capname="unknown"
+			id="b4a5ad40-e3d1-4ea1-b833-3871403b09d8"
+			name="EditorMangoDB"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myInnerComponent']//container[@type='QueryPanel']/container[@name='panel']/?/?/container[@name='splitPane']//container[@type='EditorImpl$MyScrollPane']/container[6]/element[@type='EditorComponentImpl']
+			</item>
+			<item
+			addcaps="text,javaelement"
+			capname="text"
+			id="51197da5-5c1d-4132-87bf-a62e45d9c5c9"
+			name="QueryTextValidate"
+			refimgid="0c0b9e71-ddc3-473a-9c5b-5c0034a63c54"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='QueryPanel']/container[@name='panel']/?/?/container[@name='splitPane']/?/?/container[@name='tabbedPane']/container[@name='_gridResultsView']//container[@type='ResultSetTableView$ResultGridsSplitPane']//container[@type='HorizontalLayoutPanel']/container[@type='JPanel']/text[@caption~'^\ 0\ record']
+			</item>
+			<item
+			addcaps="tabpage"
+			capname="tabpage"
+			id="6874654b-512e-4f05-a513-b1d62404b35c"
+			name="TabPage_QueryPanel"
+			refimgid="085e542a-1d4b-4a2b-97e5-16c092c69bf5"
+			searchtimeout="30000ms">
+				/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']//container[@type='PlatDockingContentPanel']//tabpage[@title~'^@MongoDB\ 172\.24\.1\.155\ v3\.']
+			</item>
+			<folder
+			addcaps="container,javaelement"
+			capname="container"
+			id="be5dc9ff-7aaa-49eb-8f3b-1aa90453d537"
+			isrooted="True"
+			name="MyFirstComponent"
+			refpath="/form[@title='Aqua Data Studio [Untitled]']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="eaaec602-5edc-41ce-95cf-d097ea2c4483"
+				name="Databases"
+				refimgid="a7e44091-6fac-45d4-82c3-0aa98d4ab2fa"
+				refpath="/form[@title='Aqua Data Studio [Untitled]']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container[@type='JPanel']/container[@type='NonOpaquePanel']/container[@type='JPanel']/container[@type='ContentManagerImpl$MyNonOpaquePanel']/container[@type='ContentManagerImpl$MyContentComponent']/container[@type='JPanel']/container[@type='JScrollPane']/container[@name='viewport']/tree[@name='schemaTree']/treeitem[@text='Root']/treeitem[@text='Local Database Servers']/treeitem[@text='MongoDB 172.24.1.155 v3.2.1']/treeitem[@text='Databases']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text~'^MongoDB\ 172\.24\.1\.155\ v3\.2']/treeitem[@text='Databases']
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="d13bb9d4-a5d5-4b64-8ed7-ecb4fbfcb1c6"
+				name="MongoDB172241155V321"
+				refimgid="2a6316cf-bfd9-4a0c-92a3-363510a97b2f"
+				refpath="/form[@title='Aqua Data Studio [Untitled]']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/container[@type='JPanel']/container[@type='NonOpaquePanel']/container[@type='JPanel']/container[@type='ContentManagerImpl$MyNonOpaquePanel']/container[@type='ContentManagerImpl$MyContentComponent']/container[@type='JPanel']/container[@type='JScrollPane']/container[@name='viewport']/tree[@name='schemaTree']/treeitem[@text='Root']/treeitem[@text='Local Database Servers']/treeitem[@text='MongoDB 172.24.1.155 v3.2.1']"
+				searchtimeout="30000ms">
+					/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']/?/?/container[@type='NonOpaquePanel']//container[@name='viewport']/tree[@name='schemaTree']//treeitem[@text~'^MongoDB\ 172\.24\.1\.155\ v3\.2']
+				</item>
+				<basepath>
+					/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/container[@name='myVerticalSplitter']/container[@name='myInnerComponent']/container[@name='myFirstComponent']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']
+			</basepath>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="df24f824-4535-4551-9339-bfd9a5d40d50"
+		isrooted="True"
+		name="DropdownSelection_QueryPanel"
+		refpath="/form[@title='' and @processname='datastudio']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="b9d9a49f-4cf6-42c3-a134-b78fa4bbe1f0"
+			name="DropdownSelection"
+			refimgid="7ab82968-e150-4fc1-8095-ecc1d744fc18"
+			refpath="/form[@title='' and @processname='datastudio']/container/container[@type='OpaquePanel']/container/container/container[@name='mainPanel']/container[@type='JBScrollPane']/container[@type='JBViewport']/list/listitem[@text~'^LookupElementBuilder:\ str' and @index='0']"
+			searchtimeout="30000ms">
+				/form[@title='' and @processname='datastudio']/?/?/container[@type='OpaquePanel']//container[@name='mainPanel']/?/?/container[@type='JBViewport']/list[@type='LookupImpl$1']/listitem[@index='0']
+			</item>
+			<basepath>
+				/form[@title='' and @processname='datastudio']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAFkSURBVDhPrZNLSwJRGIb9Kf0QI4WIiJCIahNE
+BBluukDQogh3hrgwWkxXE0GSsXG8tookM1SSBPNC2KJBIobKS17GQHmbIxExJo3QCw+c2/fwHThH
+cULTWifDwuX2wu3xweP1w+MLiPjBinOGdYM+ZXBgd2HAEFSJ9Cl+xkE7wXEcSqUSBEFAs9kESavV
+Qq1WA8/z2KTjGDRdYWg7Wuw3hivKrRD1Vf63IJblMGyOgL7hQT0IWLl4hdIULZJu2gIDxUBN5TER
+eMNM+B3ziTp0mQ/o0g3MxaoYOc5CQyWx7s9Dn65jNVTA2H5KvM6lXpZA43jE6E4cC4f3WPY+Y419
+wvheoiIKZmUJJs8KUJvjmNq9xZI9g2lLsqEyXgfbxSRSwcZ5CharTRZHVpu2Q0A2yuWyLMjZXwW5
+XE4WXQW90PEOyGLkpfrNovPu1zGhq4AclENbIP0LPXcgTc8dSPMvHcjHhk/SZ9eXiSm3wgAAAABJ
+RU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="listitem"
+		id="e6168ddd-34ac-430c-a07b-571303d188dd"
+		isrooted="True"
+		name="Lookup"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form//container[2]/container[@type='JBScrollPane']/container[@type='JBViewport']/list[@type='LookupImpl$1']/listitem[@text~'^LookupElementBuilder:\ str']
+			</basepath>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="e14df672-d378-45a0-ba5d-2211f8070d72"
+		isrooted="True"
+		name="CloseQueryPanelpopup"
+		refpath="/form[@title='File Modified']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="b415e16e-fe0c-4f0e-b483-56a069088665"
+			name="Discard"
+			refimgid="0ba60c1d-890d-4922-bed9-fd2e6e3ac6f3"
+			refpath="/form[@title='File Modified']/container[@type='JOptionPane']/container[@name='OptionPane.buttonArea']/button[@name='OptionPane.button' and @text='Discard']"
+			searchtimeout="30000ms">
+				/form[@title='File Modified']/?/?/container[@name='OptionPane.buttonArea']/button[@text='Discard']
+			</item>
+			<basepath>
+				/form[@title='File Modified']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAFkSURBVDhPrZNLSwJRGIb9Kf0QI4WIiJCIahNE
+BBluukDQogh3hrgwWkxXE0GSsXG8tookM1SSBPNC2KJBIobKS17GQHmbIxExJo3QCw+c2/fwHThH
+cULTWifDwuX2wu3xweP1w+MLiPjBinOGdYM+ZXBgd2HAEFSJ9Cl+xkE7wXEcSqUSBEFAs9kESavV
+Qq1WA8/z2KTjGDRdYWg7Wuw3hivKrRD1Vf63IJblMGyOgL7hQT0IWLl4hdIULZJu2gIDxUBN5TER
+eMNM+B3ziTp0mQ/o0g3MxaoYOc5CQyWx7s9Dn65jNVTA2H5KvM6lXpZA43jE6E4cC4f3WPY+Y419
+wvheoiIKZmUJJs8KUJvjmNq9xZI9g2lLsqEyXgfbxSRSwcZ5CharTRZHVpu2Q0A2yuWyLMjZXwW5
+XE4WXQW90PEOyGLkpfrNovPu1zGhq4AclENbIP0LPXcgTc8dSPMvHcjHhk/SZ9eXiSm3wgAAAABJ
+RU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="1308850b-0513-4da4-a644-f37436837bfe"
+		isrooted="True"
+		name="Copy_of_Options"
+		refpath="/form[@title='Options']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			addcaps="tree,javaelement"
+			capname="tree"
+			id="6fd1d10e-7334-407b-8484-77c03925fb93"
+			isrooted="True"
+			name="MenuOptions"
+			refpath="/form[@title='Options']/container[1]/container[@type='SettingsEditor']/container[@name='mySplitter']/container[2]/element[@name='myTreeView']/container[@name='myScroller']/container[@type='SettingsTreeView$2']/tree[@name='myTree']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="25ca7ff2-e086-4b55-a0fe-3c2f71ad05b6"
+				name="Options_QueryAnalyser"
+				refimgid="9ef6d2ed-c394-4bd7-be9e-d92f2c64aac8"
+				refpath="/form[@title='Options']/container[1]/container[@type='SettingsEditor']/container[@name='mySplitter']/container[2]/element[@name='myTreeView']/container[@name='myScroller']/container[@type='SettingsTreeView$2']/tree[@name='myTree']/treeitem[@text='']/treeitem[14]"
+				searchtimeout="30000ms">
+					/form[@title='Options']/container[1]/?/?/container[@name='mySplitter']//container[@type='SettingsTreeView$2']/tree[@name='myTree']/treeitem/treeitem[14]
+				</item>
+				<item
+				addcaps="treeitem"
+				capname="treeitem"
+				id="68abdd86-8a3a-47b7-970e-e09e1909d9dc"
+				name="MangoDBSQL"
+				refimgid="3bd3fb3b-1a75-4489-8beb-7a454ea342a0"
+				refpath="/form[@title='Options']/container[1]/container[@type='SettingsEditor']/container[@name='mySplitter']/container[2]/element[@name='myTreeView']/container[@name='myScroller']/container[@type='SettingsTreeView$2']/tree[@name='myTree']/treeitem[@text='']/treeitem[14]/treeitem[19]"
+				searchtimeout="30000ms">
+					/form[@title='Options']/container[1]/?/?/container[@name='mySplitter']//container[@type='SettingsTreeView$2']/tree[@name='myTree']/treeitem/treeitem[14]/treeitem[19]
+				</item>
+				<basepath>
+					/form[@title='Options']/container[1]/?/?/container[@name='mySplitter']//container[@type='SettingsTreeView$2']/tree[@name='myTree']
+				</basepath>
+			</folder>
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="d44a3b62-72cf-4cc0-92f7-4371706768a6"
+			name="DefaultSyntaxButt"
+			refimgid="3ed2bbf7-54b2-44b0-a8d4-b5ef6217e5cb"
+			searchtimeout="30000ms">
+				/form[@title='Options']/container[1]/?/?/container[@name='mySplitter']/container[3]/?/?/container[@name='myContent']//container[@type='JideSplitPane']//container[@type='JBScrollPane']//table[@name='table']/combobox[@type='AQComboBoxOptionEditor$AQComboBoxTableRendererEditor$1']/button[@text='']
+			</item>
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="db7d0f18-7c51-42f8-9e35-916f38f08462"
+			name="ButtonOK"
+			refimgid="31733c8e-7066-4616-b5ea-6069492d9f6a"
+			refpath="/form[@title='Options']/container[2]/container[@type='JPanel']/container[@type='JPanel']/container[@type='JPanel']/button[@text='OK']"
+			searchtimeout="30000ms">
+				/form[@title='Options']/container[2]/container[@type='JPanel']//button[@text='OK']
+			</item>
+			<item
+			addcaps="checkbox,javaelement"
+			capname="checkbox"
+			id="94bbf253-a07e-497f-b29f-7a1ba04b00e3"
+			name="AutoCompletionCheckbox"
+			refimgid="51568bc8-a318-4658-a283-9482ddaba6fd"
+			refpath="/form[@title='Options']/container[1]/container[@type='SettingsEditor']/container[@name='mySplitter']/container[3]/container[@type='LoadingDecorator$MyLayeredPane']/container[@name='myContent']/element[@type='ConfigurableEditor$1']/container[@type='JPanel']/container[@type='AQPropertyPane']/container[@type='JideSplitPane']/container[1]/container[@name='propertyTable']/container[@type='JBScrollPane']/container[1]/table[@name='table']/checkbox[@text='']"
+			searchtimeout="30000ms">
+				/form[@title='Options']/container[1]/?/?/container[@name='mySplitter']/container[3]/?/?/container[@name='myContent']//container[@type='JideSplitPane']/container[1]/?/?/container[@type='JBScrollPane']/container[1]/table[@name='table']/checkbox[@text='']
+			</item>
+			<item
+			addcaps="cell"
+			capname="cell"
+			id="a91ee739-63a9-44d4-af22-ae6d4290d5b9"
+			name="AutoCompletionCheckboxChecked"
+			refimgid="8944bede-5ec8-4541-951e-3aac84fff5e5"
+			refpath="/form[@title='Options']/container[1]/container[@type='SettingsEditor']/container[@name='mySplitter']/container[3]/container[@type='LoadingDecorator$MyLayeredPane']/container[@name='myContent']/element[@type='ConfigurableEditor$1']/container[@type='JPanel']/container[@type='AQPropertyPane']/container[@type='JideSplitPane']/container[1]/container[@name='propertyTable']/container[@type='JBScrollPane']/container[1]/table[@name='table']/row[@index='1']/cell[@text='true']"
+			searchtimeout="30000ms">
+				/form[@title='Options']/container[1]/?/?/container[@name='mySplitter']/container[3]/?/?/container[@name='myContent']//container[@type='JideSplitPane']/container[1]/?/?/container[@type='JBScrollPane']/container[1]/table[@name='table']/row[@index='1']/cell[@text='true']
+			</item>
+			<item
+			addcaps="cell"
+			capname="cell"
+			id="caf33da0-7968-40a8-adbe-42f3c15cc29c"
+			name="MongoSQL"
+			refimgid="20e49291-2dca-48f8-b908-b789a4cab928"
+			searchtimeout="30000ms">
+				/form[@title='Options']/container[1]/?/?/container[@name='mySplitter']/container[3]/?/?/container[@name='myContent']//container[@type='JideSplitPane']//container[@type='JBScrollPane']//row//cell[@text='Default Syntax']/../cell[2]
+			</item>
+			<basepath>
+				/form[@title='Options']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAK7SURBVDhPhZNbSFNxHMf3FD320HOv9dBDD71F
+DHsIgiAi66mCIEN8KDBSulFD1wxHEOhMtznXMnVWlu7mZe7mtmZzbuou7Tg1184U3drmzu7w7X+O
+DKysfvDhHM4538/5HX6/w5OpVEf7B4bEesO40zht3rJYbbDaZjBjd8DucLKUzRZLUKszfFQoldfU
+avUB3t4yjE/Gkskk0uk0MpkMstksGIZBLpfjyOfzKBQKHOOeCC68MOlOt9vu85+YDnICrU6PWCzG
+BYvFIkqlEiqVCke5XOaCrHzSu4amdxSk/h00GDZx5qV7ihOMabQIhUKgaRqJRAKpVIqD7Soej4Oi
+KHg8HtTLnRDqomjxM2h2pnBJGiry203HeU1dk+iYpvBlJYaNzU0kSLAqYKWs3Opy46ZiFrcVYdz5
+RKNxhEbD62CZL3Yf5t0SG1EjieKyLon6OQaPQgwEy3k89GfR6PqB6/otnFNt4JSYwhWJF/cGI7g7
+EK7UiB1t3CdUBbXaJG64GNQvFdAQLKLOk8NVUxoXR7ZxtpcmgjWceBBEc+f7Pr7QdIwLs7WfoHF+
+G8N6IzfKfyFXKNv3FbROebC+vv5fzBYreG1SDc5LKNRqEr8IJjzL6DH/hmUZUksEMivBFoFx2gRu
+jP5AEI5AFJpwEuqVLFRmN/ew0pfFm0UGPfM03gYYDIZykJLzYSoPkTOxKxhSD8e8Ph+3TNU9cH52
+ode+wgXZQKuRLJCXhozQSkb+ilwT2GO7gm6l8oiqf0BMdn11huz+wuISJqaMUM2uYjRaxNj3EqQ+
+Gh1UAc+CeXSSsChcwOP51K5gbykUikMypfKkXNHX1z+3Brkvjm7yVgHpQEKOLALSQZc3DpE7/qeg
+WmQ8Twe939CylOZom4tDGMhAGMzguWcDoq87ECwk/y4gv20de/N/fBgZjf0E9QDs1GDdW0gAAAAA
+SUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="text"
+		id="076ece9d-0d14-4451-9730-237611e809fc"
+		isrooted="True"
+		name="QueryPanel"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@title~'^Aqua\ Data\ Studio\ \[Untitle']/container[@type='ToolWindowsPane']/container[@name='myLayeredPane']/?/?/container[@type='ThreeComponentsSplitter']/container[@name='myInnerComponent']//container[@type='QueryPanel']/container[@name='panel']/?/?/container[@name='splitPane']/?/?/container[@name='tabbedPane']/container[@name='_gridResultsView']//container[@type='ResultSetTableView$ResultGridsSplitPane']//container[@type='HorizontalLayoutPanel']/container[@type='JPanel']/text[@caption=' 0 record(s)]']
+			</basepath>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="d1a83459-57d8-4611-8c5c-132336ee3647"
+		isrooted="True"
+		name="DropDatabase"
+		refpath="/form[@title='Drop Database']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="d81085f5-d4c9-4f07-9469-ee48727111e8"
+			name="ButtonYes"
+			refimgid="e7920afd-8fd8-4688-8bef-c9ebc449db7c"
+			refpath="/form[@title='Drop Database']/container[@type='COptionPane$1']/container[@name='OptionPane.buttonArea']/button[@name='OptionPane.button' and @text='Yes']"
+			searchtimeout="30000ms">
+				/form[@title='Drop Database']/?/?/container[@name='OptionPane.buttonArea']/button[@text='Yes']
+			</item>
+			<basepath>
+				/form[@title='Drop Database']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAlFJREFUOE+lk+tLk2EYh/eX9CGipCIyCKLo4HHlzA8SVoR9KogkkKDM
+CKRCCwQtKUjtIJSdrKggqQ+CFZmHHGlzzrU552HqNnWbO7zHXT3bBLXQoG74fXvv63c9z8tj+O9p
+aDFz55WDmuYBqpp+cLnRzJnqTk5UdlNc8YWic60Ulr6koOTJshw8/RjjkXIMdc9tNLVrNLZp3GqV
+qX4dofJZkIpHs5Q3+Tl710fJ7UlO1o5zvNrN0SoXh644yS8zsyZtB4baZjN1bwLcfBvm4oMpTt1w
+U3zdybFrDg5ftVNYYaPg0iCmcisHLgxgLLOQe95CRmk369KNGGoaXuAPxAhHNeZFQhGVYFghIDIb
+SsUbUPDMyLi9Mg6PhHVMosvqYePW7QJQ38JqE4+DokJEijMX0ZkKaoz6VSwuLxs2b8Nw/+n7hU//
+HE0HSYkzH9OZmdeYnNNw+xR+Tir0DP0FoItmWSwnm8M606J5TDQ7pxSs4zKd1tUACW1NLMtxglEd
+X0hjYlbD5VWwTSj0j8h8tgjAphUAi+pxZsRySl3FLtQtozK9wxLtfSsAkupqQl1PqQdS6o6kusJ3
+l0yXQ6LNnACkLwckb1yDqDh3YKn6dEq9zy3R45TosMX40PsbQOyiLqiHhLo/eesqIwl1z6L6V3uM
+T9Yo73q8rE8A7i0xEOVI4p+HYggATMyByxdnyKPRP6rxbVilw67wcVBOAtambRFvof4hufvzyTGa
+yBbJEskUycg1sS/HxN7sPPaI7M7KY1dmKjszUsnJL2LhTf7rGAy/AP7X5rYY5FLEAAAAAElFTkSu
+QmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="ddc4dd4a-1430-4d31-af10-42291e2fde85"
+		isrooted="True"
+		name="CreatedDBExists"
+		refpath="/form[@title='An SQL statement failed to execute.']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="b7928b93-e595-464a-9ffe-2d58ccb6c1a8"
+			name="ButtonOK"
+			refimgid="827e29d7-42e8-4d74-a81c-38b5a0d98a76"
+			refpath="/form[@title='An SQL statement failed to execute.']/container[@type='JOptionPane']/container[@name='OptionPane.buttonArea']/button[@name='OptionPane.button']"
+			searchtimeout="30000ms">
+				/form[@title~'^An\ SQL\ statement\ failed\ t']/?/?/container[@name='OptionPane.buttonArea']/button[@name='OptionPane.button']
+			</item>
+			<basepath>
+				/form[@title~'^An\ SQL\ statement\ failed\ t']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAK7SURBVDhPhZNbSFNxHMf3FD320HOv9dBDD71F
+DHsIgiAi66mCIEN8KDBSulFD1wxHEOhMtznXMnVWlu7mZe7mtmZzbuou7Tg1184U3drmzu7w7X+O
+DKysfvDhHM4538/5HX6/w5OpVEf7B4bEesO40zht3rJYbbDaZjBjd8DucLKUzRZLUKszfFQoldfU
+avUB3t4yjE/Gkskk0uk0MpkMstksGIZBLpfjyOfzKBQKHOOeCC68MOlOt9vu85+YDnICrU6PWCzG
+BYvFIkqlEiqVCke5XOaCrHzSu4amdxSk/h00GDZx5qV7ihOMabQIhUKgaRqJRAKpVIqD7Soej4Oi
+KHg8HtTLnRDqomjxM2h2pnBJGiry203HeU1dk+iYpvBlJYaNzU0kSLAqYKWs3Opy46ZiFrcVYdz5
+RKNxhEbD62CZL3Yf5t0SG1EjieKyLon6OQaPQgwEy3k89GfR6PqB6/otnFNt4JSYwhWJF/cGI7g7
+EK7UiB1t3CdUBbXaJG64GNQvFdAQLKLOk8NVUxoXR7ZxtpcmgjWceBBEc+f7Pr7QdIwLs7WfoHF+
+G8N6IzfKfyFXKNv3FbROebC+vv5fzBYreG1SDc5LKNRqEr8IJjzL6DH/hmUZUksEMivBFoFx2gRu
+jP5AEI5AFJpwEuqVLFRmN/ew0pfFm0UGPfM03gYYDIZykJLzYSoPkTOxKxhSD8e8Ph+3TNU9cH52
+ode+wgXZQKuRLJCXhozQSkb+ilwT2GO7gm6l8oiqf0BMdn11huz+wuISJqaMUM2uYjRaxNj3EqQ+
+Gh1UAc+CeXSSsChcwOP51K5gbykUikMypfKkXNHX1z+3Brkvjm7yVgHpQEKOLALSQZc3DpE7/qeg
+WmQ8Twe939CylOZom4tDGMhAGMzguWcDoq87ECwk/y4gv20de/N/fBgZjf0E9QDs1GDdW0gAAAAA
+SUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="dc649592-998b-4bd1-a17a-461a3d6f8ce1"
+		isrooted="True"
+		name="CreateDatabase"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="0b2ac365-d035-45ea-a1a4-571ececbc345"
+			name="DiscardButton"
+			searchtimeout="30000ms">
+				/form[@title='Create: Database']//container[@name='OptionPane.buttonArea']/button[@text='Discard']
+			</item>
+			<basepath>
+				/form[@title='Create: Database']
+			</basepath>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
